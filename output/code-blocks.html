@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="generator" content="Pelican" />
+        <title>How to Format Code Blocks</title>
+        <link rel="stylesheet" href="https://guybrushthreepwood.noho.st/the-library-of-babel/theme/css/main.css" />
+        <meta name="description" content="This post contains some examples of code blocks, and demonstrates how syntax highlighting works. First, some python without line numbers: for i in..." />
+</head>
+
+<body id="index" class="home">
+        <header id="banner" class="body">
+                <h1><a href="https://guybrushthreepwood.noho.st/the-library-of-babel/">The Library of Babel</a></h1>
+                <nav><ul>
+                    <li class="active"><a href="https://guybrushthreepwood.noho.st/the-library-of-babel/category/examples.html">examples</a></li>
+                    <li><a href="https://guybrushthreepwood.noho.st/the-library-of-babel/category/literature.html">literature</a></li>
+                    <li><a href="https://guybrushthreepwood.noho.st/the-library-of-babel/category/misc.html">misc</a></li>
+                </ul></nav>
+        </header><!-- /#banner -->
+<section id="content" class="body">
+  <article>
+    <header>
+      <h1 class="entry-title">
+        <a href="https://guybrushthreepwood.noho.st/the-library-of-babel/code-blocks.html" rel="bookmark"
+           title="Permalink to How to Format Code Blocks">How to Format Code Blocks</a></h1>
+    </header>
+
+    <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2022-08-17T18:10:00+02:00">
+                Published: Wed 17 August 2022
+        </abbr>
+
+        <address class="vcard author">
+                By                         <a class="url fn" href="https://guybrushthreepwood.noho.st/the-library-of-babel/author/wil.html">wil</a>
+        </address>
+<p>In <a href="https://guybrushthreepwood.noho.st/the-library-of-babel/category/examples.html">examples</a>.</p>
+<p>tags: <a href="https://guybrushthreepwood.noho.st/the-library-of-babel/tag/pelican.html">pelican</a> <a href="https://guybrushthreepwood.noho.st/the-library-of-babel/tag/python.html">python</a> <a href="https://guybrushthreepwood.noho.st/the-library-of-babel/tag/code.html">code</a> </p>
+</footer><!-- /.post-info -->      <p>This post contains some examples of code blocks, and demonstrates how syntax highlighting works.</p>
+<p>First, some python without line numbers:</p>
+<div class="highlight"><pre><span></span><code><span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">5</span><span class="p">):</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">i</span><span class="p">)</span>
+</code></pre></div>
+
+<p>And now with the line numbers:</p>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span class="normal">1</span>
+<span class="normal">2</span>
+<span class="normal">3</span>
+<span class="normal">4</span>
+<span class="normal">5</span>
+<span class="normal">6</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="nb">print</span><span class="p">(</span><span class="s2">&quot;This is the first line.&quot;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;And this is the second.&quot;</span><span class="p">)</span>
+<span class="c1"># Here&#39;s an example of looping over a list.</span>
+<span class="n">my_list</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">]</span>
+<span class="k">for</span> <span class="n">number</span> <span class="ow">in</span> <span class="n">my_list</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">number</span><span class="p">)</span>
+</code></pre></div></td></tr></table></div>
+
+<p>What about some JavaScript?</p>
+<div class="highlight"><pre><span></span><code><span class="c1">// This function is pretty pointless.</span><span class="w"></span>
+<span class="kd">function</span><span class="w"> </span><span class="nx">test</span><span class="p">(</span><span class="nx">number</span><span class="p">){</span><span class="w"></span>
+<span class="w">  </span><span class="k">return</span><span class="w"> </span><span class="mf">1</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="nx">number</span><span class="w"></span>
+<span class="p">}</span><span class="w"></span>
+</code></pre></div>
+    </div><!-- /.entry-content -->
+
+  </article>
+</section>
+        <section id="extras" class="body">
+                <div class="blogroll">
+                        <h2>links</h2>
+                        <ul>
+                            <li><a href="https://getpelican.com/">Pelican</a></li>
+                            <li><a href="https://www.python.org/">Python.org</a></li>
+                            <li><a href="https://palletsprojects.com/p/jinja/">Jinja2</a></li>
+                            <li><a href="#">You can modify those links in your config file</a></li>
+                        </ul>
+                </div><!-- /.blogroll -->
+                <div class="social">
+                        <h2>social</h2>
+                        <ul>
+
+                            <li><a href="#">You can add links in your config file</a></li>
+                            <li><a href="#">Another social link</a></li>
+                        </ul>
+                </div><!-- /.social -->
+        </section><!-- /#extras -->
+
+        <footer id="contentinfo" class="body">
+                <address id="about" class="vcard body">
+                Proudly powered by <a href="https://getpelican.com/">Pelican</a>, which takes great advantage of <a href="https://www.python.org/">Python</a>.
+                </address><!-- /#about -->
+
+                <p>The theme is by <a href="https://www.smashingmagazine.com/2009/08/designing-a-html-5-layout-from-scratch/">Smashing Magazine</a>, thanks!</p>
+        </footer><!-- /#contentinfo -->
+
+</body>
+</html>
