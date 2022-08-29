@@ -1,6 +1,7 @@
 Title: Your first article
 Date: 2022-08-23
 Slug: your-first-article
+Status: hidden
 Author: wil
 
 This is your first article, congrats! You can now start working on your blog, editing your content and enjoy your fresh install of Pelican !  
