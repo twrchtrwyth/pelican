@@ -3,6 +3,7 @@ Date: 17-08-2022 18:10
 Category: examples
 Tags: pelican, python, code
 Slug: code-blocks
+Status: hidden
 
 This post contains some examples of code blocks, and demonstrates how syntax highlighting works.
 
