@@ -5,7 +5,7 @@ Tags: videogames, playdate
 Slug: france-horn
 Summary: Incredibly accurate horn soloist simulator.
 
-> Platform: Playdate  
+> Platform: [Playdate](https://play.date/)  
 > Available from: [itch.io](https://amazingthew.itch.io/francehorn)
 
 Darkness.
