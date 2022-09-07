@@ -1,9 +1,10 @@
 Title: France Horn
-Date: 05/09/2022 12:20
+Date: 2022-09-05 12:20
 Category: videogames
 Tags: videogames, playdate
 Slug: france-horn
-Summary: Incredibly accurate horn soloist simulator.
+Summary: Grittily accurate horn soloist simulator.
+Image: france_horn.jpg
 
 > Platform: [Playdate](https://play.date/)  
 > Available from: [itch.io](https://amazingthew.itch.io/francehorn)

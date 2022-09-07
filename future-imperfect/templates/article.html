@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+
+{% block content %}
+<!-- Post -->
+<article class="post">
+	<header>
+	<div class="title">
+		<h2><a href="{{ article.url }}">{{ article.title }}</a></h2>
+		<p>{{ article.summary }}</p>
+	</div>
+	<div class="meta">
+		<!-- The pipes used here are Jinja filters. The right side of the pipe formats the displayed date. -->
+		<time class="published" datetime="{{ article.date | strftime('%Y-%m-%d') }}">{{ article.date | strftime('%b %-d, %Y') }}</time>
+		<a href="#" class="author"><span class="name">{{ article.author }}</span><img src="{{ SITEURL }}/theme/images/avatar.jpg" alt="" /></a>
+	</div>
+	</header>
+
+	<!-- Set the `Image` metadata within each post - the below will then display this image. -->
+	<!-- Images should be stored in the `pelican/content/images/` directory. -->
+	<a href="{{ article.url }}" class="image featured"><img src="images/{{ article.image }}" alt="" /></a>
+	{{ article.content }}
+	<footer>
+	<ul class="actions">
+		<li><a href="{{ article.url }}" class="button large">Continue Reading</a></li>
+	</ul>
+	<ul class="stats">
+		{% for tag in article.tags %}
+		<li><a href="#">{{ tag.name }}</a></li>
+		{% endfor %}
+	</ul>
+	</footer>
+</article>
+{% endblock %}

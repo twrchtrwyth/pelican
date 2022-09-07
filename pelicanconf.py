@@ -2,15 +2,18 @@
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 
-AUTHOR = u'wil'
+AUTHOR = u'Wil Ifan'
 SITENAME = u'The Library of Babel'
+SITESUBTITLE = 'Rhydd i bawb ei farn, ac i bob barn ei llafar.'
 SITEURL = 'https://guybrushthreepwood.noho.st/the-library-of-babel/'
 
 PATH = 'content'
 
-TIMEZONE = 'Europe/Paris'
+THEME = 'future-imperfect'
 
-DEFAULT_LANG = u'fr'
+TIMEZONE = 'Europe/London'
+
+DEFAULT_LANG = u'en'
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
@@ -29,7 +32,17 @@ LINKS = (('Pelican', 'https://getpelican.com/'),
 SOCIAL = (('You can add links in your config file', '#'),
           ('Another social link', '#'),)
 
-DEFAULT_PAGINATION = 10
+# Icon names (second item in tuple) use Font Awesome nomenclature.
+CONTACTS = [
+    ("Twitter", "twitter", "https://twitter.com"),
+    ("Facebook", "facebook-f", "https://facebook.com"),
+    ("Instagram", "instagram", "https://www.instagram.com"),
+    ("Email", "envelope", "guybrushthreepwood.noho.st/library-of-babel"),
+]
+
+DEFAULT_PAGINATION = 3
+SUMMARY_MAX_LENGTH = 20
+SUMMARY_END_SUFFIX = "..."
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
