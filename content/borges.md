@@ -1,6 +1,5 @@
 Title: You Who Read Me
 Date: 17-08-2022
-Category: literature
 Tags: borges, ficciones
 Slug: axaxaxas-mlo
 Author: Jorge Luis Borges
