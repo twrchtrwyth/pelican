@@ -1,20 +1,20 @@
 <!-- Mini Posts -->
 <section>
-<div class="mini-posts">
-<!-- This will show the latest articles in the sidebar. -->
-{% for article in articles[:4] %}
-<!-- Mini Post -->
-<article class="mini-post">
-<header>
-<h3><a href="single.html">{{ article.title }}</a></h3>
-<time class="published" datetime="{{ article.date | strftime('%Y-%m-%d') }}">{{ article.date | strftime('%b %-d, %Y') }}</time>
-<a href="#" class="author"><img src="{{ SITEURL }}/theme/images/avatar.jpg" alt="" /></a>
-</header>
+	<div class="mini-posts">
+		<!-- This will show the latest articles in the sidebar. -->
+		{% for article in articles[:4] %}
+		<!-- Mini Post -->
+		<article class="mini-post">
+			<header>
+				<h3><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a></h3>
+				<time class="published" datetime="{{ article.date | strftime('%Y-%m-%d') }}">{{ article.date | strftime('%b %-d, %Y') }}</time>
+				<a href="#" class="author"><img src="{{ SITEURL }}/theme/images/avatar.png" alt="" /></a>
+			</header>
 
-<!-- Set the `Image` metadata within each post - the below will then display this image. -->
-<!-- Images should be stored in the `pelican/content/images/` directory. -->
-<a href="{{ article.url }}" class="image"><img src="images/{{ article.image }}" alt="" /></a>
-</article>
-{% endfor %}
-</div>
+			<!-- Set the `Image` metadata within each post - the below will then display this image. -->
+			<!-- Images should be stored in the `pelican/content/images/` directory. -->
+			<a href="{{ SITEURL }}/{{ article.url }}" class="image"><img src="{{ SITEURL }}/images/{{ article.image }}" alt="" /></a>
+		</article>
+	{% endfor %}
+	</div>
 </section>
