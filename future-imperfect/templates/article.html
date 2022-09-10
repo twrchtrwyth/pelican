@@ -11,21 +11,26 @@
 	<div class="meta">
 		<!-- The pipes used here are Jinja filters. The right side of the pipe formats the displayed date. -->
 		<time class="published" datetime="{{ article.date | strftime('%Y-%m-%d') }}">{{ article.date | strftime('%b %-d, %Y') }}</time>
-		<a href="#" class="author"><span class="name">{{ article.author }}</span><img src="{{ SITEURL }}/theme/images/avatar.png" alt="" /></a>
+		<a href="https://www.whynotalpacas.co.uk/" class="author"><span class="name">{{ article.author }}</span><img src="{{ SITEURL }}/theme/images/avatar.png" alt="" /></a>
+		<p><a href="{{ SITEURL }}/{{ article.category.url }}">In: {{article.category }}</a></p>
 	</div>
 	</header>
 
 	<!-- Set the `Image` metadata within each post - the below will then display this image. -->
-	<!-- Images should be stored in the `pelican/content/images/` directory. -->
+	<!-- Images must be stored in the `pelican/content/images/` directory. -->
+	{% if article.image %}
 	<a href="{{ article.url }}" class="image featured"><img src="images/{{ article.image }}" alt="" /></a>
+	{% endif %}
 	{{ article.content }}
 	<footer>
+	<!-- 
 	<ul class="actions">
 		<li><a href="{{ article.url }}" class="button large">Continue Reading</a></li>
 	</ul>
+	-->
 	<ul class="stats">
 		{% for tag in article.tags %}
-		<li><a href="#">{{ tag.name }}</a></li>
+		<li><a href="{{ SITEURL }}/{{ tag.url }}">{{ tag.name }}</a></li>
 		{% endfor %}
 	</ul>
 	</footer>

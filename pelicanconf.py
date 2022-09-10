@@ -5,10 +5,19 @@ from __future__ import unicode_literals
 AUTHOR = u'Wil Ifan'
 SITENAME = u'The Library of Babel'
 SITESUBTITLE = 'Rhydd i bawb ei farn, ac i bob barn ei llafar.'
-SITEURL = 'https://guybrushthreepwood.noho.st/the-library-of-babel/'
+SITEURL = 'https://guybrushthreepwood.noho.st/the-library-of-babel'
 
+STATIC_PATHS = ['images', 'extra',]
+EXTRA_PATH_METADATA = {
+    'extra/favicon.ico': {'path': 'favicon.ico'},
+}
+
+ABOUT = 'Leagues of senseless cacophonies'
+
+# Defines where Pelican looks for its articles.
 PATH = 'content'
 
+# The theme folder must be in Pelican's root folder (the same one as the content folder).
 THEME = 'future-imperfect'
 
 TIMEZONE = 'Europe/London'
@@ -37,7 +46,7 @@ CONTACTS = [
     ("Twitter", "twitter", "https://twitter.com"),
     ("Facebook", "facebook-f", "https://facebook.com"),
     ("Instagram", "instagram", "https://www.instagram.com"),
-    ("Email", "envelope", "guybrushthreepwood.noho.st/library-of-babel"),
+    ("Email", "envelope", "#"),
 ]
 
 DEFAULT_PAGINATION = 3
@@ -47,6 +56,6 @@ SUMMARY_END_SUFFIX = "..."
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
 
-# Enhanced typographical features.
+# Enhanced typographical features, e.g. correctly formatted em-dashes.
 TYPOGRIFY = True
 TYPOGRIFY_DASHES = 'default'

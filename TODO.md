@@ -1,4 +1,8 @@
 TODO:
 
-* Truncate displayed posts to first line? Or just an arbitrary head?
-* Remove Continue Reading button from fully displayed posts
+* Set up sidebar
+* Make tags work
+* Set up search function
+* Make pages for categories/tags?
+* Make list of random articles
+* 

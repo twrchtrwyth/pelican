@@ -8,12 +8,14 @@
 			<header>
 				<h3><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a></h3>
 				<time class="published" datetime="{{ article.date | strftime('%Y-%m-%d') }}">{{ article.date | strftime('%b %-d, %Y') }}</time>
-				<a href="#" class="author"><img src="{{ SITEURL }}/theme/images/avatar.png" alt="" /></a>
+				<a href="https://www.whynotalpacas.co.uk/" class="author"><img src="{{ SITEURL }}/theme/images/avatar.png" alt="" /></a>
 			</header>
 
 			<!-- Set the `Image` metadata within each post - the below will then display this image. -->
 			<!-- Images should be stored in the `pelican/content/images/` directory. -->
+			{% if article.image %}
 			<a href="{{ SITEURL }}/{{ article.url }}" class="image"><img src="{{ SITEURL }}/images/{{ article.image }}" alt="" /></a>
+			{% endif %}
 		</article>
 	{% endfor %}
 	</div>

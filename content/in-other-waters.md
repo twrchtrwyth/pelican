@@ -1,10 +1,11 @@
 Title: In Other Waters
 Date: 02-09-2022 18:00
 Category: videogames
-Tags: videogames, nintendoswitch
+Tags: switch
 Slug: in-other-waters
 Author: Wil Ifan
 Summary: Thoughts on Gareth Damian Martin's video game In Other Waters (with spoilers).
+Image: in-other-waters.png
 Status: draft
 
 *In Other Waters* is a 
