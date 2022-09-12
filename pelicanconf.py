@@ -9,7 +9,12 @@ SITEURL = 'https://guybrushthreepwood.noho.st/the-library-of-babel'
 
 STATIC_PATHS = ['images', 'extra',]
 EXTRA_PATH_METADATA = {
-    'extra/favicon.ico': {'path': 'favicon.ico'},
+    'extra/favicon.ico': {'path': 'favicon.ico'},  # Haven't set this yet.
+}
+
+# To publish an article, add Status: published to the metadata.
+DEFAULT_METADATA = {
+    'status': 'draft',
 }
 
 ABOUT = 'Leagues of senseless cacophonies'

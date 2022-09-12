@@ -5,6 +5,7 @@ Tags: playdate
 Slug: france-horn
 Summary: Grittily accurate horn soloist simulator.
 Image: france_horn.jpg
+Status: published
 
 > Platform: [Playdate](https://play.date/)  
 > Available from: [itch.io](https://amazingthew.itch.io/francehorn)  

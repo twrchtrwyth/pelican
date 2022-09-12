@@ -90,6 +90,12 @@ Each time a commit is made, Git generates a unique 40-character reference ID. It
 
 ---
 
+## Renaming branches
+
+`git branch -m old-name new-name`
+
+---
+
 ## Deleting branches ##
 
 `git branch -d "BRANCH_NAME"` deletes the specified branch. It is not possible to delete a branch whilst checking it out.
