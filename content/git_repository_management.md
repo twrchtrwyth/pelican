@@ -3,6 +3,7 @@ Date: 2022-09-10
 Category: programming
 Tags: git
 Status: published
+Slug: git-repositories
 Summary: How to upload a local Git repository to GitHub.
 
 This is a quick summary describing how to create and upload a local Git repository to a remote repository on GitHub. It also 

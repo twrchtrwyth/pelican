@@ -19,6 +19,16 @@ DEFAULT_METADATA = {
 
 ABOUT = 'Leagues of senseless cacophonies'
 
+# Extensions for Markdown. codehilite's 'linenums': 'True' causes all sorts of issues in code blocks.
+MARKDOWN = {
+    'extension_configs': {
+        'markdown.extensions.codehilite': {'css_class': 'highlight'},
+        'markdown.extensions.extra': {},
+        'markdown.extensions.meta': {},
+    },
+    'output_format': 'html5',
+}
+
 # Defines where Pelican looks for its articles.
 PATH = 'content'
 

@@ -45,9 +45,6 @@ You can also use text instead of a number for the footnote[^hello].
 
 See the bottom of the file for the footnotes.
 
-[^1]: Here is the first footnote.
-[^hello]: This might make it easier to keep track of them. Footnotes will always render as numbers.
-
 ## Tables
 
 | Here | Is | My |
@@ -145,3 +142,7 @@ C<sub>2</sub>H<sub>6</sub>O is a widely consumed psychoactive substance.
 ### Superscript
 
 E = mc<sup>2</sup>
+
+
+[^1]: Here is the first footnote.
+[^hello]: This might make it easier to keep track of them. Footnotes will always render as numbers.

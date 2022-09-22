@@ -1,8 +1,9 @@
 Title: Linux Commands
-Date: 2022-10-10
+Date: 2022-09-10
 Category: technology
 Tags: linux, command line
 Status: published
+Slug: linux-guide
 Summary: Some notes on using Linux, with a focus on the command line.
 
 ## Setting file permissions

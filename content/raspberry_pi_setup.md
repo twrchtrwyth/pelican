@@ -23,7 +23,7 @@ First, insert the Pi's SD card into the laptop, and locate the directory where t
 1. Create the file `wpa_supplicant.conf` with the command `touch /path-to-boot-partition/wpa_supplicant.conf`
 1. Add the following to the file (obviously, replacing the placeholder text), then save it:
 
-```
+```text
 country=GB
 ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
 update_config=1

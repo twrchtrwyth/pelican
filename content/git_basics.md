@@ -3,7 +3,7 @@ Date: 2022-09-09
 Category: programming 
 Tags: git
 Status: published
-Slug: git
+Slug: git-basics
 Summary: An introduction to version control with Git.
 
 Here are some introductory Git commands to help with version control.
@@ -43,6 +43,10 @@ The `git add FILENAME` command adds the specified file to the repository. It doe
 ### Adding all files ###
 
 `git add .` adds ALL files within a project that aren't already being tracked to the repository. As above, it does not commit them. Any files-- or files within folders-- specified within the `.gitignore` file will be ignored by this command.
+
+### Removing added files before committing ###
+
+To remove all files added (e.g. if you notice that you forgot to include a folder in your `.gitignore` file), *without* changing any edits made since the `add`, run `git reset --mixed`
 
 ---
 
