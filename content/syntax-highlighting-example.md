@@ -1,9 +1,11 @@
+---
 Title: How to Format Code Blocks
 Date: 17-08-2022 18:10
 Category: examples
 Tags: pelican, python, programming, javascript
 Slug: syntax-highlighting
 Status: hidden
+---
 
 This post contains some examples of code blocks, and demonstrates how syntax highlighting works.
 

@@ -1,9 +1,11 @@
+---
 Title: Vampire Squid
 Date: 2022-09-07 17:45
 Category: science
 Tags: biology
 Image: vampire-squid-3.png
 Status: published
+---
 
 This is a post about *Vampyroteuthis infernalis*, the Vampire Squid from Hell. It serves little purpose other than testing my summary truncation limit, and seeing what the squid look like in dithered images.
 

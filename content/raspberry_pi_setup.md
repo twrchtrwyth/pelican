@@ -1,3 +1,4 @@
+---
 Title: Setting Up a Headless Raspberry Pi Zero on Linux
 Date: 2022-09-10
 Category: technology
@@ -5,6 +6,7 @@ Tags: raspberry pi, linux, command line
 Slug: raspberry-pi-zero-headless-setup
 Summary: Notes on setting up a Headless Raspberry Pi Zero on Linux.
 Status: published
+---
 
 ## INSTALLING THE OS
 

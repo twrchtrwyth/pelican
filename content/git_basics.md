@@ -1,3 +1,4 @@
+---
 Title: Introduction to Git Commands
 Date: 2022-09-09
 Category: programming 
@@ -5,6 +6,7 @@ Tags: git
 Status: published
 Slug: git-basics
 Summary: An introduction to version control with Git.
+---
 
 Here are some introductory Git commands to help with version control.
 

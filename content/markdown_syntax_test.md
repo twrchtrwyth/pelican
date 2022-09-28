@@ -1,9 +1,11 @@
+---
 Title: Markdown Syntax Testing
 Date: 2022-09-11
 Category: markdown
 Slug: markdown
 Status: hidden
 Summary: This post will test how Pelican's Markdown rendering engine handles some of Markdown's advanced features.
+---
 
 ## Strikethrough (doesn't work)
 

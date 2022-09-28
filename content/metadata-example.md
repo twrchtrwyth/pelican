@@ -1,3 +1,4 @@
+---
 Title: Example Post
 Date: 17-08-2022 22:00
 Modified: 17-08-2022 22:10
@@ -7,6 +8,7 @@ Slug: example
 Status: hidden
 Author: Wil Ifan
 Summary: This is a test post.
+---
 
 ```
 Title: Example Post

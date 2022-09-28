@@ -1,8 +1,10 @@
+---
 Title: Primary Care Job Notes
 Date: 2022-09-12
 Slug: job
 Status: hidden
 Summary: Notes for Primary Care Job
+---
 
 ## What is the role
 
