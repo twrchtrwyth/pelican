@@ -110,7 +110,9 @@ To eject a drive, use `eject path/to/drive`. Again, `sudo` probably required.
 
 This can be used to pass the output of one command to another, and is accomplished with the `|` character. For example, if wishing to list all files containing `foo` in their name within the `bar` directory, you can pipe the output of the `ls` command to `grep` (the `i` flag ignores case) like so:
 
-```ls bar | grep -i "foo"```
+```
+ls bar | grep -i "foo"
+```
 
 ## Listing Fonts
 
@@ -170,7 +172,7 @@ First, run `sudo systemctl unmask docker` then `sudo systemctl start docker`
 
 ### Stopping docker
 
-Run `sudo systemctl stop docker` then `sudo systemctl mask docker`. ("Masking" symlinks to `/dev/null`, which I assume totally stops any funny business.)
+Run `sudo systemctl stop docker` then `sudo systemctl mask docker` ("Masking" symlinks to `/dev/null`, which I assume totally stops any funny business.)
 
 ### Running TILP in docker
 
@@ -194,19 +196,29 @@ Not exactly sure what this does, but `mogrify -auto-orient -define jpeg:dct-meth
 
 ### Connecting
 
-Use `ssh username@host.name`. A specific port can be used with the `-P [123]` flag.
+Use `ssh username@host.name` 
+
+### Setting a specific port
+
+A specific port can be used with the `-p <port-number>` flag. The port(s) over which the server will accept SSH connections can be specified in `/etc/ssh/sshd_config` (note that there may also be a file called `ssh_config` in this directory--setting the port here will not work!).
 
 ### Copying files over SSH
 
 The `scp` (secure copy) command is used to accomplish this. The basic format of the command is as follows:
 
-```scp [options] original_file destination_file```
+```
+scp [options] original_file destination_file
+```
 
 The naming of the remote file (even if the command is run on the remote computer) must be done in the following manner:
 
-```user@server:path/to/file```
+```
+user@server:path/to/file
+```
 
 To copy whole directories, add the `-r` (recursive) flag.
+
+To transfer along a specific port, use `scp -P <port-number>` Note that this is a capital *P*, unlike the `ssh` command's *port* flag which must be lower case. Great stuff.
 
 ### Getting around the password requirement with key files
 
