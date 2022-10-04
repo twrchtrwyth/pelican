@@ -30,6 +30,18 @@ To do this run `git remote remove origin` or whatever you've used instead of ori
 
 ---
 
+## Using SSH keys instead of HTTPS
+
+To authenticate with an SSH key instead of HTTPS and a password (which is a massive pain in the arse when using multiple machines), first generate an ssh key pair on your machine with `ssh-keygen -t rsa`. Then, on Github navigate to `settings/keys` within your profile. Click the `New SSH Key` button, assign it a name, and copy the contents of `id_rsa.pub` to the relevant field. Complete two-factor authentication as needed.
+
+If you have already used HTTPS for a repo on the machine, simply follow the above process for removing a remote repo and then set the new SSH-compatible origin with the following command:
+
+```shell
+git remote add origin git@github.com:user/repo.git
+```
+
+---
+
 ## Renaming the main aka master branch.
 
 Run `git branch -M new-name`

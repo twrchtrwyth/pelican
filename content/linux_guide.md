@@ -110,7 +110,7 @@ To eject a drive, use `eject path/to/drive`. Again, `sudo` probably required.
 
 This can be used to pass the output of one command to another, and is accomplished with the `|` character. For example, if wishing to list all files containing `foo` in their name within the `bar` directory, you can pipe the output of the `ls` command to `grep` (the `i` flag ignores case) like so:
 
-```
+```shell
 ls bar | grep -i "foo"
 ```
 
@@ -206,13 +206,13 @@ A specific port can be used with the `-p <port-number>` flag. The port(s) over w
 
 The `scp` (secure copy) command is used to accomplish this. The basic format of the command is as follows:
 
-```
+```shell
 scp [options] original_file destination_file
 ```
 
 The naming of the remote file (even if the command is run on the remote computer) must be done in the following manner:
 
-```
+```shell
 user@server:path/to/file
 ```
 
