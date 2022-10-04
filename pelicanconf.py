@@ -5,7 +5,7 @@ from __future__ import unicode_literals
 AUTHOR = u'Wil Ifan'
 SITENAME = u'The Library of Babel'
 SITESUBTITLE = 'Rhydd i bawb ei farn, ac i bob barn ei llafar.'
-SITEURL = 'https://guybrushthreepwood.noho.st/the-library-of-babel'
+SITEURL = 'https://oki.nohost.me/babel'
 
 STATIC_PATHS = ['images', 'extra',]
 EXTRA_PATH_METADATA = {
