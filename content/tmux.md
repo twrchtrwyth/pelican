@@ -1,7 +1,7 @@
 ---
 Title: Using Tmux
 Date: 2022-09-27 09:55
-Category: Technology
+Category: technology
 Tags: linux, command line
 Status: published
 Summary: A primer on using the tmux terminal multiplexer

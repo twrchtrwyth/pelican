@@ -16,7 +16,7 @@ To give full read, write and execute permissions to a file, use `chmod 777 path/
 
 ## Getting information about windows
 
-The `xprop` command will list various useful pieces of information about a window. Simply run it in a terminal, then click the window of interest. Or particular interest are the WM_NAME or \_NET_WM_NAME sections, which give the *Title* that can be used in i3 Window Manager, and the WM_CLASS section which provides the *Class* used by i3wm.
+The `xprop` command will list various useful pieces of information about a window. Simply run it in a terminal, then click the window of interest. Or particular interest are the `WM_NAME` or `\_NET_WM_NAME` sections, which give the *Title* that can be used in i3 Window Manager, and the WM_CLASS section which provides the *Class* used by i3wm.
 
 ---
 
@@ -226,3 +226,10 @@ A pair of key files can be generated with the `ssh-keygen -t rsa` command. The p
 
 After running the above command, it will prompt the user as to where they would like to save the key pair. The default option is fine. When it asks for a password, simply hit Enter both times to skip.
 
+#### Copying ssh keys the easy way
+
+After generating keys as described above, use the following command to move it to your server.
+
+```shell
+ssh-copy-id -i ~/.ssh/id_rsa.pub user@server
+```

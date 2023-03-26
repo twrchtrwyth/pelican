@@ -13,6 +13,8 @@ This bit of text ~~is wrong~~ is right.
 
 ## Links
 
+All link to duckduckgo.
+
 [This is a generic link](https://duckduckgo.com)
 
 [This is a generic link, but try hovering the mouse](https://duckduckgo.com "Look, a tooltip!")
@@ -25,9 +27,9 @@ Here is another link where [this bit of text is the link].
 
 In the unrendered document, below this line are the links to some of those specified above.
 
-[put what you like here]: https://duckduckgo.com
+[Put what you like here]: https://duckduckgo.com
 [1]: https://duckduckgo.com
-[this bit of text is the link]: https://guybrushthreepwood.noho.st/the-library-of-babel/index.html
+[this bit of text is the link]: https://duckduckgo.com
 
 ## Images
 
@@ -35,7 +37,7 @@ Can use similar syntax to the reference-style links above.
 
 ![Jasper][jasper pic]
 
-Here, in the unrendered document, the link to the above picture is visible:
+Here, in the unrendered document, the link to the above picture is visible: (link is broken)
 
 [jasper pic]: https://guybrushthreepwood.noho.st/lychee/uploads/small/32e59f1be6c32bdda482b2f303ef8a04.JPG
 

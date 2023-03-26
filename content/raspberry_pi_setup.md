@@ -62,7 +62,7 @@ Log into the pi over ssh using `ssh pi@raspberrypi.local` when it is connected t
 
 To fix the address, run `sudo nano /etc/network/interfaces`, and at the end of the file add the following:
 
-```
+```text
 allow-hotplug usb0
 iface usb0 inet static
         address 192.168.7.2
@@ -89,6 +89,16 @@ ifconfig usb0  # This should now show the above IP Address as the inet address.
 Use `ping -c 5 raspberrypi.local` to test if the pi is reachable.
 
 ---
+
+## Installing a desktop environment in Raspberry Pi OS Lite
+
+To do this, simply run the following:
+
+```shell
+sudo apt install xserver-xorg raspberrypi-ui-mods
+```
+
+Then, run `sudo raspi-config` and change the boot option to desktop, rather than the command line.
 
 ## CONNECTING WITH A GUI
 
