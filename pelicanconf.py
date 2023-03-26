@@ -4,30 +4,30 @@ from __future__ import unicode_literals
 
 AUTHOR = u'Wil Ifan'
 SITENAME = u'The Library of Babel'
-SITESUBTITLE = 'Rhydd i bawb ei farn, ac i bob barn ei llafar.'
+SITESUBTITLE = 'LEAGUES OF SENSELESS CACOPHONIES'
 SITEURL = 'https://oki.nohost.me/babel'
 
 STATIC_PATHS = ['images', 'extra',]
-EXTRA_PATH_METADATA = {
-    'extra/favicon.ico': {'path': 'favicon.ico'},  # Haven't set this yet.
-}
+#EXTRA_PATH_METADATA = {
+#    'extra/favicon.ico': {'path': 'favicon.ico'},  # Haven't set this yet.
+#}
 
 # To publish an article, add Status: published to the metadata.
 DEFAULT_METADATA = {
     'status': 'draft',
 }
 
-ABOUT = 'Leagues of senseless cacophonies'
+ABOUT = 'Rhydd i bawb ei farn, ac i bob barn ei llafar.'
 
 # Extensions for Markdown. codehilite's 'linenums': 'True' causes all sorts of issues in code blocks.
-MARKDOWN = {
-    'extension_configs': {
-        'markdown.extensions.codehilite': {'css_class': 'highlight'},
-        'markdown.extensions.extra': {},
-        'markdown.extensions.meta': {},
-    },
-    'output_format': 'html5',
-}
+#MARKDOWN = {
+#    'extension_configs': {
+#        'markdown.extensions.codehilite': {'css_class': 'highlight'},
+#        'markdown.extensions.extra': {},
+#        'markdown.extensions.meta': {},
+#    },
+#    'output_format': 'html5',
+#}
 
 # Defines where Pelican looks for its articles.
 PATH = 'content'
