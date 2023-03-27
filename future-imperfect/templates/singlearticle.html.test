@@ -80,10 +80,10 @@
 						{% block content %}{% endblock %}
 					</div>
 
-				<!-- Sidebar  -->
+				<!-- Sidebar -->
 					<section id="sidebar">
 
-						<!-- Intro  -->
+						<!-- Intro -->
 							<section id="intro">
 								<a href="{{ SITEURL }}/index.html" class="logo"><img src="{{ SITEURL }}/theme/images/logo.png" alt="" /></a>
 								<header>

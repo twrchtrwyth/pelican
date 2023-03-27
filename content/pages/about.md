@@ -15,7 +15,7 @@ I don't really know what to do with the site... It will probably serve as an *ad
 
 The website is hosted on `oki`, my little Raspberry Pi 3B+ server (named after the sentient diving suit AI from the sublime *In Other Waters*), with the help of [Yunohost](https://yunohost.org/).
 
-The theme is [Future Imperfect](https://html5up.net/future-imperfect) by HTML5 UP, which I have tweaked, broken, and not properly implemented because I can't write HTML properly yet.
+The theme is [Future Imperfect](https://html5up.net/future-imperfect) by HTML5 UP, which I have tweaked, broken, and not properly implemented because I can't write HTML properly yet. Images used to render properly at the top of articles but for some reason have now stopped doing so.
 
 I used to use GIMP to resize and dither (Image>Mode>Indexed, 1-bit Floyd-Steinberg) my images, but now I use `didder`:
 
