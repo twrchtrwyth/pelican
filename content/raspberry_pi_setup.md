@@ -1,7 +1,7 @@
 ---
 Title: Setting Up a Headless Raspberry Pi Zero on Linux
 Date: 2022-09-10
-Category: technology
+Category: linux
 Tags: raspberry pi, linux, command line
 Slug: raspberry-pi-zero-headless-setup
 Summary: Notes on setting up a Headless Raspberry Pi Zero on Linux.
@@ -16,7 +16,23 @@ First, install the latest version of Raspberry Pi OS Lite from [the Raspberry Pi
 
 ## ENABLING SSH
 
-First, insert the Pi's SD card into the laptop, and locate the directory where the `/boot` partition is located. This is usually `/run/media/your-username/boot`. Once located, use `touch path-to-boot-partition/ssh` to enable ssh.
+First, insert the Pi's SD card into the laptop, and locate the directory where the `/boot` partition is located. (This seems to now be called `bootfs`) This is usually `/run/media/your-username/boot`. Once located, use `touch path-to-boot-partition/ssh` to enable ssh.
+
+### SETTING USERNAME AND PASSWORD
+
+Since 2022, there is a requirement that the default user and password must be manually set. To do so, create a file named `userconf` on the boot partition. This takes the desired username and an encrypted version of the desired password like so (note the separating colon):
+
+```text
+username:encrypted-password
+```
+
+To generate the encrypted password, run the following in a terminal:
+
+```shell
+echo password | openssl passwd -6 -stdin
+```
+
+Then paste this into the `userconf` file as above.
 
 ---
 

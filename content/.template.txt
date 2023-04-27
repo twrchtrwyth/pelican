@@ -7,4 +7,5 @@ Tags:
 Slug:
 Status: draft
 Summary:
+Image:
 ---

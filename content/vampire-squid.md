@@ -2,7 +2,7 @@
 Title: Vampire Squid
 Date: 2022-09-07 17:45
 Category: science
-Tags: biology
+Tags: biology, marine biology
 Image: vampire-squid-3.png
 Status: published
 ---
