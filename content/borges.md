@@ -9,9 +9,7 @@ Summary: The Library is a sphere whose exact centre is any one of its hexagons a
 Status: published
 ---
 
-The orthographical symbols are twenty-five in number.
-
-There are five shelves for each of the hexagon’s walls; each shelf contains thirty-five books of uniform format; each book is of four hundred and ten pages; each page, of forty lines, each line, of some eighty letters which are black in colour. There are also letters on the spine of each book; these letters do not indicate or prefigure what the pages will say.
+The orthographical symbols are twenty-five in number. There are five shelves for each of the hexagon’s walls; each shelf contains thirty-five books of uniform format; each book is of four hundred and ten pages; each page, of forty lines, each line, of some eighty letters which are black in colour. There are also letters on the spine of each book; these letters do not indicate or prefigure what the pages will say.
 
 In the vast Library there are no two identical books.
 

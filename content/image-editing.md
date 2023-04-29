@@ -9,9 +9,11 @@ Author: Wil Ifan
 Summary: A short guide to the imagemagick suite of tools.
 ---
 
-# Imagemagick
-
 This is a very quick guide covering how to use the `imagemagick` set of tools in Unix. This may need to be installed via your distro's package manager.
+
+## Getting info about an image
+
+The `identify` command will print some information about an image to stdout, including its dimensions.
 
 ## Converting between formats
 
