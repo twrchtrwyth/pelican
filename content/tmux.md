@@ -2,7 +2,7 @@
 Title: Using Tmux
 Date: 2022-09-27 09:55
 Category: linux
-Tags: linux, command line
+Tags: command line, terminal
 Status: published
 Summary: A primer on using the tmux terminal multiplexer
 ---

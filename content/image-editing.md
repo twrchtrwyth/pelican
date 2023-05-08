@@ -2,7 +2,7 @@
 Title: Image Editing via the Command Line
 Date: 2023-03-28 19:20
 Category: linux
-Tags: linux, photos
+Tags: photos, imagemagick, command line, terminal
 Slug: image-editing
 Status: published
 Author: Wil Ifan
@@ -36,6 +36,24 @@ Alternatively can just specify width or height and `imagemagick` will resize the
 convert image.png -resize 200 image.png
 # width
 convert image.png -resize x100 image.png
+```
+
+## Cropping an image
+
+To crop an image in the simplest sense use the following (probably not the most useful example ):
+
+```shell
+$ identify image.jpg
+image.jpg JPEG 1280x960 1280x960+0+0 8-bit sRGB 209774B 0.000u 0:00.000 
+$ convert image.jpg -crop 1280x800+0+0 image-cropped.jpg  # This crops from the bottom
+```
+
+The values after the image dimensions are used to tell imagemagick where to begin cropping (and in which direction?). These values can be negative.
+
+To quickly crop an image, use the `shave` command. This example will crop 100 pixels from top and bottom (to crop from the sides, change the integer before the `x`):
+
+```shell
+magick image.png -shave 0x100 image-shaved.png
 ```
 
 ## Rotating an image

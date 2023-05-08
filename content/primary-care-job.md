@@ -109,10 +109,12 @@ Benefits/disadvantages
 ## GMS Contract
 
 My notes
+
 > GMS - 3 levels - pharmacotherapy contract  
 > lv1 - adminy tasks, not really clinical  
 > lv2 - more specialised  
 > lv3 - more specialised again
+
 
 The <abbr title="General Medical Services">GMS</abbr> Contract was introduced in 2018. Aims to refocus the GP role back to what they're meant to do. Outsourcing things like vaccinations, pharmacotherapy, community care, urgent care, physiotherapy, community mental health.
 

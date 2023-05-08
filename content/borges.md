@@ -1,6 +1,7 @@
 ---
 Title: You who read me, are You sure of understanding my language?
 Date: 17-08-2022
+Category: misc
 Tags: borges, literature
 Slug: axaxaxas-mlo
 Author: Jorge Luis Borges
