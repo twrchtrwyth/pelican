@@ -28,12 +28,12 @@
 						</nav>
 						<nav class="main">
 							<ul>
-								<li class="search">
+								<!-- <li class="search">
 									<a class="fa-search" href="#search">Search</a>
 									<form id="search" method="get" action="#">
 										<input type="text" name="query" placeholder="Search" />
 									</form>
-								</li>
+								</li> -->
 								<li class="menu">
 									<a class="fa-bars" href="#menu">Menu</a>
 								</li>
@@ -43,16 +43,30 @@
 
 				<!-- Menu -->
 					<section id="menu">
+						<section>
+							<h2>Categories</h2>
+						</section>
 
 						<!-- Search -->
-							<section>
+							<!-- <section>
 								<form class="search" method="get" action="#">
 									<input type="text" name="query" placeholder="Search" />
 								</form>
-							</section>
+							</section> -->
 
 						<!-- Links -->
 							<section>
+								<ul class="links">
+								{% for cat, null in categories %}
+									<li>
+										<a href="{{ SITEURL }}/{{ cat.url }}">
+											<h3>{{ cat }}</h3>
+										</a>
+									</li>
+								{% endfor %}
+								</ul>
+							</section>
+							<!-- <section>
 								<ul class="links">
 								{% for page in pages %}
 									<li>
@@ -63,12 +77,12 @@
 									</li>
 								{% endfor %}
 								</ul>
-							</section>
+							</section> -->
 
 						<!-- Actions -->
 							<section>
 								<ul class="actions stacked">
-									<li><a href="#" class="button large fit">This Button Does Nothing</a></li>
+									<li><a href="{{ SITEURL }}/archives.html" class="button large fit">Archive</a></li>
 								</ul>
 							</section>
 
@@ -96,8 +110,9 @@
 
 						<!-- About -->
 							<section class="blurb">
-								<h2>About</h2>
-								<p>"{{ ABOUT }}"</p>
+								<!-- <h2>About</h2> -->
+								{% set phrase = PHRASES[range(0, PHRASES|length)|random] %}
+								<p>"{{ phrase }}"</p>
 								<ul class="actions">
 									<li><a href="{{ SITEURL }}/pages/about" class="button">Learn More</a></li>
 								</ul>
@@ -105,13 +120,13 @@
 
 						<!-- Footer -->
 						<!-- Note the use of Python here, within the % - this is thanks to Jinja. -->
-						<!-- CONTACTS is defined in pelicanconf.py -->
+						<!-- CONTACTS is defined in pelicanconf.py, just social media stuff really. -->
 							<section id="footer">
-								<ul class="icons">
+								<!-- <ul class="icons">
 									{% for name, icon, link in CONTACTS %}
 									<li><a href="{{ link }}" class = "icon brands fa-{{ icon }}"><span class="label">{{ name }}</span></a></li>
 									{% endfor %}
-								</ul>
+								</ul> -->
 								<p class="copyright">&copy; Wil Ifan Evans. Design: <a href="http://html5up.net">HTML5 UP</a>.</p>
 								<!-- Taken from above line until I figure out attribution--Images: <a href="http://unsplash.com">Unsplash</a>. -->
 							</section>

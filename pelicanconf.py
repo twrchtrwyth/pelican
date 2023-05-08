@@ -11,6 +11,7 @@ STATIC_PATHS = ['images', 'extra',]
 #EXTRA_PATH_METADATA = {
 #    'extra/favicon.ico': {'path': 'favicon.ico'},  # Haven't set this yet.
 #}
+FAVICON = "{{ THEME }}/static/images/logo.png"
 
 # To publish an article, add Status: published to the metadata.
 DEFAULT_METADATA = {
@@ -74,3 +75,9 @@ SUMMARY_END_SUFFIX = "..."
 # Enhanced typographical features, e.g. correctly formatted em-dashes.
 TYPOGRIFY = True
 TYPOGRIFY_DASHES = 'default'
+
+PHRASES = [  # For use in the `About` section of base.html
+    "Rhydd i bawb ei farn, ac i bob barn ei llafar.",
+    "The universe is trying to turn itself into iron.",
+    
+]
