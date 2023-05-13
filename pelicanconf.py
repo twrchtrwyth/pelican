@@ -84,6 +84,6 @@ PHRASES = [  # For use in the `About` section of base.html
     'Rhydd i bawb ei farn, ac i bob barn ei llafar.',
     'The universe is trying to turn itself into iron.',
     'Ydy dy dŷ du di o dan dy dô du di?',
-    ' Cofiwch Dryweryn.',
+    'Cofiwch Dryweryn.',
     'The mediator between the head and the hands must be the heart.',
 ]
