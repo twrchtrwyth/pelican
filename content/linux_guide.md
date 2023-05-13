@@ -70,6 +70,10 @@ To find files larger than 300 bytes, use:
 
 The `locate` command will search the system for a file name. It is not live: it uses its own database that is usually updated once a night or once a week (so it might not find new files). The `updatedb` command can be used to manually update the database. `locate` is much faster than `file`.
 
+### fzf
+
+Alternatively, install the fuzzy finder `fzf` from your distro's repositories and reap all of its wonderful benefits. With some simple configuration this also lets you search through your command history, which is hugely helpful.
+
 ---
 
 ## Determining file type
@@ -259,6 +263,17 @@ The below will allow input of text directly from standard output. Once typed out
 
 ```shell
 cat >> file1.txt
+```
+
+## The sed command
+
+This is like `cat`, but can be used to just print one line to stdout, or to add it to a file using `>>`. Usage is as follows:
+
+```shell
+sed -n 5p filename  # 5th line
+sed -n -e 5p -e 8p filename  # 5th & 8th lines
+sed -n 5,8p filename  # 5th to 8th lines
+sed -n -e 5,8p -e 10p filename  # 5th to 8th lines and 10th line
 ```
 
 ---
