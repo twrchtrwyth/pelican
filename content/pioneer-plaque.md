@@ -3,7 +3,7 @@ Title: The Pioneer 10 Plaque
 Date: 2023-05-09 18:15
 Author: Wil Ifan
 Category: science
-Tags: astronomy, space, binary
+Tags: astronomy, space, binary, physics
 Slug: pioneer-plaque
 Status: published
 Summary: A description of the plaque attached to the Pioneer 10 spacecraft and what it represents.

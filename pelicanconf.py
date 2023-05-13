@@ -74,10 +74,16 @@ SUMMARY_END_SUFFIX = "..."
 
 # Enhanced typographical features, e.g. correctly formatted em-dashes.
 TYPOGRIFY = True
-TYPOGRIFY_DASHES = 'default'
+TYPOGRIFY_DASHES = 'oldschool_inverted'
+
+MATH_JAX = {
+    "responsive": True,
+}
 
 PHRASES = [  # For use in the `About` section of base.html
-    "Rhydd i bawb ei farn, ac i bob barn ei llafar.",
-    "The universe is trying to turn itself into iron.",
-    
+    'Rhydd i bawb ei farn, ac i bob barn ei llafar.',
+    'The universe is trying to turn itself into iron.',
+    'Ydy dy dŷ du di o dan dy dô du di?',
+    ' Cofiwch Dryweryn.',
+    'The mediator between the head and the hands must be the heart.',
 ]
