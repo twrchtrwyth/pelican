@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
+from bywyd import prif
 
 AUTHOR = u'Wil Ifan'
 SITENAME = u'The Library of Babel'
@@ -11,7 +12,7 @@ STATIC_PATHS = ['images', 'extra',]
 #EXTRA_PATH_METADATA = {
 #    'extra/favicon.ico': {'path': 'favicon.ico'},  # Haven't set this yet.
 #}
-FAVICON = "{{ THEME }}/static/images/logo.png"
+FAVICON = "{{ PATH }}/extra/favicon.ico"
 
 # To publish an article, add Status: published to the metadata.
 DEFAULT_METADATA = {
@@ -78,6 +79,10 @@ TYPOGRIFY_DASHES = 'oldschool_inverted'
 
 MATH_JAX = {
     "responsive": True,
+}
+
+JINJA_FILTERS = {
+    "bywyd": prif,
 }
 
 PHRASES = [  # For use in the `About` section of base.html

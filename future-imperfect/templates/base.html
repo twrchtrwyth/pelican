@@ -10,6 +10,9 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="{{ SITEURL }}/theme/css/main.css" />
+		{# Favicons #}
+		<meta itemprop="image" content="{{ SITEURL }}/static/extra/favicon.ico" />
+		<link rel="shortcut icon" href="{{ SITEURL }}/favicon.ico" />
 	</head>
 	<body class="is-preload">
 
@@ -112,7 +115,7 @@
 							<section class="blurb">
 								<!-- <h2>About</h2> -->
 								{% set phrase = PHRASES[range(0, PHRASES|length)|random] %}
-								<p>"{{ phrase }}"</p>
+								<p>{{ phrase }}</p>
 								<ul class="actions">
 									<li><a href="{{ SITEURL }}/pages/about" class="button">Learn More</a></li>
 								</ul>
