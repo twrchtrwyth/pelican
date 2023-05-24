@@ -18,7 +18,7 @@ $$
 F - E + V = 2
 $$
 
-where $F$ is *number of* **faces**, $E$ is *number of* **edges**, and $V$ is the *number of* **vertices**. This equation holds true for all polyhedra that do not self-intersect. A slightly modified version, which includes the number of holes $g$ in the polyhedron, is below:
+where $F$ is *number of* ***faces***, $E$ is *number of* ***edges***, and $V$ is the *number of* ***vertices***. This equation holds true for all polyhedra that do not self-intersect. A slightly modified version, which includes the number of holes $g$ in the polyhedron, is below:
 
 $$
 F - E + V = 2 - 2g
