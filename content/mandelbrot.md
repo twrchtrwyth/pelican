@@ -7,6 +7,7 @@ Tags: mandelbrot, c, python, fractals, complex numbers
 Slug: mandelbrot
 Status: published
 Summary: A simple description of the Mandelbrot set.
+Image: mandelbrotc.png
 ---
 
 The **Mandelbrot Set** or **M-set** is a set of complex numbers[^compnum]. A complex number $c$ is in the M-set if, upon repeatedly passing successive values of a second complex number $z$ through the following equation, $z$ never diverges towards infinity[^diverge].

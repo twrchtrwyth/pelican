@@ -276,6 +276,12 @@ sed -n 5,8p filename  # 5th to 8th lines
 sed -n -e 5,8p -e 10p filename  # 5th to 8th lines and 10th line
 ```
 
+It can also be used from the command line to add a single line of text to a file at the given index. This example inserts a line of text and then a newline character in the first line of the given file:
+
+```shell
+sed -i '1s/^/text to insert\n/' filename
+```
+
 ---
 
 ## The grep command
@@ -420,4 +426,14 @@ This will return files last modified in August (or with "Aug" in their name), so
 
 ```shell
 ls -l | grep "Aug" | sort +4n
+```
+
+---
+
+## Get directory size.
+
+Pass the `-h` flag to see sensible numbers.
+
+```shell
+du -h name-of-dir
 ```

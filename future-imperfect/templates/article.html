@@ -11,6 +11,8 @@
 	<div class="meta">
 		<!-- The pipes used here are Jinja filters. The right side of the pipe formats the displayed date. -->
 		<time class="published" datetime="{{ article.date | strftime('%Y-%m-%d') }}">{{ article.date | strftime('%b %-d, %Y') }}</time>
+		{% set dyddiad = article.date|strftime('%Y-%m-%d')|bywyd %}
+		<p>{{ dyddiad }}</p>
 		<a href="https://www.whynotalpacas.co.uk/" class="author"><span class="name">{{ article.author }}</span><img src="{{ SITEURL }}/theme/images/avatar.png" alt="" /></a>
 		<p><a href="{{ SITEURL }}/{{ article.category.url }}">In: {{article.category }}</a></p>
 	</div>
