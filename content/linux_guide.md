@@ -118,9 +118,11 @@ This can be used to pass the output of one command to another, and is accomplish
 ls bar | grep -i "foo"
 ```
 
+---
+
 ## Listing Fonts
 
-Use `fc-list` to show all system fonts. This can be piped to `grep` to find a specific font. Use `grep`'s `-i` option to ignore case.
+Use `fc-list` to show all system fonts. The `-v` flag can be specified to get the full bunch of names that fonts are known by. This is useful for finding the mad names used by `urxvt`. This can be piped to `grep` to find a specific font. Use `grep -i` to ignore case.
 
 ---
 
@@ -436,4 +438,22 @@ Pass the `-h` flag to see sensible numbers.
 
 ```shell
 du -h name-of-dir
+```
+
+---
+
+## Check which packages depend on a given package
+
+On Manjaro linux:
+
+```shell
+pamac -Qii <package-name>
+```
+
+---
+
+## Get CPU info
+
+```shell
+cat /proc/cpuinfo
 ```
