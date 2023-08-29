@@ -1,58 +1,58 @@
 {% extends "base.html" %}
 
 {% block content %}
-	<!-- Iterates over Pelican's `articles` variable, and displays each in turn. -->
-	<!-- The items within curly braces are Python code, thanks to Jinja. -->
-	<!-- `articles_page.object_list` is required instead of `articles` to support pagination.  -->
-	{% for article in articles_page.object_list %}
-	<!-- Post -->
-	<article class="post">
-		<header>
-			<div class="title">
-				<h2><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a></h2>
-				<p>{{ article.summary }}</p>
-			</div>
-			<div class="meta">
-				<!-- The pipes used here are Jinja filters. The right side of the pipe formats the displayed date. -->
-				<time class="published" datetime="{{ article.date | strftime('%Y-%m-%d') }}">{{ article.date | strftime('%b %-d, %Y') }}</time>
-				{% set dyddiad = article.date|strftime('%Y-%m-%d')|bywyd %}
-				<p>{{ dyddiad }}</p>
-				<a href="https://www.whynotalpacas.co.uk/" class="author"><span class="name">{{ article.author }}</span><img src="{{ SITEURL }}/theme/images/avatar.png" alt="" /></a>
-				<p><a href="{{ SITEURL }}/{{ article.category.url }}">In: {{article.category }}</a></p>
-			</div>
-		</header>
+  <!-- Iterates over Pelican's `articles` variable, and displays each in turn. -->
+  <!-- The items within curly braces are Python code, thanks to Jinja. -->
+  <!-- `articles_page.object_list` is required instead of `articles` to support pagination.  -->
+  {% for article in articles_page.object_list %}
+  <!-- Post -->
+  <article class="post">
+    <header>
+      <div class="title">
+        <h2><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a></h2>
+        <p>{{ article.summary }}</p>
+      </div>
+      <div class="meta">
+        <!-- The pipes used here are Jinja filters. The right side of the pipe formats the displayed date. -->
+        <time class="published" datetime="{{ article.date | strftime('%Y-%m-%d') }}">{{ article.date | strftime('%b %-d, %Y') }}</time>
+        {% set dyddiad = article.date|strftime('%Y-%m-%d')|bywyd %}
+        <p>{{ dyddiad }}</p>
+        <a href="https://www.whynotalpacas.co.uk/" class="author"><span class="name">{{ article.author }}</span><img src="{{ SITEURL }}/theme/images/avatar.png" alt="" /></a>
+        <p><a href="{{ SITEURL }}/{{ article.category.url }}">In: {{article.category }}</a></p>
+      </div>
+    </header>
 
-		<!-- Set the `Image` metadata within each post - the below will then display this image. -->
-		<!-- Images should be stored in the `pelican/content/images/` directory. -->
-		{% if article.image %}
-		<a href="{{ SITEURL }}/{{ article.url }}" class="image featured"><img src="{{ SITEURL }}/images/{{ article.image }}" alt="" /></a>
-		{% endif %}
-		<!-- {{ article.content }} -->
-		<footer>
-		<ul class="actions">
-			<li><a href="{{ SITEURL }}/{{ article.url }}" class="button large">Read Article</a></li>
-		</ul>
-		<ul class="stats">
-			{% for tag in article.tags %}
-			<li><a href="{{ SITEURL }}/{{ tag.url }}">{{ tag.name }}</a></li>
-			{% endfor %}
-		</ul>
-		</footer>
-	</article>
-	{% endfor %}
+    <!-- Set the `Image` metadata within each post - the below will then display this image. -->
+    <!-- Images should be stored in the `pelican/content/images/` directory. -->
+    {% if article.image %}
+    <a href="{{ SITEURL }}/{{ article.url }}" class="image featured"><img src="{{ SITEURL }}/images/{{ article.image }}" alt="" /></a>
+    {% endif %}
+    <!-- {{ article.content }} -->
+    <footer>
+    <ul class="actions">
+      <li><a href="{{ SITEURL }}/{{ article.url }}" class="button large">Read Article</a></li>
+    </ul>
+    <ul class="stats">
+      {% for tag in article.tags %}
+      <li><a href="{{ SITEURL }}/{{ tag.url }}">{{ tag.name }}</a></li>
+      {% endfor %}
+    </ul>
+    </footer>
+  </article>
+  {% endfor %}
 
-	<!-- Pagination -->
-	<ul class="actions pagination">
-		{% if articles_page.has_previous() %}
-		<li><a href="{{ SITEURL }}/{{ articles_previous_page.url }}" class="button large previous">Previous Page</a></li>
-		{% else %}
-		<li><a href="#" class="disabled button large previous">Previous Page</a></li>
-		{% endif %}
+  <!-- Pagination -->
+  <ul class="actions pagination">
+    {% if articles_page.has_previous() %}
+    <li><a href="{{ SITEURL }}/{{ articles_previous_page.url }}" class="button large previous">Previous Page</a></li>
+    {% else %}
+    <li><a href="#" class="disabled button large previous">Previous Page</a></li>
+    {% endif %}
 
-		{% if articles_page.has_next() %}
-		<li><a href="{{ SITEURL }}/{{ articles_next_page.url }}" class="button large next">Next Page</a></li>
-		{% else %}
-		<li><a href="#" class="disabled button large next">Next Page</a></li>
-		{% endif %}
-	</ul>
+    {% if articles_page.has_next() %}
+    <li><a href="{{ SITEURL }}/{{ articles_next_page.url }}" class="button large next">Next Page</a></li>
+    {% else %}
+    <li><a href="#" class="disabled button large next">Next Page</a></li>
+    {% endif %}
+  </ul>
 {% endblock %}

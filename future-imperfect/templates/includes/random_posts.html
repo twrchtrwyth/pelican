@@ -1,26 +1,26 @@
 <!-- Posts List -->
 <section>
-	<ul class="posts">
-		<!-- Returns up to three random articles from the article list, if more than 3 articles have been published. -->
-		<!-- At present, only does this when I update site content. Need to figure out how to do this when reloading page. -->
-		{% set num_articles = articles|length %}
-		{% if num_articles > 3 %}
-		{% for i in range(3) %}
-		{% set number = range(0, num_articles) | random %}
-		{% set article = articles[number] %}
-		{% set num_articles = num_articles - 1 %}
-		<li>
-			<article>
-				<header>
-					<h3><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a></h3>
-					<time class="published" datetime="{{ article.date | strftime('%Y-%m-%d') }}">{{ article.date | strftime('%b %-d, %Y') }}</time>
-				</header>
-				{% if article.image %}
-				<a href="{{ SITEURL }}/{{ article.url }}" class="image"><img src="{{ SITEURL }}/images/{{ article.image }}" alt="" /></a>
-				{% endif %}
-			</article>
-		</li>
-		{% endfor %}
-		{% endif %}
-	</ul>
+  <ul class="posts">
+    <!-- Returns up to three random articles from the article list, if more than 3 articles have been published. -->
+    <!-- At present, only does this when I update site content. Need to figure out how to do this when reloading page. -->
+    {% set num_articles = articles|length %}
+    {% if num_articles > 3 %}
+    {% for i in range(3) %}
+    {% set number = range(0, num_articles) | random %}
+    {% set article = articles[number] %}
+    {% set num_articles = num_articles - 1 %}
+    <li>
+      <article>
+        <header>
+          <h3><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a></h3>
+          <time class="published" datetime="{{ article.date | strftime('%Y-%m-%d') }}">{{ article.date | strftime('%b %-d, %Y') }}</time>
+        </header>
+        {% if article.image %}
+        <a href="{{ SITEURL }}/{{ article.url }}" class="image"><img src="{{ SITEURL }}/images/{{ article.image }}" alt="" /></a>
+        {% endif %}
+      </article>
+    </li>
+    {% endfor %}
+    {% endif %}
+  </ul>
 </section>

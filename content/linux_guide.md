@@ -126,7 +126,7 @@ Use `fc-list` to show all system fonts. The `-v` flag can be specified to get th
 
 ---
 
-## Checking Battery Health
+## Checking Battery Charge, Health, etc.
 
 Use `upower -e` to find the battery name. Select the correct battery from the list, and then run `upower -i path-to-battery` to see information about its health.
 

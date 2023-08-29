@@ -9,9 +9,7 @@ Status: published
 Summary: The second-best cake in the universe.
 ---
 
-## Raspberry Bakewell Cake
-
-### Ingredients
+## Ingredients
 
 * 140g ground almonds
 * 140g golden caster sugar
@@ -22,12 +20,12 @@ Summary: The second-best cake in the universe.
 * Raspberries (about 250g)
 * Flaked almonds
 
-#### Other stuff
+### Other stuff
 
 * 23cm springform tin
 * Greaseproof paper
 
-### Method
+## Method
 
 1. Oven 160°C fan
 1. Butter tin (with extra) and cover bottom with greaseproof paper

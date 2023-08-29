@@ -1,25 +1,25 @@
 <!-- Mini Posts -->
 <section>
-	<div class="mini-posts">
-		<!-- This will show the four latest articles in the sidebar. -->
-		{% for article in articles[:4] %}
-		<!-- Mini Post -->
-		<article class="mini-post">
-			<header>
-				<h3><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a></h3>
-				<time class="published" datetime="{{ article.date | strftime('%Y-%m-%d') }}">{{ article.date | strftime('%b %-d, %Y') }}
-				{% set dyddiad = article.date|strftime('%Y-%m-%d')|bywyd %} | 
-				{{ dyddiad }}
-				</time>
-				<a href="https://www.whynotalpacas.co.uk/" class="author"><img src="{{ SITEURL }}/theme/images/avatar.png" alt="" /></a>
-			</header>
+  <div class="mini-posts">
+    <!-- This will show the four latest articles in the sidebar. -->
+    {% for article in articles[:4] %}
+    <!-- Mini Post -->
+    <article class="mini-post">
+      <header>
+        <h3><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a></h3>
+        <time class="published" datetime="{{ article.date | strftime('%Y-%m-%d') }}">{{ article.date | strftime('%b %-d, %Y') }}
+        {% set dyddiad = article.date|strftime('%Y-%m-%d')|bywyd %} | 
+        {{ dyddiad }}
+        </time>
+        <a href="https://www.whynotalpacas.co.uk/" class="author"><img src="{{ SITEURL }}/theme/images/avatar.png" alt="" /></a>
+      </header>
 
-			<!-- Set the `Image` metadata within each post - the below will then display this image. -->
-			<!-- Images should be stored in the `pelican/content/images/` directory. -->
-			{% if article.image %}
-			<a href="{{ SITEURL }}/{{ article.url }}" class="image"><img src="{{ SITEURL }}/images/{{ article.image }}" alt="" /></a>
-			{% endif %}
-		</article>
-	{% endfor %}
-	</div>
+      <!-- Set the `Image` metadata within each post - the below will then display this image. -->
+      <!-- Images should be stored in the `pelican/content/images/` directory. -->
+      {% if article.image %}
+      <a href="{{ SITEURL }}/{{ article.url }}" class="image"><img src="{{ SITEURL }}/images/{{ article.image }}" alt="" /></a>
+      {% endif %}
+    </article>
+  {% endfor %}
+  </div>
 </section>

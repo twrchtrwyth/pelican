@@ -10,7 +10,13 @@ Status: published
 
 ## INSTALLING THE OS
 
-First, install the latest version of Raspberry Pi OS Lite from [the Raspberry Pi website](https://www.raspberrypi.com/software/operating-systems/#raspberry-pi-os-32-bit). I generally write this to an SD card using balenaEtcher, but it's possible to use the command line if desired.
+First, install the latest version of Raspberry Pi OS Lite from [the Raspberry Pi website](https://www.raspberrypi.com/software/operating-systems/#raspberry-pi-os-32-bit). I generally write this to an SD card using balenaEtcher, but it's possible to use `dd` the command line if desired:
+
+```shell
+sudo dd bs=4M if=/path/to/image of=/path/to/drive status=progress oflag=sync
+```
+
+To find the path to the drive, check the output of `sudo fdisk -l`.
 
 ---
 
