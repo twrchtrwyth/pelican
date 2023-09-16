@@ -32,7 +32,7 @@ Summary: The second-best cake in the universe.
 1. Whack everything except the raspberries and flaked almonds in a blender and go bananas
 1. Spread half the mix over the cake tin and smooth
 1. Add the raspberries
-1. Chuck the rest of the mixture on top
+1. Chuck the rest of the mixture on top, use fingers
 1. Scatter with flaked almonds
 1. Bake for 50 mins
 

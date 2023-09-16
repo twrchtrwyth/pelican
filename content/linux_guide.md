@@ -457,3 +457,13 @@ pamac -Qii <package-name>
 ```shell
 cat /proc/cpuinfo
 ```
+
+---
+
+## Listing git repos in the terminal
+
+Can direct output to a file for later reference.
+
+```shell
+find / -name .git
+```

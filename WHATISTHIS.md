@@ -4,7 +4,7 @@
 
 This is the source code for my Pelican-based website. Pelican is a Python-based framework that--with the help of Jinja--converts Markdown files to HTML.
 
-(Note: after updating the app on Yunohost may need to run `sudo chown -R Wil *` within the pelican root directory to restore ownership and avoid issues when generating the site.)
+(Note: after updating the app on Yunohost may need to run `sudo chown -R wil *` within the pelican root directory to restore ownership and avoid issues when generating the site. Might need to do this specifically for the hidden git repo and gitignore too.)
 
 
 ## STRUCTURE
