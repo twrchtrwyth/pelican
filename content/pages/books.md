@@ -79,6 +79,18 @@ Carl Sagan
 Alexandre Dumas
 : The Count of Monte Cristo
 
+Rob Young
+: All Gates Open: The Story of Can
+
+Frank Herbert
+: Dune
+
+Leonard Mlodinow
+: The Drunkard's Walk
+
+Lady Sarashina
+: As I Crossed a Bridge of Dreams
+
 ### July 2023
 
 Fyodor Dostoevsky
@@ -95,6 +107,11 @@ Arkady & Boris Strugatsky
 Aneirin
 : Y Gododdin (with translation by Gillian Clarke)
 
+### September 2023
+
+Martin MacInnes
+: In Ascension
+
 ### Currently Reading
 
 Commitment issues?
@@ -108,9 +125,6 @@ Ursula Le Guin
 James Joyce
 : Ulysses
 
-Martin MacInnes
-: In Ascension
-
 Jorge Luis Borges
 : Ficciones
 : Labyrinths
@@ -120,9 +134,6 @@ Ian Stewart
 
 Amos Tutuola
 : My Life in the Bush of Ghosts
-
-Leonard Mlodinow
-: The Drunkard's Walk
 
 Shirow Masamune
 : The Ghost in the Shell (Vol. 1)
@@ -211,6 +222,9 @@ Tim Lewens
 Andrzej Sapkowski
 : Season of Storms
 
+Charles Darwin
+: On the Origin of Species
+
 Stephen Hawking
 : A Brief History of Time
 
@@ -248,3 +262,48 @@ Chad Orzel
 
 David Goodsell
 : The Machinery of Life
+
+Junji Ito
+: Smashed
+
+Harry Josephine Giles
+: Deep Wheel Orcadia
+
+Erica Benner
+: Be Like the Fox
+
+Jo Dunkley
+: Our Universe
+
+Richard Feynman
+: QED
+
+Cara Ellison
+: Embed with Games
+
+Lindsey Fitzharris
+: The Butchering Art
+
+Primo Levi
+: The Periodic Table
+
+Erica McAlister
+: The Secret Life of Flies
+
+Mason & Caiger
+: A History of Japan
+
+Nicola Tesla
+: My Inventions and Other Writings
+
+Becky Smethurst
+: A Brief History of Black Holes
+
+Derek Yu
+: Spelunky
+
+Alfred Russel Wallace
+: The Malay Archipelago
+
+Sean Carroll
+: The Particle at the End of the Universe

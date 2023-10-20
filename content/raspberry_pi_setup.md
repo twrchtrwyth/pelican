@@ -38,7 +38,7 @@ To generate the encrypted password, run the following in a terminal:
 echo password | openssl passwd -6 -stdin
 ```
 
-Then paste this into the `userconf` file as above.
+Then paste the output into the `userconf` file as above.
 
 ---
 
@@ -74,11 +74,23 @@ Add the following to `cmdline.txt` (also within the boot partition), after the w
 
 ` modules-load=dwc2,g_ether`
 
-`g_ether` enables the USB port to act as an Ethernet cable (I think).
+`g_ether` enables the USB port to act as an Ethernet cable (I think).  Unfortunately this never seems to work properly for me.
 
 ---
 
 ## SETTING A FIXED IP ADDRESS
+
+This can be done during initial setup of the SD card.  Create or edit the file `/etc/dhcpcd.conf` and add the following at the end:
+
+
+```
+interface eth0
+static ip_address=192.168.0.4/24
+static routers=192.168.0.254
+static domain_name_servers=192.168.0.254 8.8.8.8
+```
+
+Alternatively this can be done via SSH after the initial setup, though the below is now somewhat outdated as there is no longer a default username and password (this must be set manually, see above).
 
 Log into the pi over ssh using `ssh pi@raspberrypi.local` when it is connected to the laptop. The default password is `pi`: at this point, it's probably a good idea to also run `passwd` on the pi and follow the on-screen prompts in order to change it. Alternatively, use `sudo raspi-config`. Once this is done, run `sudo ifconfig -a`. There should be a network device called `usb0`, which should show an `inet` address.
 
