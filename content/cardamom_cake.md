@@ -16,12 +16,10 @@ My eternal thanks to Niloufer Ichaporia King for this recipe.
 * 150g unsalted butter, melted
 * 250g sugar
 * 4 eggs (large)
-* 3 tsp cardamom seeds, bruised in a pestle & mortar
-  - Approx. 10g of pods
+* 3 tsp cardamom seeds[^1], bruised in a pestle & mortar
 * 200g plain flour
-* Salt (generous pinch)
-  - Alternatively, use 25g of salted butter in place of 25g of the unsalted butter. This provides approx. 300-600mg of NaCl
-* Sliced almonds for topping (optional but incredible)
+* Salt (generous pinch)[^2]
+* Sliced almonds for topping (technically optional but really why wouldn't you)
 
 ### Other stuff
 
@@ -39,3 +37,6 @@ My eternal thanks to Niloufer Ichaporia King for this recipe.
 1. Bash pan on counter to level
 1. Bake for 30 mins (40 mins in our oven, then 5-10 mins at 170°C fan)
 1. Once out, leave in tin for 5 mins then invert on cake rack to cool (remove bottom of tin whilst still very warm)
+
+[^1]: Approx. 10g of pods
+[^2]: Alternatively, use 25g of salted butter in place of 25g of the unsalted butter. This provides approx. 300-600mg of NaCl

@@ -112,6 +112,11 @@ Aneirin
 Martin MacInnes
 : In Ascension
 
+### December 2023
+
+Okakura Kakuzō
+: The Book of Tea
+
 ### Currently Reading
 
 Commitment issues?
