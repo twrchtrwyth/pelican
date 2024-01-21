@@ -91,4 +91,6 @@ PHRASES = [  # For use in the `About` section of base.html
     'Ydy dy dŷ du di o dan dy dô du di?',
     'Cofiwch Dryweryn.',
     'The mediator between the head and the hands must be the heart.',
+    'Gaga di bling blong. Gaga blung.',
+    'Who called love conquering, when its sweet flower so easily dries among the sour lanes of the living?',
 ]

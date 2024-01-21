@@ -2,7 +2,7 @@
 Title: Linux Commands
 Date: 2022-09-10
 Category: linux
-Tags: command line
+Tags: linux, command line
 Status: published
 Slug: linux-guide
 Summary: Some notes on using Linux, with a focus on the command line.
@@ -386,7 +386,7 @@ Shows the three lines before the match:
 grep -B 3 -x "exact search string" filename
 ```
 
-#### Show lines after
+#### Show lines before and after
 
 Shows the three lines before and after the match:
 
