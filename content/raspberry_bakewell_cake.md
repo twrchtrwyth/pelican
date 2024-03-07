@@ -13,7 +13,7 @@ Summary: The second-best cake in the universe.
 
 * 140g ground almonds
 * 140g golden caster sugar
-* 140g butter
+* 140g salted butter
 * 140g self-raising flour
 * 2 eggs
 * 1 tsp vanilla extract
@@ -29,9 +29,9 @@ Summary: The second-best cake in the universe.
 
 1. Oven 160°C fan
 1. Butter tin (with extra) and cover bottom with greaseproof paper
-1. Whack everything except the raspberries and flaked almonds in a blender and go bananas
+1. Whack everything except the raspberries and flaked almonds in a bowl and whisk together
 1. Spread half the mix over the cake tin and smooth
-1. Add the raspberries
+1. Add the raspberries (make sure to dry with kitchen paper after rinsing)
 1. Chuck the rest of the mixture on top, use fingers
 1. Scatter with flaked almonds
 1. Bake for 50 mins
