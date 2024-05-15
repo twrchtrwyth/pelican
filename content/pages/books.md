@@ -175,7 +175,7 @@ David Spiegelhalter
 : The Art of Statistics
 
 Jo Dunley
-: Out Universe
+: Our Universe
 
 Guy Standing
 : Plunder of the Commons
@@ -312,3 +312,6 @@ Alfred Russel Wallace
 
 Sean Carroll
 : The Particle at the End of the Universe
+
+Martin MacInnes
+: Infinite Ground

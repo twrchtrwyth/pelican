@@ -267,6 +267,8 @@ The below will allow input of text directly from standard output. Once typed out
 cat >> file1.txt
 ```
 
+---
+
 ## The sed command
 
 This is like `cat`, but can be used to just print one line to stdout, or to add it to a file using `>>`. Usage is as follows:
@@ -282,6 +284,12 @@ It can also be used from the command line to add a single line of text to a file
 
 ```shell
 sed -i '1s/^/text to insert\n/' filename
+```
+
+To replace `abc` with `xyz` in `file` using `sed` (accepts wildcards instead of filenames):
+
+```shell
+sed -i -e 's/abc/xyz/g' file
 ```
 
 ---
@@ -327,4 +335,37 @@ Can direct output to a file for later reference.
 
 ```shell
 find / -name .git
+```
+
+---
+
+## Downloading webpages
+
+The below flags to `wget` will result in `r`ecursive downloads to an infinite `l`evel i.e. the whole website.  Pass numbers other than 0 to specify a level of recursion.
+
+```shell
+wget -r -l 0 url
+```
+
+---
+
+## Viewing images with Feh
+
+Straightforward use is self-explanatory.  Some other ways to use feh are shown below.
+
+```shell
+feh -m  # Montage mode: shows all images within one window
+feh -m --thumb-height 150 --thumb width 200
+feh -w  # Multi-window mode: not helpful with current i3 setup
+feh -i  # Index mode: useful for quick overview of images in dir
+```
+
+---
+
+## Taking screenshots
+
+The below will allow selection of an area and then save this to `ss.png`.
+
+```shell
+import ss.png
 ```
