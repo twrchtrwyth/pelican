@@ -43,13 +43,13 @@ The Shavian alphabet is used to represent *sounds* in English, rather than indiv
 | **M**e  | 𐑥 | |
 | **K**ey | 𐑒 | |
 | **A**sh | 𐑨 | |
-| **WH**o | 𐑣 | This is just an 'h' sound, no rounding of mouth |
+| **H**and | 𐑣 | Or **H**a **H**a |
 
 | | | |
 | :---: | :---: | :---: |
 | **EYE**s | 𐑲 | Note the "extender" tail |
 | **N**ow  | 𐑯 | Used alone to write "and" |
-| **T**an  | 𐑑 | |
+| **T**an  | 𐑑 | Used alone to write "to" |
 | **D**one | 𐑛 | |
 | **R**oe  | 𐑮 | |
 
@@ -76,6 +76,30 @@ The Shavian alphabet is used to represent *sounds* in English, rather than indiv
 | :---: | :---: | :---: |
 | **G**ill | 𐑜 | Looks a bit like a backwards "G" |
 | so**NG** | 𐑙 | Not a true pair with 𐑣 |
+| **EAR**ly | 𐑻 | Another ligature (note that it contains 𐑮), but the first part doesn't have its own Shavian letter[^1] |
+| **OUGH**t | 𐑷 | |
+
+| | | |
+| :---: | :---: | :---: |
+| **TH**orn | 𐑔 | |
+| **CH**a | 𐑗 | Sound combination: 𐑑 + 𐑖 = 𐑗 |
+| **ZH**o | 𐑠 | e.g. mea**S**ure |
+| **OU**nce | 𐑬 | |
+| **AUR**a | 𐑹 | Ligature: 𐑷 + 𐑮 = 𐑹 |
+
+| | | |
+| :---: | :---: | :---: |
+| **A**lms | 𐑭 | |
+| **AER**o | 𐑺 | Another ligature (note that it contains 𐑮), but the first part doesn't have its own Shavian letter[^1] |
+| **OO**mph | 𐑫 | |
+| **IA**n | 𐑾 | 𐑦 + 𐑩 = 𐑾 |
+
+| | | |
+| :---: | :---: | :---: |
+| **AR**ia | 𐑸 | Ligature: 𐑭 + 𐑮 = 𐑸 |
+| **EER**ie | 𐑽 | 𐑦 + 𐑩 + 𐑮 = 𐑽 |
+| **OI**l | 𐑶 | |
+| **J**oy | 𐑡 | Sound combination: 𐑛 + 𐑠 = 𐑡 |
 
 𐑐𐑚𐑑𐑛𐑒𐑜𐑓𐑝𐑔𐑞𐑕𐑟𐑖𐑠𐑗𐑡𐑘𐑢𐑙𐑣𐑤𐑮𐑥𐑯𐑦𐑰𐑧𐑱𐑨𐑲𐑩𐑳𐑪𐑴𐑫𐑵𐑬𐑶𐑭𐑷 𐑸 𐑹 𐑺 𐑻 𐑼 𐑽 𐑾 𐑿
 
@@ -120,6 +144,20 @@ For all that involve a description of the mouth, imagine looking side-on at a pe
 | :---: | :---: | :---: |
 | **SH**y | 𐑖 | Looks like a fi**SH**ing hook |
 
+| | | |
+| :---: | :---: | :---: |
+| **EAR**ly | 𐑻 | Start of the sound is like 𐑩, which "points" to the start of the letter |
+| or | | |
+| **EAR**ly | 𐑻 | Looks a bit like a bucket; imagine a worm in the bucket; the **EAR**ly b**IR**d catches the w**OR**m in its bucket |
+| **AER**o | 𐑺 | Start of the sound is like 𐑧, which "points" to the start of the letter |
+| or | | |
+| **AER**o | 𐑺 | **AER**odynamic because the arch faces *upwards* |
+
+| | | |
+| :---: | :---: | :---: |
+| **OU**nce | 𐑬 | After saying your mouth is tense and open and ready to p**OU**nce |
+| **OI**l | 𐑶 | Follows the shape of the sound, open to more narrow |
+
 
 ## Additional Notes
 
@@ -131,7 +169,7 @@ For all that involve a description of the mouth, imagine looking side-on at a pe
 * 𐑑 and 𐑛 are also similar.  Think of 𐑑 as pointing to the **T**op, and 𐑛 as pointing **D**own.
 * 𐑤 and 𐑮 can be remembered using your **L**eft (𐑤𐑧𐑓𐑑) and **R**ight (𐑮𐑲𐑑) hands and forming them each into a cup shape: when viewed the corresponding hand will form the corresponding shape.
 * The compound letter 𐑼 allows pronunciation however the speaker sees fit---that is, it allows for *different accents*.  For example, many British accents wouldn't pronounce the final "r" sound in "flavour", but an American might.
-
+* In Received Pronunciation, 𐑷 and 𐑹 sound the same---this can differ for speakers with an American accent
 
 ## Example Words/Phrases
 
@@ -198,3 +236,5 @@ For all that involve a description of the mouth, imagine looking side-on at a pe
 𐑞 𐑖𐑪𐑐 𐑴𐑯𐑼 𐑕𐑑𐑴𐑤 𐑓𐑮𐑪𐑥 𐑿. (The shop owner stole from you.)
 
 𐑞 𐑕𐑦𐑙𐑼 𐑣𐑨𐑛 𐑩 𐑕𐑪𐑙. (The singer had a song.)
+
+[^1]: Because the sound never occurs alone in English.
