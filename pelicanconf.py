@@ -35,7 +35,7 @@ ABOUT = 'Rhydd i bawb ei farn, ac i bob barn ei llafar.'
 PATH = 'content'
 
 # The theme folder must be in Pelican's root folder (the same one as the content folder).
-THEME = 'future-imperfect'
+THEME = 'themes/future-imperfect'
 
 TIMEZONE = 'Europe/London'
 

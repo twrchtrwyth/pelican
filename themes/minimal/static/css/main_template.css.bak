@@ -1,0 +1,101 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+html {
+    scroll-behavior: smooth;
+}
+
+.link {
+    @apply text-iblue font-bold;
+}
+
+.link:hover {
+    @apply text-iblue-light;
+}
+
+.button-disabled {
+    @apply py-3 px-4 font-semibold border text-gray-500 cursor-default rounded-lg;
+}
+
+.button-orange {
+    @apply py-3 px-4 font-semibold text-white rounded-lg bg-gradient-to-tr from-orange-600 to-yellow-500;
+}
+
+.button-orange:hover {
+    @apply from-yellow-400 to-orange-400;
+}
+
+.button-orange:focus {
+    @apply shadow-outline outline-none;
+}
+
+.button-blue {
+    @apply px-4 py-2 font-semibold shadow-lg bg-gradient-to-tr from-iblue to-iblue-light text-white rounded-lg;
+}
+
+.button-blue:hover {
+    @apply to-iblue from-iblue-light;
+}
+
+.button-blue:focus {
+    @apply shadow-outline outline-none;
+}
+
+.button-white {
+    @apply py-3 px-4 font-semibold text-gray-800 border border-gray-400 rounded-lg bg-gradient-to-tr from-white to-white;
+}
+
+.button-white:hover {
+    @apply from-yellow-400 to-orange-400 border-0;
+}
+
+.button-white:focus {
+    @apply shadow-outline outline-none;
+}
+
+.flash-success {
+    @apply border-green-400 bg-green-200;
+}
+
+.flash-error {
+    @apply border-red-300 bg-red-200;
+}
+
+.markdown h2 {
+    @apply text-3xl mb-2 mt-4;
+}
+
+.markdown h3 {
+    @apply text-2xl mb-2 mt-4;
+}
+
+.markdown a {
+    @apply link;
+}
+
+.markdown a:hover {
+    @apply text-iblue-light;
+}
+
+.markdown a svg {
+    @apply inline fill-current;
+}
+
+.markdown p {
+    @apply mb-3;
+}
+
+.markdown ul {
+    @apply list-disc ml-8;
+}
+
+.markdown code {
+    @apply text-sm mb-2;
+}
+
+.markdown ol {
+    @apply list-decimal ml-5;
+}
