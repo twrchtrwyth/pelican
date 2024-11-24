@@ -369,3 +369,17 @@ The below will allow selection of an area and then save this to `ss.png`.
 ```shell
 import ss.png
 ```
+
+---
+
+## Change Keyboard Layout
+
+```shell
+setxkbmap [gb|us|etc.]
+```
+
+---
+
+## Change hostname
+
+Add the desired hostname to `/etc/hostname`, and also edit the name in `/etc/hosts`.

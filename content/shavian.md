@@ -1,7 +1,7 @@
 ---
 Title: The Shavian Alphabet
 Date: 2024-05-13 19:45
-Summary: An overview of the Shavian alphabet.
+Summary: 𐑩𐑯 𐑴𐑝𐑩𐑝𐑿 𐑝 𐑞 𐑖𐑱𐑝𐑾𐑯 𐑨𐑤𐑓𐑩𐑚𐑧𐑑.
 Category: language
 Tags: language, writing, script
 Slug: shavian
@@ -10,101 +10,152 @@ Status: published
 
 # THE SHAVIAN ALPHABET
 
-The Shavian alphabet is used to represent *sounds* in English, rather than individual letters (though many letters map directly to the equivalent letter in English).  "Normal" spoken English contains 40 unique sounds, each of which is represented by a unique Shavian letter.  In addition, Shavian contains 8 compound letters which are used to represent common combinations of sounds.
+The Shavian alphabet is used to represent *sounds* in English, rather than individual letters (though some letters map directly to the equivalent letter in English).  "Normal" spoken English contains 40 unique sounds, each of which is represented by a unique Shavian letter.  In addition, Shavian contains 8 *compound letters* or *ligatures* which are used to represent common combinations of sounds.
 
 
-## The Letters
+## The Alphabet
 
 𐑐𐑚𐑑𐑛𐑒𐑜𐑓𐑝𐑔𐑞𐑕𐑟𐑖𐑠𐑗𐑡𐑘𐑢𐑙𐑣𐑤𐑮𐑥𐑯𐑦𐑰𐑧𐑱𐑨𐑲𐑩𐑳𐑪𐑴𐑫𐑵𐑬𐑶𐑭𐑷 𐑸 𐑹 𐑺 𐑻 𐑼 𐑽 𐑾 𐑿
+
+
+## Consonants
 
 | | | |
 | :---: | :---: | :---: |
 | **Sound** | **Letter** | **Notes** |
-
-| | | |
-| :---: | :---: | :---: |
-| **S**ee  | 𐑕 | |
-| **Z**oo  | 𐑟 | |
-| **I**n   | 𐑦 | Also used as -y ending |
-| **E**ve  | 𐑰 | |
-|**TH**e   | 𐑞 | Used alone to write "the" |
-| **OO**ze | 𐑵 | |
-
-| | | |
-| :---: | :---: | :---: |
-| **P**in  | 𐑐 | |
-| **B**ell | 𐑚 | |
-| **L**amb | 𐑤 | |
-| **E**dge | 𐑧 | |
-
-| | | |
-| :---: | :---: | :---: |
-| **AI**m | 𐑱 | |
-| **M**e  | 𐑥 | |
-| **K**ey | 𐑒 | |
-| **A**sh | 𐑨 | |
-| **H**and | 𐑣 | Or **H**a **H**a |
-
-| | | |
-| :---: | :---: | :---: |
-| **EYE**s | 𐑲 | Note the "extender" tail |
-| **N**ow  | 𐑯 | Used alone to write "and" |
-| **T**an  | 𐑑 | Used alone to write "to" |
-| **D**one | 𐑛 | |
-| **R**oe  | 𐑮 | |
-
-| | | |
-| :---: | :---: | :---: |
-| **F**ay   | 𐑓 | |
-| **V**ie   | 𐑝 | |
-| **A**go   | 𐑩 | Most common vowel in Shavian English, commonly connected to other letters |
-| **U**p    | 𐑳 | Same as **A**go but with added line---more accented |
-| **ARR**ay | 𐑼 | Compound letter aka ligature, 𐑩 + 𐑮 = 𐑼 |
-
-
-| | | |
-| :---: | :---: | :---: |
-| **O**n   | 𐑪 | |
-| **W**ay  | 𐑢 | |
-| **OA**th | 𐑴 | Nice 'n' easy |
-| **Y**en  | 𐑘 | |
-| **SH**y  | 𐑖 | |
-| **YU**le | 𐑼 | Compound letter aka ligature, 𐑘 + 𐑵 = 𐑿 |
-
-
-| | | |
-| :---: | :---: | :---: |
-| **G**ill | 𐑜 | Looks a bit like a backwards "G" |
-| so**NG** | 𐑙 | Not a true pair with 𐑣 |
-| **EAR**ly | 𐑻 | Another ligature (note that it contains 𐑮), but the first part doesn't have its own Shavian letter[^1] |
-| **OUGH**t | 𐑷 | |
-
-| | | |
-| :---: | :---: | :---: |
+| **S**ee   | 𐑕 | |
+| **Z**oo   | 𐑟 | |
+|**TH**e    | 𐑞 | Used alone to write "the" |
 | **TH**orn | 𐑔 | |
-| **CH**a | 𐑗 | Sound combination: 𐑑 + 𐑖 = 𐑗 |
-| **ZH**o | 𐑠 | e.g. mea**S**ure |
-| **OU**nce | 𐑬 | |
-| **AUR**a | 𐑹 | Ligature: 𐑷 + 𐑮 = 𐑹 |
+| **P**in   | 𐑐 | |
+| **B**ell  | 𐑚 | |
+| **L**amb  | 𐑤 | |
+| **R**oe   | 𐑮 | |
+| **M**e    | 𐑥 | |
+| **N**ow   | 𐑯 | Used alone to write "and" |
+| **K**ey   | 𐑒 | |
+| **G**ill  | 𐑜 | Looks a bit like a backwards "G" |
+| **H**and  | 𐑣 | |
+| so**NG**  | 𐑙 | Not a true pair with 𐑣 |
+| **T**an   | 𐑑 | Used alone to write "to" |
+| **D**one  | 𐑛 | |
+| **F**ay   | 𐑓 | |
+| **V**ie   | 𐑝 | Used alone to write "of" |
+| **SH**y   | 𐑖 | |
+| **ZH**o   | 𐑠 | e.g. mea**S**ure |
+| **CH**a   | 𐑗 | Sound combination: 𐑑 + 𐑖 = 𐑗 |
+| **J**oy   | 𐑡 | Sound combination: 𐑛 + 𐑠 = 𐑡 |
+
+
+## Vowels
 
 | | | |
 | :---: | :---: | :---: |
-| **A**lms | 𐑭 | |
-| **AER**o | 𐑺 | Another ligature (note that it contains 𐑮), but the first part doesn't have its own Shavian letter[^1] |
+| **Sound** | **Letter** | **Notes** ||
+| **I**n    | 𐑦 | |
+| **E**ve   | 𐑰 | |
+| **OO**ze  | 𐑵 | |
 | **OO**mph | 𐑫 | |
-| **IA**n | 𐑾 | 𐑦 + 𐑩 = 𐑾 |
+| | | |
+| **E**dge  | 𐑧 | |
+| **AI**m   | 𐑱 | Note the "extender" tail |
+| **A**sh   | 𐑨 | |
+| **EYE**s  | 𐑲 | Note the "extender" tail |
+| **A**do   | 𐑩 | Most common vowel in Shavian English |
+| **U**p    | 𐑳 | |
+| **O**n    | 𐑪 | |
+| | | |
+| **W**ay   | 𐑢 | |
+| **Y**en   | 𐑘 | |
+| **OA**th  | 𐑴 | |
+| **OUGH**t | 𐑷 | |
+| **A**lms  | 𐑭 | |
+| **OU**nce | 𐑬 | |
+| **OI**l   | 𐑶 | |
+
+
+## Ligatures
 
 | | | |
 | :---: | :---: | :---: |
-| **AR**ia | 𐑸 | Ligature: 𐑭 + 𐑮 = 𐑸 |
-| **EER**ie | 𐑽 | 𐑦 + 𐑩 + 𐑮 = 𐑽 |
-| **OI**l | 𐑶 | |
-| **J**oy | 𐑡 | Sound combination: 𐑛 + 𐑠 = 𐑡 |
+| **Sound** | **Letter** | **Notes** |
+| **YU**le  | 𐑿 | 𐑘 + 𐑵 |
+| **AR**ia  | 𐑸 | 𐑭 + 𐑮 |
+| **AUR**a  | 𐑹 | 𐑷 + 𐑮 |
+| **AER**o  | 𐑺 | N/A[^1] + 𐑮 |
+| **EAR**ly | 𐑻 | N/A[^1] + 𐑮 |
+| **ARR**ay | 𐑼 | 𐑩 + 𐑮 |
+| **IA**n   | 𐑾 | 𐑦 + 𐑩  |
+| **EER**ie | 𐑽 | 𐑦 + 𐑩 + 𐑮 |
+
+
+# All Letters
+
+| | | |
+| :---: | :---: | :---: |
+| **Sound** | **Letter** | **Notes** |
+| **S**ee   | 𐑕 | |
+| **Z**oo   | 𐑟 | |
+| **I**n    | 𐑦 | Also used as -y ending |
+| **E**ve   | 𐑰 | |
+|**TH**e    | 𐑞 | Used alone to write "the" |
+| **OO**ze  | 𐑵 | |
+| | | |
+| **P**in   | 𐑐 | |
+| **B**ell  | 𐑚 | |
+| **L**amb  | 𐑤 | |
+| **E**dge  | 𐑧 | |
+| | | |
+| **AI**m   | 𐑱 | |
+| **M**e    | 𐑥 | |
+| **K**ey   | 𐑒 | |
+| **A**sh   | 𐑨 | |
+| **H**and  | 𐑣 | |
+| | | |
+| **EYE**s  | 𐑲 | Note the "extender" tail |
+| **N**ow   | 𐑯 | Used alone to write "and" |
+| **T**an   | 𐑑 | Used alone to write "to" |
+| **D**one  | 𐑛 | |
+| **R**oe   | 𐑮 | |
+| | | |
+| **F**ay   | 𐑓 | |
+| **V**ie   | 𐑝 | Used alone to write "of" |
+| **A**do   | 𐑩 | Most common vowel in Shavian English, commonly connected to other letters |
+| **U**p    | 𐑳 | Same as **A**do but with added line---more accented |
+| **ARR**ay | 𐑼 | Ligature: 𐑩 + 𐑮 = 𐑼 |
+| | | |
+| **O**n    | 𐑪 | |
+| **W**ay   | 𐑢 | |
+| **OA**th  | 𐑴 | Nice 'n' easy |
+| **Y**en   | 𐑘 | |
+| **SH**y   | 𐑖 | |
+| **YU**le  | 𐑿 | Compound letter aka ligature, 𐑘 + 𐑵 = 𐑿 |
+| | | |
+| **G**ill  | 𐑜 | Looks a bit like a backwards "G" |
+| so**NG**  | 𐑙 | Despite appearances, does not form a true pair with 𐑣 |
+| **EAR**ly | 𐑻 | Ligature: note that it contains 𐑮, but the first part doesn't have its own Shavian letter[^1] |
+| **OUGH**t | 𐑷 | |
+| | | |
+| **TH**orn | 𐑔 | |
+| **CH**a   | 𐑗 | Sound combination: 𐑑 + 𐑖 = 𐑗 |
+| **ZH**o   | 𐑠 | e.g. mea**S**ure |
+| **OU**nce | 𐑬 | |
+| **AUR**a  | 𐑹 | Ligature: 𐑷 + 𐑮 = 𐑹 |
+| | | |
+| **A**lms  | 𐑭 | |
+| **AER**o  | 𐑺 | Ligature: note that it contains 𐑮, but the first part doesn't have its own Shavian letter[^1] |
+| **OO**mph | 𐑫 | |
+| **IA**n   | 𐑾 | Ligature: 𐑦 + 𐑩 = 𐑾 |
+| | | |
+| **AR**ia  | 𐑸 | Ligature: 𐑭 + 𐑮 = 𐑸 |
+| **EER**ie | 𐑽 | Ligature: 𐑦 + 𐑩 + 𐑮 = 𐑽 |
+| **OI**l   | 𐑶 | |
+| **J**oy   | 𐑡 | Sound combination: 𐑛 + 𐑠 = 𐑡 |
 
 𐑐𐑚𐑑𐑛𐑒𐑜𐑓𐑝𐑔𐑞𐑕𐑟𐑖𐑠𐑗𐑡𐑘𐑢𐑙𐑣𐑤𐑮𐑥𐑯𐑦𐑰𐑧𐑱𐑨𐑲𐑩𐑳𐑪𐑴𐑫𐑵𐑬𐑶𐑭𐑷 𐑸 𐑹 𐑺 𐑻 𐑼 𐑽 𐑾 𐑿
 
 
-## Aide-Memoire Table
+## Aide-Memoires
 
 To help distinguish between some of the more similar letters.
 
@@ -133,7 +184,7 @@ For all that involve a description of the mouth, imagine looking side-on at a pe
 | | | |
 | :---: | :---: | :---: |
 | **O**n | 𐑪 | The tail points to the back of the mouth where the letter is sounded |
-| **A**go | 𐑩 | The tail points to the open lips where air is expelled whilst sounding |
+| **A**go | 𐑩 | Beathier than 𐑪: the tail points to the open lips where air is expelled whilst sounding |
 
 | | | |
 | :---: | :---: | :---: |
