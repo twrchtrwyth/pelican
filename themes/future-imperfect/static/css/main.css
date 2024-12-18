@@ -1,4 +1,4 @@
-@import url("pygment.css");
+/* @import url("pygment.css"); */
 @import url("fontawesome-all.min.css");
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700|Raleway:400,800,900");
 
@@ -268,12 +268,23 @@ input, select, textarea {
   }
 
   code {
-    background: rgba(160, 160, 160, 0.075); 
-    border: solid 1px rgba(160, 160, 160, 0.3);
+    background: rgba(220, 220, 220, 0.5); 
+    border: solid 0.25px rgba(200, 200, 200, 0.1);
+    color: #000000;
     font-family: "Courier New", monospace;
-    font-size: 0.9em;
+    font-size: 0.95em;
     margin: 0 0.25em;
     padding: 0.25em 0.65em;
+  }
+
+  /* Inline code */
+  p > code,
+  li > code,
+  dd > code,
+  td > code {
+    background: rgba(220, 220, 220, 0.25);
+    border: none;
+    font-size: 0.85em;
   }
 
   pre {
@@ -286,7 +297,7 @@ input, select, textarea {
     pre code {
       display: block;
       line-height: 1.75em;
-      padding: 1em 1.5em;
+      padding: 0.5em 1em;
       overflow-x: auto;
     }
 

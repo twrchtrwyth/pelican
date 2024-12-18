@@ -66,7 +66,7 @@ CONTACTS = [
     ("Email", "envelope", "#"),
 ]
 
-DEFAULT_PAGINATION = 3
+DEFAULT_PAGINATION = 5
 SUMMARY_MAX_LENGTH = 20
 SUMMARY_END_SUFFIX = "..."
 

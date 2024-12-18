@@ -8,6 +8,8 @@ Slug: groff
 Summary: An overview of GNU roff, a typesetting system.
 ---
 
+<center>![Gnu]({static}/images/gnu.png){width=200}</center>
+
 Groff (GNU roff) is a typesetting system which converts plain text input into output such as PostScript, PDF, and HTML.  This is achieved through the use of formatting commands peppered through each plain text file.  There are several different sets of macros that can be used with groff to format documents---I am most familiar with the _mom_ set of macros.
 
 # Generating PDF Output
@@ -23,7 +25,9 @@ pdfmom -Tps plaintext.mom > output.ps  # Compile output.ps from plaintext.mom
 ```
 
 # Missing Fonts Workaround
-Recently, and for reasons I don't understand, the Palatino font has disappeared from the fonts available when compiling a PDF.  However, the above command to generate PostScript output still works as intended where the Palatino font is used.  As such, in order to generate a PDF then the PostScript output from the above file can be converted to a PDF using `ps2pdf` like so:
+Recently, and for reasons I don't understand, the Palatino font has disappeared from the fonts available when compiling a PDF.  Groff's fonts are located at `/usr/share/groff/<version>/fonts/` and each output type appears to have its own fonts, located within discrete directories.  However, simply copying the Palatino font directories from the PostScript directory `devps` to the PDF directory `devpdf` doesn't fix the issue, because the resulting PDFs don't render the font correctly.
+
+The "solution'' is to first generate PostScript output (which still works as intended where the Palatino font is used), and then to convert this PostScript file into a PDF using `ps2pdf` like so:
 ```shell
 pdfmom -Tps plaintext.mom > output.ps  # Compile output.ps from plaintext.mom
 ps2pdf output.ps output.pdf  # Convert the PostScript file to PDF
