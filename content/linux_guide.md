@@ -25,8 +25,8 @@ The `xprop` command will list various useful pieces of information about a windo
 Use `xdotool` to do this. For example:
 
 ```bash
-$ xdotool getwindowfocus getwindowgeometry  # Returns size of current window.
-$ xdotool selectwindow getwindowgeometry  # Allows selection of window.
+xdotool getwindowfocus getwindowgeometry  # Returns size of current window.
+xdotool selectwindow getwindowgeometry  # Allows selection of window.
 ```
 
 ---
@@ -39,7 +39,9 @@ The `xev` command will open a window and output information about any keys press
 
 ## Sending command output to a file.
 
-`COMMAND [OPTIONS] [ARGUMENTS] > file_name`
+```shell
+command [options] [arguments] > file_name
+```
 
 ---
 
@@ -52,19 +54,23 @@ The `sort` command can be used to do this. It should be followed by the name of 
 ## Listing running processes.
 
 The `ps -A` command will list all running processes.
-This can be piped to [`grep`]({filename}grep.md) to search for a specific process.
+This can be piped to [grep]({filename}grep.md) to search for a specific process.
 
 ---
 
 ## Finding files
 
-The `find` command will search for matching file names in a directory. For example, to find all files beginning with `t` in the current directory, the following command could be used:
+The `find` command will search for matching file names in a directory. For example, to find all files beginning with *t* in the current directory, the following command could be used:
 
-`find ./* -name "t*"`
+```
+find ./* -name "t*"
+```
 
 To find files larger than 300 bytes, use:
 
-`find ./* -size +300c`
+```
+find ./* -size +300c
+```
 
 (For some reason `c` is used for bytes, then `k`, `M` and `G` are used for kilo-, mega- and gigabytes, respectively.)
 
@@ -90,7 +96,11 @@ Use `whereis` to do this. Will return the binary, source and manual page files f
 
 ## Opening a link to a folder in file explorer, from the terminal
 
-Use `xdg-open` to do this. For example, to see all the files for the default Jekyll `minima` theme, within a Jekyll bundle's folder run `xdg-open $(bundle info --path minima)`
+Use `xdg-open` to do this. For example, to see all the files for the default Jekyll `minima` theme, within a Jekyll bundle's folder run 
+
+```shell
+xdg-open $(bundle info --path minima)
+```
 
 ---
 
@@ -98,15 +108,33 @@ Use `xdg-open` to do this. For example, to see all the files for the default Jek
 
 ### Mounting
 
-To mount, use `mount path/to/drive path/to/mountpoint`. The directory used as a mount point must exist. I normally use `~/external-hdd`. Use the `df` command to list all drives visible to the system. `sudo` probably required.
+To mount a drive, use
+
+```shell
+mount path/to/drive path/to/mountpoint
+```
+
+The directory used as a mount point must exist. I normally use `~/external-hdd`. Use the `df` command to list all drives visible to the system. `sudo` probably required.
 
 ### Unmounting
 
-To unmount, use `umount path/to/mountpoint`. Note the *absence* of `n` in the `umount` command--why anyone thought this was a good idea, I'll never know. Think `sudo` is needed, again.
+To unmount, use
+
+```shell
+umount path/to/mountpoint
+```
+
+ Note the absence of the letter `n` in the `umount` command--why anyone thought this was a good idea, I'll never know. Think `sudo` is needed, again.
 
 ### Ejecting
 
-To eject a drive, use `eject path/to/drive`. Again, `sudo` probably required.
+To eject a drive, use
+
+```shell
+eject path/to/drive
+```
+
+Again, `sudo` probably required.
 
 ---
 
@@ -128,7 +156,11 @@ Use `fc-list` to show all system fonts. The `-v` flag can be specified to get th
 
 ## Checking Battery Charge, Health, etc.
 
-Use `upower -e` to find the battery name. Select the correct battery from the list, and then run `upower -i path-to-battery` to see information about its health.
+Use `upower -e` to find the battery name.  To see information about its health, run
+
+```shell
+upower -i path-to-battery
+```
 
 ---
 
@@ -140,7 +172,13 @@ Use `upower -e` to find the battery name. Select the correct battery from the li
 
 ### Connect to network
 
-After determining the SSID as above, use `nmcli dev wifi connect [SSID] password [PASSWORD]` to connect to the network. Tab completion works for the SSID (in Konsole on Manjaro, anyway). If the network is unsecured, simply omit the part after the SSID. 
+After determining the SSID as above, connect to the network with
+
+```shell
+nmcli dev wifi connect [SSID] password [PASSWORD]
+```
+
+Tab completion works for the SSID (in Konsole on Manjaro, anyway). If the network is unsecured, simply omit the part after the SSID. 
 
 ### Get Device IP Address
 
@@ -148,9 +186,13 @@ Use `ip addr` and look for `inet`
 
 ### Listing Devices on a Network
 
-Use the `nmap` command to do this. Will need the IP Address provided by the above command. Use `sudo nmap -sn IP.ADD.R.ESS/24` to list all devices connected to the same network as the IP Address provided. Alternatively, can just pass the IP Address for the router, which is usually `192.168.1.254`. Actually I think you can just use `192.168.1.0` and start from there.
+Use the `nmap` command to do this. Will need the IP Address provided by the above command.  To list all devices connected to the same network as the IP Address provided, use
 
-The `/24` tells `nmap` to scan all 256 addresses available.
+```shell
+sudo nmap -sn IP.ADD.R.ESS/24
+```
+
+Alternatively, can just pass the IP Address for the router, which is usually `192.168.1.254`. Actually I think you can use `192.168.1.0` and start from there.  The `/24` tells `nmap` to scan all 256 addresses available.
 
 ---
 
@@ -174,27 +216,51 @@ Used for TILP interface for TI Nspire.
 
 ### Starting docker
 
-First, run `sudo systemctl unmask docker` then `sudo systemctl start docker`
+```shell
+sudo systemctl unmask docker
+sudo systemctl start docker
+```
 
 ### Stopping docker
 
-Run `sudo systemctl stop docker` then `sudo systemctl mask docker` ("Masking" symlinks to `/dev/null`, which I assume totally stops any funny business.)
+```shell
+sudo systemctl stop docker
+sudo systemctl mask docker
+```
+
+("Masking" symlinks to `/dev/null`, which I assume totally stops any funny business.)
 
 ### Running TILP in docker
 
-First run `xhost +` to disable control of the display---note that this isn't really a great idea but is required to allow display of the GUI within docker. Then run `sudo docker run -ti --rm --privileged -e DISPLAY=:0 -v /tmp/.X11-unix:/tmp/.X11-unix -v /dev:/dev:rw -v /home/wil:/mnt:rw adriweb/tilp`. The computer's file system is then found in the `/mnt` folder. Once finished, run `xhost -` to only allow authorised clients to access the display.
+First run `xhost +` to disable control of the display---note that this isn't really a great idea but is required to allow display of the GUI within docker. Then run
+
+```shell
+sudo docker run -ti --rm --privileged -e DISPLAY=:0 -v \
+/tmp/.X11-unix:/tmp/.X11-unix -v /dev:/dev:rw -v ~:/mnt:rw adriweb/tilp
+```
+
+The computer's file system is then found in the `/mnt` folder. Once finished, run `xhost -` to only allow authorised clients to access the display.
 
 ---
 
 ## Extracting pages from a pdf
 
-To extract pages 73 to 98 from a pdf, use `pdfjam -o extract.pdf original.pdf 73-98`
+```shell
+# Extract pages 73 to 98 from a pdf
+pdfjam -o extract.pdf original.pdf 73-98
+```
 
 ---
 
 ## Optimise jpeg files for sharing
 
-Not exactly sure what this does, but `mogrify -auto-orient -define jpeg:dct-method=float -quality 75 -strip -interlace Plane -sampling-factor 4:2:0 -resize '1400x1400>' *.jpg` is recommended online to share a jpeg. Mogrify is part of the ImageMagick suite of tools. Need to look into this.
+Not actually sure what this does, but the following command is recommended online to share a jpeg image
+
+```shell
+# Mogrify is part of the ImageMagick suite of tools
+mogrify -auto-orient -define jpeg:dct-method=float -quality 75 -strip \
+-interlace Plane -sampling-factor 4:2:0 -resize '1400x1400>' *.jpg
+```
 
 ---
 
@@ -202,7 +268,9 @@ Not exactly sure what this does, but `mogrify -auto-orient -define jpeg:dct-meth
 
 ### Connecting
 
-Use `ssh username@host.name` 
+```shell
+ssh username@host.name
+```
 
 ### Setting a specific port
 
@@ -224,7 +292,7 @@ user@server:path/to/file
 
 To copy whole directories, add the `-r` (recursive) flag.
 
-To transfer along a specific port, use `scp -P <port-number>` Note that this is a capital *P*, unlike the `ssh` command's *port* flag which must be lower case. Great stuff.
+To transfer along a specific port, use `scp -P <port-number>` Note that this is a capital *P*, unlike the `ssh` command's *port* flag which must be lower case.  Great stuff.
 
 ### Getting around the password requirement with key files
 
@@ -255,7 +323,7 @@ cat file1.txt file2.txt file3.txt | sort > file4.txt
 ### Appending file contents to an existing file
 
 ```shell
-# note the double chevron
+# Note the double chevron
 cat file1.txt >> file2.txt
 ```
 
@@ -313,7 +381,7 @@ Output can be piped to `sort -h` to organise directories from smallest to larges
 
 ## Check which packages depend on a given package
 
-On Manjaro linux:
+On Manjaro:
 
 ```shell
 pamac -Qii <package-name>

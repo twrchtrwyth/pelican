@@ -20,6 +20,7 @@ sudo pacman -Syu
 ```shell
 # Get information about a package, including its dependents and dependencies
 pacman -Qii packagename
+
 ```
 
 # Searching

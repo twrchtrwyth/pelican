@@ -4,6 +4,7 @@ Date: 17-08-2022 18:10
 Category: examples
 Tags: pelican, python, programming, javascript
 Slug: syntax-highlighting
+Summary: A demonstration of syntax highlighting.
 Status: hidden
 ---
 

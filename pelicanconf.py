@@ -93,4 +93,5 @@ PHRASES = [  # For use in the `About` section of base.html
     'The mediator between the head and the hands must be the heart.',
     'Gaga di bling blong. Gaga blung.',
     'Who called love conquering, when its sweet flower so easily dries among the sour lanes of the living?',
+    'We are a way for the cosmos to know itself.',
 ]

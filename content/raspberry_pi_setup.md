@@ -68,11 +68,15 @@ NB: The country code is the `ISO 3166-1` code for that country. This can be look
 
 Add the following to the end of `config.txt` within the boot partition:
 
-`dtoverlay=dwc2`
+```
+dtoverlay=dwc2
+```
 
 Add the following to `cmdline.txt` (also within the boot partition), after the word `rootwait` and before `quiet`:
 
-` modules-load=dwc2,g_ether`
+```
+modules-load=dwc2,g_ether
+```
 
 `g_ether` enables the USB port to act as an Ethernet cable (I think).  Unfortunately this never seems to work properly for me.
 
@@ -110,7 +114,7 @@ This will give the Pi the IP Address `192.168.7.2`. (This could be any address--
 
 Save the file, then run:
 
-```bash
+```shell
 sudo ifdown usb0  # This might fail, which is fine.
 sudo ifup usb0
 ifconfig usb0  # This should now show the above IP Address as the inet address.
