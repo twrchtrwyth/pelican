@@ -44,8 +44,9 @@ To crop an image in the simplest sense use the following (probably not the most 
 
 ```shell
 $ identify image.jpg
-image.jpg JPEG 1280x960 1280x960+0+0 8-bit sRGB 209774B 0.000u 0:00.000 
-$ convert image.jpg -crop 1280x800+0+0 image-cropped.jpg  # This crops from the bottom
+image.jpg JPEG 1280x960 1280x960+0+0 8-bit sRGB 209774B 0.000u 0:00.000
+# This crops from the bottom
+$ convert image.jpg -crop 1280x800+0+0 image-cropped.jpg
 ```
 
 The values after the image dimensions are used to tell imagemagick where to begin cropping (and in which direction?). These values can be negative.

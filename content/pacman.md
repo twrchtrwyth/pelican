@@ -58,7 +58,8 @@ sudo pacman -R packagename
 # Remove packagename and all unneeded dependencies
 sudo pacman -Rsu packagename
 # DANGER ZONE #
-# Remove package and *everything* that depends on it, will offer confirmation (I think)
+# Remove package and *everything* that depends on it
+# Will offer confirmation (I think)
 sudo pacman -Rc packagename
 # - EXTREME DANGER ZONE - #
 # DO NOT USE THIS.  Like the above but no confirmation option!
@@ -87,14 +88,23 @@ sudo pacman -Sw packagename
 sudo pacman -Sc
 # Clear the cache completely. Use with care
 sudo pacman -Scc
-# Below is the safest way to clear the cache - it will remove cache files except latest three versions
+# Below is the safest way to clear the cache
+# It will remove cache files except the latest three versions
 paccache -rvk3
 ```
 
 # Updating mirrorlist with fastest mirrors
 ```shell
-# Useful if for some reason download speed becomes very slow.
+# Useful if for some reason download speed becomes very slow
 sudo pacman-mirrors --fasttrack && sudo pacman -Syu
+```
+
+# Checking the logs
+```shell
+# To open the full log file
+$EDITOR /var/log/pacman.log
+# Using grep
+cat /var/log/pacman.log | grep -i searchstring
 ```
 
 # Config

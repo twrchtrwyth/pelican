@@ -16,5 +16,6 @@ For some reason, bitmap fonts appear to be disabled by default on Manjaro.  To r
 ```shell
 sudo rm /etc/fonts/conf.d/70-no-bitmaps.conf
 sudo mkdir /etc/fonts/conf.avail  # Skip if directory already exists.
-sudo ln -s /etc/fonts/conf.avail/70-yes-bitmaps.conf /etc/fonts/conf.d/70-yes-bitmaps.conf
+sudo ln -s /etc/fonts/conf.avail/70-yes-bitmaps.conf \
+/etc/fonts/conf.d/70-yes-bitmaps.conf
 ```

@@ -5,12 +5,12 @@ Category: books
 Tags: books
 Status: published
 Slug: books
-Summary: A list of books wot I have read.
+Summary: A list of books I have read/am reading.
 ---
 
-## Books wot I have enjoyed
+This is a list of books and/or short stories I can recall reading, which probably means I enjoyed them.
 
-### Before records began
+## Before records began
 
 Haruki Murakami
 : Norwegian Wood
@@ -18,7 +18,7 @@ Haruki Murakami
 : Kafka on the Shore
 : Hard-Boiled Wonderland and the End of the World
 : The Elephant Vanishes
-: 1Q84 (Books 1 & 2)
+: 1Q84
 : South of the Border, West of the Sun
 
 Gene Wolfe
@@ -91,12 +91,32 @@ Leonard Mlodinow
 Lady Sarashina
 : As I Crossed a Bridge of Dreams
 
-### July 2023
+Philip K. Dick
+: Do Androids Dream of Electric Sheep?
+
+Anthony Burgess
+: A Clockwork Orange
+
+Isaac Asimov
+: The Caves of Steel
+: The Naked Sun
+
+Seishi Yokomizo
+: The Honjin Murders
+
+Junji Ito
+: Junji Ito's Cat Diary: Yon & Mu
+
+---
+
+---
+
+## July 2023
 
 Fyodor Dostoevsky
 : Crime & Punishment
 
-### August 2023
+## August 2023
 
 Agatha Christie
 : Murder on the Orient Express 
@@ -107,31 +127,62 @@ Arkady & Boris Strugatsky
 Aneirin
 : Y Gododdin (with translation by Gillian Clarke)
 
-### September 2023
+## September 2023
 
 Martin MacInnes
 : In Ascension
 
-### December 2023
+## December 2023
 
 Okakura Kakuzō
 : The Book of Tea
 
-### Currently Reading
+---
 
-Commitment issues?
+*Didn't really keep track for a while, but read these...
 
-Olaf Stapledon
-: Star Maker
+Nicklas Brendborg
+: Jellyfish Age Backwards
+
+---
+
+## June 2024
+
+Umberto Eco
+: Foucault's Pendulum
+
+## August 2024
+
+Ned Beauman
+: Venomous Lumpsucker
+
+Kazushige Abe
+: Nipponia nippon
+
+## January 2025
 
 Ursula Le Guin
 : The Dispossessed
+
+Gene Wolfe
+: The Fifth Head of Cerberus
+
+---
+
+---
+
+## Unfinished
+
+I aim to get round to getting through these one day...
+
+Olaf Stapledon
+: Star Maker
 
 James Joyce
 : Ulysses
 
 Jorge Luis Borges
-: Ficciones
+: Ficciones (I seem to be permanently reading and rereading this)
 : Labyrinths
 
 Ian Stewart
@@ -152,6 +203,7 @@ John Barth
 Unknown Author
 : Y Mabinogi
 : The Epic of Gilgamesh
+: Beowulf (translated by Maria Dahvana Headley)
 
 Leo Tolstoy
 : Anna Karenina
@@ -185,6 +237,9 @@ Samir Okasha
 
 Italo Calvino
 : Under the Jaguar Sun
+: The Complete Cosmicomics
+: Invisible Cities
+: If on a Winter's Night a Traveller
 
 Ben Goldacre
 : Bad Pharma
@@ -205,7 +260,6 @@ William S. Burroughs
 : The Naked Lunch
 
 Haruki Murakami
-: 1Q84 (Book 3)
 : Underground
 
 Stanisław Lem
@@ -315,3 +369,52 @@ Sean Carroll
 
 Martin MacInnes
 : Infinite Ground
+
+Daniel Quinn
+: Ishmael
+
+Miyamoto Musashi
+: The Book of Five Rings
+
+Simon Singh
+: The Code Book
+
+David van Reybrouck
+: Against Elections
+
+Desmond Seward
+: A Brief History of the Wars of the Roses
+
+Marlon James
+: Black Leopard Red Wolf
+
+Osamu Dazai
+: No Longer Human
+
+Jeff Noon & Steve Beard
+: Gogmagog
+
+Naomi Klein
+: Doppelganger
+
+Homer
+: The Iliad (translated by Emily Wilson)
+: The Odyssey (translated by Emily Wilson)
+
+Emma Smith
+: This Is Shakespeare
+
+David Darling & Agnijo Banerjee
+: Weird Maths
+
+Ursula Le Guin
+: The Left Hand of Darkness
+
+Ananyo Bhattacharya
+: The Man from the Future
+
+Hilary Mantel
+: Wolf Hall
+
+Vicky Neale
+: Closing the Gap

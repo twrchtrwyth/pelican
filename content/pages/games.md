@@ -5,7 +5,7 @@ Category: videogames
 Tags: games
 Status: published
 Slug: videogames
-Summary: A list of games wot I have enjoyed.
+Summary: A list of computer games I have played and enjoyed.
 ---
 
 Super Nintendo

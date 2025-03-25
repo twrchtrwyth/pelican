@@ -24,18 +24,11 @@ section, summary, time, mark, audio, video {
   border: 0;
   font-size: 100%;
   font: inherit;
-  vertical-align: baseline;
-}
-
-/* Uncomment to show red boxes around elements --- useful to find overly wide bits
-body { margin: 30px; }
-body * { border: 1px solid red; }
+  vertical-align: baseline;}
 
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
-  display: block;
-}
-*/
+  display: block;}
 
 body {
   line-height: 1;
@@ -283,7 +276,7 @@ input, select, textarea {
     font-size: 0.95em;
     margin: 0 0.25em;
     padding: 0.25em 0.65em;
-    /* overflow-x: auto; */
+    width: 90%;
   }
 
   /* Inline code */
@@ -301,14 +294,13 @@ input, select, textarea {
     font-family: "Courier New", monospace;
     font-size: 0.9em;
     margin: 0 0 2em 0;
-    width: 95%;
   }
 
     pre code {
       display: block;
       line-height: 1.75em;
       padding: 0.5em 1em;
-      overflow-x: scroll;
+      overflow-x: auto;
     }
 
   hr {
