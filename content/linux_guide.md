@@ -294,18 +294,37 @@ To copy whole directories, add the `-r` (recursive) flag.
 
 To transfer along a specific port, use `scp -P <port-number>` Note that this is a capital *P*, unlike the `ssh` command's *port* flag which must be lower case.  Great stuff.
 
+### Setting an alias
+
+Instead of having to type out the user and hostname every time, an alias can be set in `~/.ssh/config`
+
+```shell
+Host alias
+	HostName hostname (usually the IP address)
+	User username (on remote machine)
+```
+
 ### Getting around the password requirement with key files
 
-A pair of key files can be generated with the `ssh-keygen -t rsa` command. The public key can be moved to the server (with `scp`), and the private key left on the computer which generated it. THE PRIVATE KEY SHOULD NEVER BE MOVED OR DUPLICATED.
+A pair of key files can be generated with the `ssh-keygen -t rsa` command. The public key (ending with `.pub`) can be moved from your computer to the server (e.g. with `scp`, though see below for an easier method), and the private key left on the computer which generated it. **THE PRIVATE KEY SHOULD NEVER BE MOVED OR DUPLICATED.**
 
-After running the above command, it will prompt the user as to where they would like to save the key pair. The default option is fine. When it asks for a password, simply hit Enter both times to skip.
+After running the above command, it will ask the user where they would like to save the key pair. The default option is fine. When it asks for a password, simply hit Enter both times to skip.
 
-#### Copying ssh keys the easy way
+#### Copying ssh keys (the easy way)
 
 After generating keys as described above, use the following command to move it to your server.
 
 ```shell
 ssh-copy-id -i ~/.ssh/id_rsa.pub user@server
+```
+
+### Processes
+
+To list all processes currently running on the remote machine, run:
+
+```shell
+ps aux  # All processes
+ps aux | grep scp  #  Specific process type
 ```
 
 ---

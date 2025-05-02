@@ -56,6 +56,20 @@ Create a Connection with hypervisor type `QEMU/KVM` then click on `Create a new 
 * Add a watchdog (will reboot the guest when it hangs)--no need to change settings
 * Add hardware RNG to get entropy from the host
 
+## Fixing issues with internet connection
+
+The file `/etc/libvirt/network.conf` on the host machine must contain the following (uncomment the line and change from the default of "nftables"), otherwise the network interface is agonisingly slow to the point of uselessness.  It may be necessary to add the user to the correct groups again for this change to take effect: it didn't help until I did this, anyway.
+
+```bash
+firewall_backend = "iptables"
+```
+
+It may also be necessary to run the following on the guest OS (alone this did not fix the issue, but it was then resolved after making the above edit, so I don't know if both are strictly necessary or not):
+
+```bash
+sudo /usr/sbin/ethtool --offload eth0 gso off tso off sg off gro off
+```
+
 ## Allow file sharing between host/guest
 
 The below shows how to set up Virtio-FS, which uses `hugepages` to share files.
@@ -122,6 +136,29 @@ Or, to do this automatically when the guest is booted, run the following on the 
 
 ```bash
 echo "mount_tag /mnt/mount/path virtiofs rw,noatime,_netdev 0 0" >> /etc/fstab
+```
+
+## Using 9P for file sharing instead
+
+This method seems simpler.  (I don't think hugepages are required.)
+
+```xml
+<domain>
+...
+  <devices>
+    ...
+    <filesystem type="mount" accessmode="mapped">
+      <source dir="/path/on/host"/>
+      <target dir="mount_tag"/>
+    </filesystem>
+  </devices>
+</domain>
+```
+
+Then on the guest machine:
+
+```bash
+mount -t 9p -o trans=virtio,version=9p2000.L  mount_tag /path/to/mount_point/on/guest
 ```
 
 ---

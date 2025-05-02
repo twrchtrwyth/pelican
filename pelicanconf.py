@@ -35,7 +35,7 @@ ABOUT = 'Rhydd i bawb ei farn, ac i bob barn ei llafar.'
 PATH = 'content'
 
 # The theme folder must be in Pelican's root folder (the same one as the content folder).
-THEME = 'themes/future-imperfect'
+THEME = 'themes/basic'
 
 TIMEZONE = 'Europe/London'
 
@@ -66,7 +66,7 @@ CONTACTS = [
     ("Email", "envelope", "#"),
 ]
 
-DEFAULT_PAGINATION = 5
+DEFAULT_PAGINATION = 0
 SUMMARY_MAX_LENGTH = 20
 SUMMARY_END_SUFFIX = "..."
 

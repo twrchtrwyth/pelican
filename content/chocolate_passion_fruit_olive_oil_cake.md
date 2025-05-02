@@ -6,7 +6,7 @@ Category: recipes
 Tags: cake, baking
 Slug: chocolate-passion-fruit-cake
 Status: published
-Summary: Haven't actually tried this one yet.
+Summary: Couldn't really taste the passion fruit tbh
 ---
 
 # CHOCOLATE, PASSION FRUIT AND OLIVE OIL CAKE

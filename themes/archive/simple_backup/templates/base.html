@@ -42,11 +42,6 @@
 <body>
         <header>
               <hgroup><h1><a href="{{ SITEURL }}/">{{ SITENAME }}</a></h1>{% if SITESUBTITLE %}<p>{{ SITESUBTITLE }}</p>{% endif %}</hgroup>
-        </header>
-        <main>
-        {% block content %}
-        {% endblock %}
-        </main>
         <nav><ul>
         {% for title, link in MENUITEMS %}
             <li><a href="{{ link }}">{{ title }}</a></li>
@@ -62,6 +57,11 @@
           {% endfor %}
         {% endif %}
         </ul></nav>
+        </header>
+        <main>
+        {% block content %}
+        {% endblock %}
+        </main>
         <footer>
                 <address>
                 You who read me, are You sure of understanding my language?
