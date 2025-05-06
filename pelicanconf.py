@@ -8,11 +8,10 @@ SITENAME = u'The Library of Babel'
 SITESUBTITLE = 'LEAGUES OF SENSELESS CACOPHONIES'
 SITEURL = 'https://oki.nohost.me/babel'
 
-STATIC_PATHS = ['images', 'extra',]
+STATIC_PATHS = ['images', 'extra']
 #EXTRA_PATH_METADATA = {
 #    'extra/favicon.ico': {'path': 'favicon.ico'},  # Haven't set this yet.
 #}
-FAVICON = "{{ PATH }}/extra/favicon.ico"
 
 # To publish an article, add Status: published to the metadata.
 DEFAULT_METADATA = {
@@ -34,8 +33,10 @@ ABOUT = 'Rhydd i bawb ei farn, ac i bob barn ei llafar.'
 # Defines where Pelican looks for its articles.
 PATH = 'content'
 
+FAVICON = "{{ PATH }}/extra/favicon.ico"
+
 # The theme folder must be in Pelican's root folder (the same one as the content folder).
-THEME = 'themes/basic'
+THEME = 'themes/simple'
 
 TIMEZONE = 'Europe/London'
 
@@ -77,9 +78,9 @@ SUMMARY_END_SUFFIX = "..."
 TYPOGRIFY = True
 TYPOGRIFY_DASHES = 'oldschool_inverted'
 
-MATH_JAX = {
-    "responsive": True,
-}
+#MATH_JAX = {
+#    "responsive": True,
+#}
 
 JINJA_FILTERS = {
     "bywyd": prif,
