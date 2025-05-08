@@ -22,8 +22,6 @@ The `xprop` command will list various useful pieces of information about a windo
 
 ## Getting window dimensions
 
-Use `xdotool` to do this. For example:
-
 ```bash
 xdotool getwindowfocus getwindowgeometry  # Returns size of current window.
 xdotool selectwindow getwindowgeometry  # Allows selection of window.
@@ -40,14 +38,18 @@ The `xev` command will open a window and output information about any keys press
 ## Sending command output to a file.
 
 ```shell
-command [options] [arguments] > file_name
+command [options] [arguments] > file_name  # Overwrite
+command [options] [arguments] >> file_name # Append
 ```
 
 ---
 
 ## Sorting content of a text file.
 
-The `sort` command can be used to do this. It should be followed by the name of the file to sort. To sort by the second "column" of information (e.g. the second word in a sentence), the `-k 2` option can be specified, etc.
+```shell
+sort filename  # Sort alphabetically by first letter of line
+sort -k2 filename  # Sort alphabetically by first letter of second word, etc.
+```.
 
 ---
 
@@ -78,7 +80,7 @@ The `locate` command will search the system for a file name. It is not live: it 
 
 ### fzf
 
-Alternatively, install the fuzzy finder `fzf` from your distro's repositories and reap all of its wonderful benefits. With some simple configuration this also lets you search through your command history, which is hugely helpful.
+Alternatively, install the fuzzy finder `fzf` from your distro's repositories and reap all of its wonderful benefits. With some simple configuration this also lets you search through your command history.
 
 ---
 
