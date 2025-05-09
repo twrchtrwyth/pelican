@@ -1,4 +1,4 @@
-/* Anchors */
+/* Styling of links */
 a {outline: 0;}
 a img {border: 0px; text-decoration: none;}
 a:link {
@@ -42,4 +42,27 @@ hr {
     height: 0;
     border-top: 1px solid rgba(0, 0, 0, 0.1);
     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+/* Styling of the nav element which contains lists */
+/* nav { */
+    /* column-gap: 2em; */
+    /* display: grid; */
+    /* grid-template-columns: auto auto auto auto; */
+    /* padding: 1em 0; */
+/* } */
+
+/* Styling of lists */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li:first-child {
+    font-weight: bold;
+}
+
+li:last-child {
+    margin: 0 0 1em;
 }
