@@ -1,8 +1,14 @@
-/* Styling of links */
-a {outline: 0;}
-a img {border: 0px; text-decoration: none;}
+/* Much of this was cribbed from the stylesheet for xxiivv.com --- my thanks to Devine Lu Linvega */
+body { background:#fff;font-family:serif;font-size:16px;overflow-x:hidden }
+
+/* Main section of page */
+main { margin-left:30px; max-width:624px; clear:both; position:relative }
+
+/* Links */
+a { outline: 0; }
+a img { border: 0px; text-decoration: none; }
 a:link {
-    color: #000000;  /* Need to set this properly to match font colour */
+    color: #000000;
     padding: 0 1px;
     text-decoration: underline;
     font-weight: normal;
@@ -15,14 +21,12 @@ a:visited {
     font-weight: lighter;
     font-style: italic;
 }
-a:hover, a:active {
+a:hover, a:active { text-decoration: underline; font-weight: bold; }
+    /* text-shadow: 1px 1px 1px #333; */
     /* background-color: #C74350; */
     /* color: #222222; */
-    text-decoration: underline;
-    /* text-shadow: 1px 1px 1px #333; */
-    font-weight: bold;
-}
 
+/* Headings */
 h1, h2 {
     a:link, a:visited, a:hover, a:active {
         font-weight: bold;
@@ -31,18 +35,11 @@ h1, h2 {
     }
 }
 
-nav {
-    a:link {
-        font-style: normal;
-    }
-}
+/* Navigation section */
+nav { a:link { font-style: normal; } }
 
-hr {
-    border: 0;
-    height: 0;
-    border-top: 1px solid rgba(0, 0, 0, 0.1);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
-}
+/* Horizontal rule */
+hr { clear:both; border:0 }
 
 /* Styling of the nav element which contains lists */
 /* nav { */
@@ -52,17 +49,21 @@ hr {
     /* padding: 1em 0; */
 /* } */
 
-/* Styling of lists */
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
+/* Lists */
+ul { list-style-type:none; margin:0; padding:0; }
+li:first-child { font-weight: bold; }
+li:last-child { margin: 0 0 1em; }
 
-li:first-child {
-    font-weight: bold;
-}
+/* Code blocks */
+pre { tab-size: 2 }
+main pre { margin-bottom: 30px; overflow: auto; background-color: #efefef; padding: 10px; font-size: 85%; }
+main pre code, main pre i { color: #888 }
+main code { white-space: pre }
 
-li:last-child {
-    margin: 0 0 1em;
-}
+/* Images */
+main img, main svg { max-width: 100%; display: inline-block; max-width: 400px }
+
+main p { line-height:160%; }
+
+/* Styling of footer */
+footer { border-top: 1px solid black }

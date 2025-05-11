@@ -4,7 +4,7 @@ Date: 2023-04-27 17:45
 Category: maths
 Tags: binomial, polynomial, algebra, pascals triangle
 Summary: A brief overview of the binomial theorem.
-Status: published
+Status: hidden
 ---
 
 Below is the binomial theorem:
