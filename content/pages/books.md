@@ -8,7 +8,7 @@ Slug: books
 Summary: A list of books I have read/am reading.
 ---
 
-This is a list of books and/or short stories I can recall reading, which probably means I enjoyed them.
+This is a list of books and/or short stories that I can recall reading, which probably means I enjoyed them.
 
 ## Before records began
 
@@ -107,9 +107,6 @@ Seishi Yokomizo
 Junji Ito
 : Junji Ito's Cat Diary: Yon & Mu
 
----
-
----
 
 ## July 2023
 
@@ -139,7 +136,7 @@ Okakura Kakuzō
 
 ---
 
-*Didn't really keep track for a while, but read these...
+*Didn't really keep track for a while, but I can remember reading...*
 
 Nicklas Brendborg
 : Jellyfish Age Backwards
@@ -167,13 +164,10 @@ Ursula Le Guin
 Gene Wolfe
 : The Fifth Head of Cerberus
 
----
-
----
 
 ## Unfinished
 
-I aim to get round to getting through these one day...
+*The fact that I did not finish the below is not necessarily a reflection on their quality. I aim to get through them all one day...*
 
 Olaf Stapledon
 : Star Maker

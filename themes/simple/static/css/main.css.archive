@@ -1,0 +1,13 @@
+/* Horizontal rule */
+hr { clear:both; border:0 }
+
+/* Styling of the nav element which contains lists */
+nav {
+    column-gap: 2em;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding: 1em 0;
+}
+
+/* Extras that aren't in main.css */
+a:hover, a:active { text-shadow: 1px 1px 1px #333; background-color: #C74350; color: #222222 };

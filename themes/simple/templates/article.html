@@ -30,7 +30,15 @@
  {% import 'translations.html' as translations with context %}
  {{ translations.translations_for(article) }}
   </header>
+
+  <!-- Set the `Image` metadata within each post - the below will then display this image. -->
+  <!-- Images must be stored in the `pelican/content/images/` directory. -->
+  {% if article.image %}
+  <a href="{{ article.url }}" class="image featured"><img src="{{ SITEURL }}/images/{{ article.image }}" alt="" /></a>
+  {% endif %}
+
   {{ article.content }}
+
   <footer>
     <p>Published: <time datetime="{{ article.date.isoformat() }}">
       {{ article.locale_date }}

@@ -8,8 +8,6 @@ Slug: chocolate-passion-fruit-cake
 Status: published
 Summary: Couldn't really taste the passion fruit tbh
 ---
-
-# CHOCOLATE, PASSION FRUIT AND OLIVE OIL CAKE
  
 Based on a Swedish cake called *kladdkaka*.
 

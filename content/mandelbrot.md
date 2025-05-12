@@ -30,15 +30,12 @@ f(0), f(f(0)), f(f(f(0)))\.\.\.
 
 To visualise the set using a computer, we take the real and imaginary parts of *c* to represent coordinates on a complex plane[^compplane]. We then iterate over all pixels corresponding to each value of *c* on this plane of coordinates, and colour each according to how rapidly the output of the function exceeds an arbitrarily[^arbval] chosen value.
 
-A very simple visualisation, written in C, where any pixels in the set are black and all other values are white, is shown below.
+A very simple visualisation, written in C, where any pixels in the set are black and all other values are white, is shown above.
 
-<center>![Mandelbrot Set C]({static}/images/mandelbrotc.png){width=200}</center>
+This has a strange, insectoid beauty of its own, but to truly appreciate the complexity that can emerge the pixels should be coloured according to how rapidly each corresponding value of *c* diverges towards infinity. Below is an example I generated using Python:
 
-This has a strange beauty of its own, but to truly appreciate the complexity that can emerge the pixels should be coloured according to how rapidly each corresponding value of *c* diverges towards infinity. Below is an example I generated using Python:
+![Mandelbrot Set Python]({static}/images/mandelbrotpython.png)
 
-<center>
-![Mandelbrot Set Python]({static}/images/mandelbrotpython.png){width=200}
-</center>
 
 [^compnum]: Complex numbers are of general format *a + bi*, where *i* represents *&radic;-1*. They are so named because they are a complex of both a *real* and an *imaginary* component. In this example *a* represents the *real* and *bi* represents the *imaginary* component.
 
