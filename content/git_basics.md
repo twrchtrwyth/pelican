@@ -8,7 +8,9 @@ Slug: git-basics
 Summary: An introduction to version control with Git.
 ---
 
-Here are some introductory Git commands to help with version control. There is further information on managing repos [here]({filename}git_repository_management.md).
+Here are some introductory Git commands to help with version control. There is further information on managing repos [here][].
+
+[here]: {filename}git_repository_management.md
 
 ## Creating a gitignore file
 

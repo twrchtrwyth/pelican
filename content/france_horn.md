@@ -4,14 +4,17 @@ Date: 2022-09-05 12:20
 Category: videogames
 Tags: playdate
 Slug: france-horn
-Summary: Grittily accurate horn soloist simulator.
+Summary: All horns are played using a crank, right?
 Image: france_horn.jpg
+Caption: Soloist with horn
 Status: published
 ---
 
-> Platform: [Playdate](https://play.date/)  
-> Available from: [itch.io](https://amazingthew.itch.io/francehorn)  
+> Platform: [Playdate][] 
+> Available from: [itch.io][itch] 
 
+[playdate]: https://play.date/
+[itch]: https://amazingthew.itch.io/francehorn
 
 Darkness.
 

@@ -8,6 +8,7 @@ Slug: pioneer-plaque
 Status: published
 Summary: A description of the plaque attached to the Pioneer 10 spacecraft and what it represents.
 Image: pioneer.svg
+Caption: The Pioneer 10 Plaque photographed on Earth
 ---
 
 The Pioneer 10 space probe, launched in 1972, is currently one of five man-made objects that have either left, or are on course to leave, the solar system. Attached to the probe is a small engraved aluminium plaque anodised with gold. At the time the probe was launched, it was thought that it would be the first such object to leave the solar system (it has actually now been overtaken by Voyager I and will soon be overtaken by Voyager II). As such, Eric Burgess and Richard Hoagland approached Carl Sagan to suggest that the craft carry some indication of the area and time from which it originates, as well as a representation of its creators.

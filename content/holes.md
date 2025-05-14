@@ -1,16 +1,15 @@
 ---
-Title: A Hole through a Hole in a Hole
+Title: Topology
 Date: 2023-05-01 22:50
 Author: Wil Ifan
 Category: maths
 Tags: topology
 Slug: holes
 Status: hidden
-Summary: Topological quirks.
-Image:
+Summary: Holey goodness.
+Image: hole.png
+Caption: A Hole through a Hole in a Hole
 ---
-
-<center>![Holes]({static}/images/hole.png){width=200}</center>
 
 Topology stems from Euler's formula for polyhedra:
 

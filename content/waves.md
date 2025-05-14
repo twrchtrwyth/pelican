@@ -7,7 +7,6 @@ Tags: physics, waves
 Slug: waves
 Status: hidden
 Summary: The wave equation
-Image:
 ---
 
 Here is the wave equation in one space dimension.

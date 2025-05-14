@@ -20,4 +20,6 @@ xdg-mime default pcmanfm.desktop inode/directory application
 
 Alternatively, edit the line containing, for example, `inode/directory=dolphin.desktop` in the file `~/.local/share/applications/mimeapps.list`
 
-The above information was gleaned from [this](https://forum.manjaro.org/t/how-do-i-change-the-default-file-manager-from-the-terminal/33417) forum post.
+The above information was gleaned from [this][forum] forum post.
+
+[forum]: https://forum.manjaro.org/t/how-do-i-change-the-default-file-manager-from-the-terminal/33417

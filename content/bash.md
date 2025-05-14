@@ -51,4 +51,6 @@ history
 ```
 
 # External
-[Manjaro Wiki: Useful Bash Functions and Aliases](https://forum.manjaro.org/t/tip-useful-bash-functions-and-aliases/90305)
+[Manjaro Wiki: Useful Bash Functions and Aliases][manjaro wiki]
+
+[manjaro wiki]: https://forum.manjaro.org/t/tip-useful-bash-functions-and-aliases/90305

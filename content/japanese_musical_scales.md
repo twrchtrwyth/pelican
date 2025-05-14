@@ -8,6 +8,7 @@ Slug: japanese-musical-scales
 Status: published
 Summary: Some examples of pentatonic scales used in traditional Japanese music.
 Image: in.svg
+Caption: The In scale
 ---
 
 Traditional Japanese music uses a variety of very characteristic pentatonic scales. Below are some examples, as well as a couple of modes. As an interesting side note, traditionally in Japan the root is not the first note of the scale as in "Western" music, but the *third* note in the pentatonic scale: that is, the central note. This supposedly ties in with historical concepts of balance and harmony.

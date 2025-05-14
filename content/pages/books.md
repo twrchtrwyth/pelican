@@ -134,14 +134,10 @@ Martin MacInnes
 Okakura Kakuzō
 : The Book of Tea
 
----
-
 *Didn't really keep track for a while, but I can remember reading...*
 
 Nicklas Brendborg
 : Jellyfish Age Backwards
-
----
 
 ## June 2024
 

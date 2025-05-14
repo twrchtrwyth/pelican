@@ -8,9 +8,10 @@ Slug: chem
 Status: hidden
 Summary: Some examples of chemical structures drawn using groff's chem preprocessor.
 Image: morphine.png
+Caption: Morphine, so named for Morpheus, Ancient Greek god of dreams
 ---
 
-Here are some moderately complex chemical structures created using `groff`'s `chem` preprocessor. Groff is a document formatting system included with most Linux distros.
+Here are some moderately complex chemical structures created using groff's `chem` preprocessor. [Groff]({filename}groff.md) is a document formatting system included with most Linux distros.
 
 I will show the structure above the block of code from which it was generated. To generate the images, as per the `chem` manpage I ran the following command, adding the redirect to a postscript file:
 

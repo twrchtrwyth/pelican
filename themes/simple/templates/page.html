@@ -20,6 +20,12 @@
     {% import 'translations.html' as translations with context %}
     {{ translations.translations_for(page) }}
 
+    <!-- Set the `Image` metadata within each post - the below will then display this image. -->
+    <!-- Images must be stored in the `pelican/content/images/` directory. -->
+    {% if page.image %}
+    <figure><img src="{{ SITEURL }}/images/{{ page.image }}" alt="" /><figcaption>{{ page.caption }}</figcaption></figure>
+    {% endif %}
+
     {{ page.content }}
 
     {% if page.modified %}

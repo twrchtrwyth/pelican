@@ -113,4 +113,6 @@ Pacman's settings are located in `/etc/pacman.conf`.  To enable colour output, u
 ---
 
 # External
-[Manjaro Wiki: Pacman Overview](https://wiki.manjaro.org/index.php?title=Pacman_Overview)
+[Manjaro Wiki: Pacman Overview][wiki]
+
+[wiki]: https://wiki.manjaro.org/index.php?title=Pacman_Overview

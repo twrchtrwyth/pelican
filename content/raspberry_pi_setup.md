@@ -10,13 +10,14 @@ Status: published
 
 ## INSTALLING THE OS
 
-First, install the latest version of Raspberry Pi OS Lite from [the Raspberry Pi website](https://www.raspberrypi.com/software/operating-systems/#raspberry-pi-os-32-bit). I generally write this to an SD card using balenaEtcher, but it's possible to use `dd` the command line if desired:
+First, install the latest version of Raspberry Pi OS Lite from [the Raspberry Pi website][pisite]
+
+[pisite]: https://www.raspberrypi.com/software/operating-systems/#raspberry-pi-os-32-bit
 
 ```shell
+sudo fdisk -l  # Find the path to the SD card
 sudo dd bs=4M if=/path/to/image of=/path/to/drive status=progress oflag=sync
 ```
-
-To find the path to the drive, check the output of `sudo fdisk -l`.
 
 ---
 
@@ -44,8 +45,11 @@ Then paste the output into the `userconf` file as above.
 
 ## CONNECTING TO WIFI
 
-1. Create the file `wpa_supplicant.conf` with the command `touch /path-to-boot-partition/wpa_supplicant.conf`
-1. Add the following to the file (obviously, replacing the placeholder text), then save it:
+```shell
+touch /path-to-boot-partition/wpa_supplicant.conf
+```
+
+Add the following to the file (obviously, replacing the placeholder text), then save it:
 
 ```text
 country=GB

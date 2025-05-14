@@ -7,7 +7,6 @@ Tags: command line
 Slug: unix-wildcards
 Status: draft
 Summary: An overview of wildcards in bash.
-Image:
 ---
 
 # Wildcards

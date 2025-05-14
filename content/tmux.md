@@ -11,6 +11,37 @@ Tmux is a terminal multiplexer: it allows running multiple terminal emulators in
 
 This post covers just a few basic tmux operations.
 
+## Configuring
+
+First, tmux's defaults are awful.  Create the file `.tmux.conf` in the home directory and add the following:
+
+```
+# Allow mouse control
+set -g mouse on
+
+# Rebind Ctrl-B to Ctrl-S
+# Messes with save shortcut in micro
+unbind C-b
+set-option -g prefix C-s
+bind-key C-s send-prefix
+
+# Use | and - to split panes instead of " and %
+bind | split-window -h
+bind - split-window -v
+unbind '"'
+unbind %
+
+# Bind Meta (usually Alt) + Arrow to change panes
+# Will interfere with bindings in micro text editor
+bind -n M-Left select-pane -L
+bind -n M-Right select-pane -R
+bind -n M-Up select-pane -U
+bind -n M-Down select-pane -D
+
+# Stop automatic renaming of windows, name manually with Ctrl-B ,
+set-option -g allow-rename off
+```
+
 ## Launching tmux
 
 This is pretty easy... Just run `tmux`

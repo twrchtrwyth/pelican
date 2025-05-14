@@ -10,7 +10,9 @@ Summary: How to set up a virtual machine using KVM and Virtual Machine Manager.
 
 This is a half-remembered method for setting up VMs on Manjaro since VirtualBox became an unusable CPU hog.
 
-The method uses the Linux kernel's native virtualisation functionality known as [KVM](https://www.redhat.com/en/topics/virtualization/what-is-KVM).  I've also installed Virtual Machine Manager (or `virt-manager` in the `pacman` repositories) to provide a GUI for creating and launching VMs.
+The method uses the Linux kernel's native virtualisation functionality known as [KVM][].  I've also installed Virtual Machine Manager (or `virt-manager` in the `pacman` repositories) to provide a GUI for creating and launching VMs.
+
+[kvm]: https://www.redhat.com/en/topics/virtualization/what-is-KVM
 
 Setup was a touch tricky due to some permissions issues: this was because my VMs live on the hard drive within the Ultrabase, and not at the usual location that KVM/QEMU expects (which I think is at `/var/lib/libvirt`).
 
@@ -164,5 +166,8 @@ mount -t 9p -o trans=virtio,version=9p2000.L  mount_tag /path/to/mount_point/on/
 ---
 
 # External
-[Manjaro Wiki: Virt-manager](https://wiki.manjaro.org/index.php?title=Virt-manager)
-[ArchWiki: libvirt](https://wiki.archlinux.org/title/Libvirt)
+[Manjaro Wiki: Virt-manager][manjaro wiki]
+[ArchWiki: libvirt][arch wiki]
+
+[manjaro wiki]: https://wiki.manjaro.org/index.php?title=Virt-manager
+[arch wiki]: https://wiki.archlinux.org/title/Libvirt

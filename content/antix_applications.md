@@ -15,7 +15,9 @@ In order to appear in the applications list that is visible upon right-clicking 
 /usr/share/applications
 ```
 
-The entry should be a plain text file, with the same name as the software in question but with a `.desktop` extension.  Example syntax from the file `surf.desktop` (suckless's `surf` browser) is below.
+The entry should be a plain text file, with the same name as the software in question but with a `.desktop` extension.  Example syntax from the file `surf.desktop` (the [surf][] browser) is below.
+
+[surf]: https://surf.suckless.org
 
 ```
 [Desktop Entry]

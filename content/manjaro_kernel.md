@@ -18,4 +18,11 @@ Three times now, after running `pacman -Syu`, Manjaro has, for some reason, sudd
 1. Run `mhwd-kernel -li` to show installed kernels (these will be called something like `linux61`. If I've understood things correctly Manjaro needs at least two kernels installed at any one time in order to work
 1. Run `pacman -S --overwrite "*" kernel1 kernel2...` to rebuild the kernels, then reboot and things should work.  Apparently it's not possible to reinstall a kernel from a chroot environment using the `mhwd-kernel` command, hence why this approach is needed.
 
-The above information was gleaned from [this](https://forum.manjaro.org/t/grub-cant-find-kernel-and-i-cant-manage-to-show-it-to-it-error-file-boot-vmlinuz-5-10-x86-64-not-found/128280) and [this](https://forum.manjaro.org/t/cannot-install-kernel/103154) forum post.
+The above information was gleaned from [this][forum1] and [this][forum2] forum post.
+
+[forum1]: https://forum.manjaro.org/t/grub-cant-find-kernel-and-i-cant-manage-to-show-it-to-it-error-file-boot-vmlinuz-5-10-x86-64-not-found/128280
+[forum2]: https://forum.manjaro.org/t/cannot-install-kernel/103154
+
+## Update
+
+I have since resolved this issue.  The problem was with grub which kept borking after kernel updates.  Somewhere, I have detailed the process by which I sorted this out\.\.\. But I can't remember where at the moment.  I'll update this page if I ever find it.

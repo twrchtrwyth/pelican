@@ -8,22 +8,19 @@ Slug: mandelbrot
 Status: published
 Summary: A simple description of the Mandelbrot set.
 Image: mandelbrotc.png
+Caption: The Mandelbrot Set created using C
 ---
 
 The **Mandelbrot Set** or **M-set** is a set of complex numbers[^compnum]. A complex number *c* is in the M-set if, upon repeatedly passing successive values of a second complex number *z* through the following equation, *z* never diverges towards infinity[^diverge].
 
 <p>
-<i>
 z<sub>n+1</sub> = z<sub>n</sub><sup>2</sup> + c
-</i>
 </p>
 
-The first value of *z* used is referred to as *z<sub>0</sub>* and is equal to 0. The above is often represented using function notation as *f(z) = z<sup>2</sup> + c*, and the process of repeatedly passing the value through the function is referred to as *iteration*. This sequence of iterations can be expressed algebraically as follows:
+The first value of *z* used is referred to as *z*<sub>0</sub> and is equal to 0. The above is often represented using function notation as *f(z) = z*<sup>2</sup> + *c*, and the process of repeatedly passing the value through the function is referred to as *iteration*. This sequence of iterations can be expressed algebraically as follows:
 
 <p>
-<i>
 f(0), f(f(0)), f(f(f(0)))\.\.\.
-</i>
 </p>
 
 ## Visualising the set

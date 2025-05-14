@@ -58,12 +58,19 @@ main code { white-space: pre }
 
 /* Images */
 main img, main svg { max-width: 75%; display: inline-block; margin: 0 0 25px; }
+/* Figure, which is the image at the top of the page */
+figure img { max-width: 100%; display:block; margin: 0; }
+figure figcaption { padding: 15px 0; font-size: 90%; font-style: italic; }
+figure:first-child { max-width: 100vw; margin-left: -30px; width: 800px; }
+figure:first-child figcaption { padding-left: 30px; }
 
 /* Paragraph element */
 main p { line-height:160%; }
 /* Site subtitle */
 header hgroup p { margin-top: 0.5em; }
 
+/* Super- and subscripts */
+sub, sup { font-size: 70%; }
 
 /* Footer */
 footer { border-top: 1px solid black; margin-top: 1em; }
@@ -76,3 +83,6 @@ header hgroup { float: left; margin: 30px 60px 30px 30px; padding: 0px 20px 0px 
 /* Description lists */
 main dt { font-weight: bold; margin-top: 1em; }
 main dl, dd { font-size: 90%; tab-size: 2; }
+
+/* Figure (which holds header images) */
+figure { margin: 0; }

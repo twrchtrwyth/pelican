@@ -7,6 +7,5 @@ Tags: fibonacci
 Slug: fibonacci
 Status: draft
 Summary: A brief overview of the Fibonacci numbers.
-Image:
 ---
 
