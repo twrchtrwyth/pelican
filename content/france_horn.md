@@ -4,7 +4,7 @@ Date: 2022-09-05 12:20
 Category: videogames
 Tags: playdate
 Slug: france-horn
-Summary: All horns are played using a crank, right?
+Summary: Aren't all horns played using a crank?
 Image: france_horn.jpg
 Caption: Soloist with horn
 Status: published

@@ -21,14 +21,16 @@ DEFAULT_METADATA = {
 ABOUT = 'Rhydd i bawb ei farn, ac i bob barn ei llafar.'
 
 # Extensions for Markdown. codehilite's 'linenums': 'True' causes all sorts of issues in code blocks.
-#MARKDOWN = {
-#    'extension_configs': {
-#        'markdown.extensions.codehilite': {'css_class': 'highlight'},
-#        'markdown.extensions.extra': {},
-#        'markdown.extensions.meta': {},
-#    },
-#    'output_format': 'html5',
-#}
+MARKDOWN = {
+    'extension_configs': {
+        'markdown.extensions.codehilite': {'css_class': 'highlight'},
+        'markdown.extensions.extra': {},
+        'markdown.extensions.meta': {},
+        # Add [TOC] to markdown file to generate contents
+        'markdown.extensions.toc': {'toc_depth': 2},
+    },
+    'output_format': 'html5',
+}
 
 # Defines where Pelican looks for its articles.
 PATH = 'content'

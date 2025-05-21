@@ -1,0 +1,7 @@
+=========
+= TO DO =
+=========
+
+* Sort out footer
+* Add nice nav element to the top
+* Add page of interesting links

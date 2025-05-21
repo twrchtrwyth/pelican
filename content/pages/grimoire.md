@@ -1,41 +1,57 @@
 ---
-Title: Linux Commands
+Title: Grimoire
 Date: 2022-09-10
 Category: linux
 Tags: linux, command line
 Status: published
-Slug: linux-guide
-Summary: Some notes on using Linux, with a focus on the command line.
+Slug: grimoire
+Summary: Some useful Linux commands.
+Image: grimoire.png
+Caption: And the mome raths outgrabe.
 ---
+
+> Any sufficiently advanced use of the Linux command line is indistinguishable from magic.
+
+> <footer>--Arthur C. Clarke</footer>
+
+This page serves as my tome of useful Linux incantations.  Most of these relate to Manjaro, which is my main distro.
+
+<!-- This generates a table of contents with the CSS toc class -->
+[TOC]
 
 ## Setting file permissions
 
-To give full read, write and execute permissions to a file, use `chmod 777 path/to/file` Obviously, care should be taken when doing this, and you will need to be root.
+To give full read, write and execute permissions to a file:
+
+```
+chmod 777 path/to/file
+```
+Obviously, care should be taken when doing this, and you will need to be root.
 
 ---
 
 ## Getting information about windows
 
-The `xprop` command will list various useful pieces of information about a window. Simply run it in a terminal, then click the window of interest. Or particular interest are the `WM_NAME` or `\_NET_WM_NAME` sections, which give the *Title* that can be used in i3 Window Manager, and the WM_CLASS section which provides the *Class* used by i3wm.
+The `xprop` command will list various useful pieces of information about a window. Simply run it in a terminal, then click the window of interest. Of particular interest are the `WM_NAME` or `\_NET_WM_NAME` sections, which give the *Title* that can be used with i3 Window Manager, and the WM_CLASS section which provides the *Class* used by i3wm.
 
 ---
 
 ## Getting window dimensions
 
 ```bash
-xdotool getwindowfocus getwindowgeometry  # Returns size of current window.
-xdotool selectwindow getwindowgeometry  # Allows selection of window.
+xdotool getwindowfocus getwindowgeometry  # Returns size of current window
+xdotool selectwindow getwindowgeometry  # Allows selection of window using mouse
 ```
 
 ---
 
 ## Getting information about key presses
 
-The `xev` command will open a window and output information about any keys pressed whilst this window is highlighted to the terminal.
+The `xev` command will open a window and output information to the terminal about any keys pressed whilst this window is in focus.
 
 ---
 
-## Sending command output to a file.
+## Sending command output to a file
 
 ```shell
 command [options] [arguments] > file_name  # Overwrite
@@ -44,19 +60,19 @@ command [options] [arguments] >> file_name # Append
 
 ---
 
-## Sorting content of a text file.
+## Sorting content of a text file
 
 ```shell
 sort filename  # Sort alphabetically by first letter of line
 sort -k2 filename  # Sort alphabetically by first letter of second word, etc.
-```.
+```
 
 ---
 
-## Listing running processes.
+## Listing running processes
 
 The `ps -A` command will list all running processes.
-This can be piped to [grep]({filename}grep.md) to search for a specific process.
+This can be piped to [grep]({filename}/grep.md) to search for a specific process.
 
 ---
 
@@ -312,21 +328,10 @@ A pair of key files can be generated with the `ssh-keygen -t rsa` command. The p
 
 After running the above command, it will ask the user where they would like to save the key pair. The default option is fine. When it asks for a password, simply hit Enter both times to skip.
 
-#### Copying ssh keys (the easy way)
-
-After generating keys as described above, use the following command to move it to your server.
+After generating keys as described above, use the following command to move the public key to your server.
 
 ```shell
 ssh-copy-id -i ~/.ssh/id_rsa.pub user@server
-```
-
-### Processes
-
-To list all processes currently running on the remote machine, run:
-
-```shell
-ps aux  # All processes
-ps aux | grep scp  #  Specific process type
 ```
 
 ---

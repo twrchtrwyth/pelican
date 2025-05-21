@@ -6,10 +6,14 @@ Tags: borges, literature
 Slug: axaxaxas-mlo
 Author: Jorge Luis Borges
 Image: library_of_babel.png
-Caption: From any of the hexagons one can see, interminably, the upper and lower floors
+Caption: From any of the hexagons one can see, interminably, the upper and lower floors.
 Summary: You who read me, are You sure of understanding my language?
 Status: hidden
 ---
+
+> By this art you may contemplate the variation of the 23 letters...
+
+> <footer>*The Anatomy of Melancholy*, part 2, sect. II, mem. IV
 
 The Library is a sphere whose exact centre is any one of its hexagons and whose circumference is inaccessible.
 

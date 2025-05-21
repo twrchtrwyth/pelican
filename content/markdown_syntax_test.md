@@ -7,9 +7,34 @@ Status: hidden
 Summary: This post will test how Pelican's Markdown rendering engine handles some of Markdown's advanced features.
 ---
 
+## Quotes
+
+> I am a servant of the Secret Fire, wielder of the flame of Anor.
+> You cannot pass.
+> The dark fire will not avail you, flame of Udûn.
+
+> <footer>--Gandalf the Grey, Third Age</footer>
+
+The above uses a bit of a dirty hack to get the attribution to format neatly, but it'll do for now.  Here's the markdown (note the HTML footer tags):
+
+```markdown
+> I am a servant of the Secret Fire, wielder of the flame of Anor.
+> You cannot pass.
+> The dark fire will not avail you, flame of Udûn.
+
+> <footer>--Gandalf the Grey, Third Age</footer>
+```
+
 ## Strikethrough (doesn't work)
 
 This bit of text ~~is wrong~~ is right.
+
+## Comments
+
+<!-- Does this HTML comment render -->
+<!-- It shouldn't -->
+
+Wow this actually works.  Renders in the page HTML, not unsurprisingly.
 
 ## Links
 

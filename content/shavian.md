@@ -20,9 +20,8 @@ The Shavian alphabet is used to represent *sounds* in English, rather than indiv
 
 ## Consonants
 
-| | | |
-| :---: | :---: | :---: |
 | **Sound** | **Letter** | **Notes** |
+| :---: | :---: | :---: |
 | **S**ee   | 𐑕 | |
 | **Z**oo   | 𐑟 | |
 |**TH**e    | 𐑞 | Used alone to write "the" |
@@ -49,9 +48,8 @@ The Shavian alphabet is used to represent *sounds* in English, rather than indiv
 
 ## Vowels
 
-| | | |
+| **Sound** | **Letter** | **Notes** |
 | :---: | :---: | :---: |
-| **Sound** | **Letter** | **Notes** ||
 | **I**n    | 𐑦 | |
 | **E**ve   | 𐑰 | |
 | **OO**ze  | 𐑵 | |
@@ -76,9 +74,8 @@ The Shavian alphabet is used to represent *sounds* in English, rather than indiv
 
 ## Ligatures
 
-| | | |
-| :---: | :---: | :---: |
 | **Sound** | **Letter** | **Notes** |
+| :---: | :---: | :---: |
 | **YU**le  | 𐑿 | 𐑘 + 𐑵 |
 | **AR**ia  | 𐑸 | 𐑭 + 𐑮 |
 | **AUR**a  | 𐑹 | 𐑷 + 𐑮 |
@@ -91,9 +88,8 @@ The Shavian alphabet is used to represent *sounds* in English, rather than indiv
 
 # All Letters
 
-| | | |
-| :---: | :---: | :---: |
 | **Sound** | **Letter** | **Notes** |
+| :---: | :---: | :---: |
 | **S**ee   | 𐑕 | |
 | **Z**oo   | 𐑟 | |
 | **I**n    | 𐑦 | Also used as -y ending |
@@ -161,41 +157,31 @@ To help distinguish between some of the more similar letters.
 
 For all that involve a description of the mouth, imagine looking side-on at a person whose face is pointing to the right.
 
-| | | |
-| :---: | :---: | :---: |
 | **Sound** | **Letter** | **Dodgy aide-memoire** |
-
-| | | |
 | :---: | :---: | :---: |
 | **T**an | 𐑑 | Looks (a bit) like a t |
 | **D**one | 𐑛 | Like a **D**own arrow |
 
-| | | |
 | :---: | :---: | :---: |
 | **E**dge | 𐑧 | The tail points to the front of the mouth where air is released |
 | **A**sh | 𐑨 | The tail points to the back of the throat where pressure is felt |
 
-| | | |
 | :---: | :---: | :---: |
 | **M**e | 𐑥 | The letter points to the lips, "mmm" |
 | **N**ow | 𐑯 | The letter points to the palate where the tongue is pressed  |
 
 
-| | | |
 | :---: | :---: | :---: |
 | **O**n | 𐑪 | The tail points to the back of the mouth where the letter is sounded |
 | **A**go | 𐑩 | Beathier than 𐑪: the tail points to the open lips where air is expelled whilst sounding |
 
-| | | |
 | :---: | :---: | :---: |
 | **W**ay | 𐑢 | Think of the abbreviation "w/" for "with" |
 | **Y**en | 𐑘 | Back of the tongue is at the top of the mouth then you slide *down* into the next letter |
 
-| | | |
 | :---: | :---: | :---: |
 | **SH**y | 𐑖 | Looks like a fi**SH**ing hook |
 
-| | | |
 | :---: | :---: | :---: |
 | **EAR**ly | 𐑻 | Start of the sound is like 𐑩, which "points" to the start of the letter |
 | or | | |
@@ -204,7 +190,6 @@ For all that involve a description of the mouth, imagine looking side-on at a pe
 | or | | |
 | **AER**o | 𐑺 | **AER**odynamic because the arch faces *upwards* |
 
-| | | |
 | :---: | :---: | :---: |
 | **OU**nce | 𐑬 | After saying your mouth is tense and open and ready to p**OU**nce |
 | **OI**l | 𐑶 | Follows the shape of the sound, open to more narrow |

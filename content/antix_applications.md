@@ -17,7 +17,7 @@ In order to appear in the applications list that is visible upon right-clicking 
 
 The entry should be a plain text file, with the same name as the software in question but with a `.desktop` extension.  Example syntax from the file `surf.desktop` (the [surf][] browser) is below.
 
-[surf]: https://surf.suckless.org
+[surf]: https://surf.suckless.org "Surf browser"
 
 ```
 [Desktop Entry]
