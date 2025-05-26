@@ -6,6 +6,7 @@
         <meta charset="utf-8" />
         <meta name="generator" content="Pelican" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="apple-mobile-web-app-capable" content="yes">
         <link rel="stylesheet" href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/css/{{ CSS_FILE }}" />
         
         {% if SITESUBTITLE %}
@@ -43,16 +44,17 @@
               <hgroup><h1><a href="{{ SITEURL }}/">{{ SITENAME }}</a></h1>{% if SITESUBTITLE %}<p>{{ SITESUBTITLE }}</p>{% endif %}</hgroup>
         </header>
         <main>
+        <p style="font-size: 24px; text-align: center">❦</p>
         {% block content %}
         {% endblock %}
         </main>
         
-        <footer>
-        <nav><ul>
+        <footer class="mainfooter">
+        <nav><!--<ul>
         {% for title, link in MENUITEMS %}
             <li><a href="{{ link }}">{{ title }}</a></li>
         {% endfor %}
-        </ul>
+        </ul>-->
         {% if DISPLAY_PAGES_ON_MENU %}
           <ul>
           <li>PAGES</li>

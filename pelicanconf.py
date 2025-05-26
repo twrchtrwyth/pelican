@@ -27,7 +27,7 @@ MARKDOWN = {
         'markdown.extensions.extra': {},
         'markdown.extensions.meta': {},
         # Add [TOC] to markdown file to generate contents
-        'markdown.extensions.toc': {'toc_depth': 2},
+        'markdown.extensions.toc': {'toc_depth': 1, 'title': 'Contents'},
     },
     'output_format': 'html5',
 }

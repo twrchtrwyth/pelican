@@ -11,19 +11,21 @@ Summary: An overview of Manjaro/Arch Linux's package manager.
 Manjaro uses the `pacman` package manager.  It is, as is usually the case for Linux, quite idiosyncratic.  Here is a brief introduction including some handy commands.
 
 # Updating
+
 ```shell
 # Update package database and all system packages
 sudo pacman -Syu
 ```
 
 # Getting Information
+
 ```shell
 # Get information about a package, including its dependents and dependencies
 pacman -Qii packagename
-
 ```
 
 # Searching
+
 ```shell
 # Searches repositories for keyword in name and description
 pacman -Ss keyword
@@ -40,6 +42,7 @@ pacman -Qo /usr/bin/packagename
 ```
 
 # Installing
+
 ```shell
 # Install packagename from repo
 sudo pacman -Syu packagename
@@ -50,6 +53,7 @@ sudo pacman -U https://mirror.url/packagename.pkg.tar.xz
 ```
 
 # Removing
+
 Add the `-n` flag to the below commands to also remove the backup configuration files that are automatically generated when deleting packages.
 
 ```shell
@@ -67,6 +71,7 @@ sudo pacman -Rcs packagename
 ```
 
 # Orphans
+
 ```shell
 # Show packages not used by anything else i.e. no longer required
 pacman -Qdt
@@ -75,6 +80,7 @@ sudo pacman -Rs $(pacman -Qdtq)
 ```
 
 # Downloading
+
 This can be useful e.g. to transfer a package to a different system that is not connected to the internet.
 
 ```shell
@@ -83,6 +89,7 @@ sudo pacman -Sw packagename
 ```
 
 # Cleaning up
+
 ```shell
 # Clear cache of packages that are no longer installed
 sudo pacman -Sc
@@ -94,12 +101,14 @@ paccache -rvk3
 ```
 
 # Updating mirrorlist with fastest mirrors
+
 ```shell
 # Useful if for some reason download speed becomes very slow
 sudo pacman-mirrors --fasttrack && sudo pacman -Syu
 ```
 
 # Checking the logs
+
 ```shell
 # To open the full log file
 $EDITOR /var/log/pacman.log
@@ -108,11 +117,13 @@ cat /var/log/pacman.log | grep -i searchstring
 ```
 
 # Config
+
 Pacman's settings are located in `/etc/pacman.conf`.  To enable colour output, uncomment the `Color` line.  To add an animation of Pacman eating pills, add the line `ILoveCandy`.
 
 ---
 
 # External
-[Manjaro Wiki: Pacman Overview][wiki]
 
-[wiki]: https://wiki.manjaro.org/index.php?title=Pacman_Overview
+[Manjaro Wiki: Pacman Overview][pacman]
+
+[pacman]: https://wiki.manjaro.org/index.php?title=Pacman_Overview

@@ -19,3 +19,9 @@ This page serves as a useful reference to interesting web content.  I am diametr
 [The Satyr's Forest](https://satyrs.eu/) by Xanthe Tynehorne
 
 [Caffeine](https://caffeine.wiki/) by ???
+
+[Low Tech Magazine](https://solar.lowtechmagazine.com/power/) by Kris de Decker (and others)
+
+[Wiby](https://wiby.me/), a search engine for strange, simple little websites
+
+[Special Fish](https://special.fish/), I don't even really understand what this is but it's great

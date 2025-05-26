@@ -9,11 +9,13 @@ Status: published
 Summary: A bash script to toggle the touchpad.
 ---
 
-To bind Fn+F8 on my ThinkPad X220 running Manjaro i3, create the below script, make it executable  with `chmod +x script` and then add this command to the i3 config file:
+To bind Fn+F8 on my ThinkPad X220 running Manjaro i3, create the below script, [make it executable][chmod] and then add this command to the i3 config file:
 
 ```text
 bindsym XF86TouchpadToggle exec --no-startup-id /path/to/script
 ```
+
+[chmod]: {filename}/pages/grimoire.md#chmod "My section on file permissions"
 
 ```shell
 !/bin/bash

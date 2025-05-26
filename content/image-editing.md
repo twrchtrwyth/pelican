@@ -9,19 +9,19 @@ Author: Wil Ifan
 Summary: A short guide to the imagemagick suite of tools.
 ---
 
-This is a very quick guide covering how to use the `imagemagick` set of tools in Unix. This may need to be installed via your distro's package manager.
+This is a very quick guide covering how to use the `imagemagick` set of tools on Linux. This may need to be installed via your distro's package manager.
 
-## Getting info about an image
+# Getting information about an image
 
 The `identify` command will print some information about an image to stdout, including its dimensions.
 
-## Converting between formats
+# Converting between formats
 
 ```shell
 convert image.png [-quality 95] image.jpg
 ```
 
-## Resizing images
+# Resizing images
 
 Will try to preserve aspect ratio by altering image to fit within the area specified, but may not end up as the exact area. To force a specific size, add an exclamation mark after the dimensions.
 
@@ -38,7 +38,7 @@ convert image.png -resize 200 image.png
 convert image.png -resize x100 image.png
 ```
 
-## Cropping an image
+# Cropping an image
 
 To crop an image in the simplest sense use the following (probably not the most useful example ):
 
@@ -57,7 +57,7 @@ To quickly crop an image, use the `shave` command. This example will crop 100 pi
 magick image.png -shave 0x100 image-shaved.png
 ```
 
-## Rotating an image
+# Rotating an image
 
 Need to specify new image name, otherwise imagemagick saves the rotated image over the original image file.
 
@@ -65,8 +65,17 @@ Need to specify new image name, otherwise imagemagick saves the rotated image ov
 convert image.png -rotate 90 image-rotated.png
 ```
 
-## Batch processing
+# Batch processing
 
 ```shell
 for file in *.png; do convert $file -rotate 90 rotated-$file; done
+```
+
+# Optimise jpeg files for sharing
+
+Not actually sure exactly what this does, but I have seen the following command recommended online for sharing a jpeg image
+
+```shell
+mogrify -auto-orient -define jpeg:dct-method=float -quality 75 -strip \
+-interlace Plane -sampling-factor 4:2:0 -resize '1400x1400>' *.jpg
 ```

@@ -82,7 +82,7 @@ h1, h2 {
 }
 /* Only the main heading of the site */
 hgroup h1 { a:link, a:active, a:visited, a:hover {
-    color: #fff; 
+    color: #111111; 
     }
     margin-bottom: 0;
 }
@@ -93,15 +93,15 @@ nav { a:link { font-style: normal; } }
 
 
 /* Lists */
-ul { list-style-type:none; margin:0; padding:0; }
+footer ul { list-style-type:none; margin:0; padding:0; }
 footer li:first-child { font-weight: bold; margin-top: 1em; }
-footer li:last-child { margin: 0 0 1em; }
+/* footer li:last-child { margin: 0 0 1em; } */
 
 
 /* Inline code */
-p code { 
+p code, li code { 
     font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
-    font-size: 90%;
+    font-size: 85%;
 }
 
 
@@ -123,11 +123,21 @@ figure:first-child figcaption { padding-left: 30px; }
 
 /* Paragraph element */
 main p { line-height:160%; }
+footer p time { font-style: normal; color: #111111}
 /* The article summary */
 section p { margin-top: 0; margin-bottom: 0.25em}
 /* Site subtitle */
-header hgroup p { margin-top: 0.5em; color: #eee }
-
+header hgroup p { margin-top: 0.5em; color: #888 }
+/* Drop cap --- needs work so doesn't apply to blockquote */
+/* Also covers up text */
+/* main p:first-of-type::first-letter { */
+     /* font-family: serif; */
+     /* color: black; */
+     /* font-size: 3.75em; */
+     /* font-style: oblique; */
+     /* float: left; */
+     /* line-height: 3.5rem; */
+/* } */
 
 /* Super- and subscripts */
 sub, sup { font-size: 70%; }
@@ -135,25 +145,31 @@ sub, sup { font-size: 70%; }
 
 /* Footer */
 footer { border-top: 2px solid black; margin: 0; padding: 30px}
-article footer { border-top: none; margin-top: 0; font-weight: bold; }
+article footer { border-top: none; margin-top: 0; margin-bottom: 1em; font-style: italic; color: #555; padding: 0; }
 article footer p { margin: 0; }
+blockquote footer p { padding: 0; color: #111111; }
+footer.mainfooter ul { display: inline-block; margin: 0 2em 0 0; vertical-align: top; }
+footer.mainfooter nav { display: grid; }
 
 /* Header */
 /* Main site header */
 header hgroup {
     /* float: left; */
-    width: 50%;
-    font-variant: small-caps;
-    color: #fff;
+    position: center;
+    text-align: center;
+    /* max-width: 350px; */
+    /* font-variant: small-caps; */
+    color: #111111;
     border-radius: 0.5em;
-    margin: 30px 60px 30px 30px;
-    background: #222831;
-    padding: 1px 20px 1px 30px;
+    border-bottom: 2px solid black;
+    margin: 30px 30px 30px 30px;
+    /* background-color: #111111; */
+    padding: 1px 20px 1px 20px;
     margin-top: 1em;
-    top: 30px;
-    box-shadow: rgba(0, 0, 0, 0.7) 0px 10px 20px 0px;
+    /* top: 30px; */
+    /* box-shadow: rgba(0, 0, 0, 0.7) 0px 10px 20px 0px; */
 }
-/* The title of the article --- why is this an h2 element, Pelican??*/
+/* The title of the article --- why is this an h2 element, Pelican?? */
 article header h2 { font-size: 175%; font-variant: small-caps; margin-bottom: 0.25em; }
 
 
@@ -182,7 +198,7 @@ hr { color: #888}
 .toc {
     border-radius: 0.5em;
     margin-bottom: 1em;
-    background: #222831;
+    background: #111111;  /* #222831 for nice blue */
     padding: .5em;
     margin-top: 1em;
     top: 30px;
@@ -220,7 +236,8 @@ hr { color: #888}
 .toc ul li ul a {
     color: #ddddcc;
 }
-
+/* Heading of contents table */
+span.toctitle { color: #ffffee; font-weight: bold; font-variant: small-caps; }
 
 /* Quotations */
 blockquote { font-size: 1.4rem; }
