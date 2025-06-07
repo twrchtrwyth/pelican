@@ -124,11 +124,12 @@ figure:first-child figcaption { padding-left: 30px; }
 
 /* Paragraph element */
 main p { line-height:160%; }
-footer p time { font-style: normal; color: #111111}
+footer p time { font-style: normal; color: #111111 }
 /* The article summary */
-section p { margin-top: 0; margin-bottom: 0.25em}
+section p { margin-top: 0; margin-bottom: 0.25em }
 /* Site subtitle */
 header hgroup p { margin-top: 0.5em; color: #888 }
+p.bywyd { font-style: italic; color: #555 }
 /* Drop cap --- needs work so doesn't apply to blockquote */
 /* Also covers up text */
 /* main p:first-of-type::first-letter { */

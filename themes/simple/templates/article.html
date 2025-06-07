@@ -37,6 +37,10 @@
   <figure><img src="{{ SITEURL }}/images/{{ article.image }}" alt="" /><figcaption>{{ article.caption }}</figcaption></figure>
   {% endif %}
 
+  <!-- This displays the date from bywyd.py which is in pelican's root folder -->
+  {% set dyddiad = article.date|strftime('%Y-%m-%d')|bywyd %}
+  <p class="bywyd">{{ dyddiad }}</p>
+
   {{ article.content }}
 
   <footer>

@@ -42,6 +42,11 @@ MARKDOWN = {
 # Defines where Pelican looks for its articles.
 PATH = 'content'
 
+# Set the order of pages.
+# See settings page of docs for available options.
+# Not currently working.
+PAGE_ORDER_BY = "date"
+
 FAVICON = "{{ PATH }}/extra/favicon.ico"
 
 # The theme folder must be in Pelican's root folder (the same one as the content folder).

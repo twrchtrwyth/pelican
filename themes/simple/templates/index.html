@@ -11,6 +11,9 @@
                 <section>{{ article.summary }}</section>
                 <footer>
                     <p>Published: <time datetime="{{ article.date.isoformat() }}"> {{ article.locale_date }} </time></p>
+                    <!-- This displays the date from bywyd.py which is in pelican's root folder -->
+                    {% set dyddiad = article.date|strftime('%Y-%m-%d')|bywyd %}
+                    <p class="bywyd">{{ dyddiad }}</p>
                     <!-- <address>By -->
                     <!-- {% for author in article.authors %} -->
                         <!-- <a href="{{ SITEURL }}/{{ author.url }}">{{ author }}</a> -->

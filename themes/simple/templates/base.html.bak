@@ -44,7 +44,7 @@
 
 <body>
         <header>
-            <hgroup><h1><a href="{{ SITEURL }}/">{{ SITENAME }}</a></h1>{% if SITESUBTITLE %}<p>{{ SITESUBTITLE }}</p>{% endif %}</hgroup>
+              <hgroup><h1><a href="{{ SITEURL }}/">{{ SITENAME }}</a></h1>{% if SITESUBTITLE %}<p>{{ SITESUBTITLE }}</p>{% endif %}</hgroup>
         </header>
         <main>
         {% block content %}
@@ -52,10 +52,32 @@
         </main>
         
         <footer class="mainfooter">
-            <address>
-            <p><a href="{{ SITEURL }}/pages/grimoire.html"><img src="{{ SITEURL }}/theme/images/logo.png" height=75px></a></p>
-            You who read me, are You sure of understanding my language?
-            </address>
+        <nav><!--<ul>
+        {% for title, link in MENUITEMS %}
+            <li><a href="{{ link }}">{{ title }}</a></li>
+        {% endfor %}
+        </ul>-->
+        {% if DISPLAY_PAGES_ON_MENU %}
+          <ul>
+          <li>PAGES</li>
+          {% for p in pages %}
+            <li><a href="{{ SITEURL }}/{{ p.url }}" {% if p==page %} aria-current="page" {% endif %}>{{ p.title }}</a></li>
+          {% endfor %}
+          </ul>
+        {% endif %}
+        {% if DISPLAY_CATEGORIES_ON_MENU %}
+        <ul>
+        <li>CATEGORIES</li>
+          {% for cat, null in categories %}
+            <li><a href="{{ SITEURL }}/{{ cat.url }}" {% if cat==category %} aria-current="page" {% endif %}>{{ cat}}</a></li>
+          {% endfor %}
+        </ul>
+        {% endif %}
+        </nav>
+                <address>
+                <p><img src="{{ SITEURL }}/theme/images/logo.png" height=75px></p>
+                You who read me, are You sure of understanding my language?
+                </address>
         </footer>
 </body>
 </html>
