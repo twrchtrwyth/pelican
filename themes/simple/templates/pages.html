@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{% block title %}{{ SITENAME|striptags }} - Pages{% endblock %}
+
+{% block content %}
+    <h2>Pages</h2>
+    <ul>
+    {% for p in pages %}
+       <li><a href="{{ SITEURL }}/{{ p.url }}" {% if p==page %} aria-current="page" {% endif %}>{{ p.title }}</a></li>
+     {% endfor %}
+    </ul>
+{% endblock %}
+
+
+ 

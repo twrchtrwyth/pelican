@@ -20,6 +20,13 @@ DEFAULT_METADATA = {
 
 ABOUT = 'Rhydd i bawb ei farn, ac i bob barn ei llafar.'
 
+# Overrides the default index page, which is just a spool of articles.
+INDEX_SAVE_AS = "articles.html"
+
+# Allows addition of custom templates, on top of the defaults provided by Pelican.
+# Just add them to the `templates` directory.
+DIRECT_TEMPLATES = ['index', 'authors', 'categories', 'tags', 'archives', 'pages']
+
 # Extensions for Markdown. codehilite's 'linenums': 'True' causes all sorts of issues in code blocks.
 MARKDOWN = {
     'extension_configs': {

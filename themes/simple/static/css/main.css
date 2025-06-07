@@ -95,7 +95,8 @@ nav { a:link { font-style: normal; } }
 /* Lists */
 footer ul { list-style-type:none; margin:0; padding:0; }
 footer li:first-child { font-weight: bold; margin-top: 1em; }
-/* footer li:last-child { margin: 0 0 1em; } */
+/* Slightly shrink font for nNested lists */
+ul li ul { font-size: 90%; }
 
 
 /* Inline code */
@@ -184,9 +185,10 @@ figure { margin: 0; }
 
 /* Tables */
 table, th, td { border: 1px solid; }
-table td, table th { vertical-align:top;padding:2.5px 5px;text-align:left }
-table td > pre, table th > pre { background:none;padding:0;margin:0 }
+table td, table th { vertical-align:top; padding:2.5px 5px; text-align:left }
+table td > pre, table th > pre { background:none; padding:0; margin:0 }
 table tr img { margin-bottom:0; display:block }
+table {margin-bottom: 1em; }
 
 /* Horizontal rules */
 hr { color: #888}

@@ -55,7 +55,7 @@ PlayStation 2
 : Ōkami
 : Jak and Daxter: The Precursor Legacy
 : Devil May Cry
-: Dark Cloud 2
+: Dark Chronicle
 : TimeSplitters 2
 
 Game Boy

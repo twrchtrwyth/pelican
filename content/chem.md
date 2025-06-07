@@ -5,7 +5,7 @@ Author: Wil Ifan
 Category: linux
 Tags: chemistry, groff
 Slug: chem
-Status: hidden
+Status: published
 Summary: Some examples of chemical structures drawn using groff's chem preprocessor.
 Image: morphine.png
 Caption: Morphine, so named for Morpheus, Ancient Greek god of dreams

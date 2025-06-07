@@ -13,15 +13,19 @@ Summary: A glossary of words to help my fluency.
 >
 > <footer>--T. H. Parry-Williams, "Hon"</footer>
 
-When speaking with Osian, I often struggle to recall certain words in Welsh.  This page is a running glossary of all words I've looked up, to help improve my fluency and, hopefully, his.
+When speaking with Osian, I often struggle to recall certain words in Welsh.  This page is a running glossary of all words I've looked up, to help improve my fluency and, hopefully, his.  It also includes words I've heard during Welsh conversations or on Radio Cymru.
 
 [Welsh dates are mad][dates].
 
 Here's a [guide to treiglo][treiglo].  May God have mercy on your soul.
 
+Here's an online [Welsh/English dictionary][dict].
+
 [dates]: https://www.bangor.ac.uk/cymorthcymraeg/dyddiadau.php.en "Prifysgol Bangor page on Welsh dates"
 
 [treiglo]: https://users.aber.ac.uk/bmj/Tr/Cym/tr2.html "Prifysgol Aberyswyth page on treiglo"
+
+[dict]: https://www.geiriadur.ac.uk/gpc/gpc.html "Prifysgol Aberystwyth online dictionary"
 
 ## Y 13eg o Fai 2025
 
@@ -103,3 +107,20 @@ Here's a [guide to treiglo][treiglo].  May God have mercy on your soul.
 | SAESNEG | CYMRAEG |
 |:--------|:--------|
 | Rook    | Ydfran  |
+
+## Y 27ain o Fai 2025
+
+| SAESNEG | CYMRAEG |
+|:--------|:--------|
+| Parent (n) | Rhiant |
+| Terrorism | Terfysgedd |
+| Trade (=craft) | Crefft |
+| Swan (n) | Alarch (ll. elyrch) |
+
+## Yr 28ain o Fai 2025
+
+| SAESNEG | CYMRAEG |
+|:--------|:--------|
+| Climate | Hinsawdd |
+| Rib     | Asen    
+| Beak    | Pig     |

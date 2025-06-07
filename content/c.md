@@ -5,7 +5,7 @@ Author: Wil Ifan
 Category: programming
 Tags: c, linux
 Slug: c
-Status: hidden
+Status: published
 Summary: A primer in the C programming language.
 ---
 

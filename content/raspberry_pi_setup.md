@@ -8,7 +8,7 @@ Summary: Notes on setting up a Headless Raspberry Pi Zero on Linux.
 Status: published
 ---
 
-## INSTALLING THE OS
+# Installing the OS
 
 First, install the latest version of Raspberry Pi OS Lite from [the Raspberry Pi website][pisite]
 
@@ -21,11 +21,11 @@ sudo dd bs=4M if=/path/to/image of=/path/to/drive status=progress oflag=sync
 
 ---
 
-## ENABLING SSH
+# Enabling SSH
 
 First, insert the Pi's SD card into the laptop, and locate the directory where the `/boot` partition is located. (This seems to now be called `bootfs`) This is usually `/run/media/your-username/boot`. Once located, use `touch path-to-boot-partition/ssh` to enable ssh.
 
-### SETTING USERNAME AND PASSWORD
+# Setting username and password
 
 Since 2022, there is a requirement that the default user and password must be manually set. To do so, create a file named `userconf` on the boot partition. This takes the desired username and an encrypted version of the desired password like so (note the separating colon):
 
@@ -43,7 +43,7 @@ Then paste the output into the `userconf` file as above.
 
 ---
 
-## CONNECTING TO WIFI
+# Connecting to WiFi
 
 ```shell
 touch /path-to-boot-partition/wpa_supplicant.conf
@@ -68,7 +68,7 @@ NB: The country code is the `ISO 3166-1` code for that country. This can be look
 
 ---
 
-## ENABLING GADGET MODE/USB CONTROL ON A PI ZERO
+# Enabling Gadget Mode/USB Control on a Pi Zero
 
 Add the following to the end of `config.txt` within the boot partition:
 
@@ -86,12 +86,12 @@ modules-load=dwc2,g_ether
 
 ---
 
-## SETTING A FIXED IP ADDRESS
+# Setting a Fixed IP Address
 
 This can be done during initial setup of the SD card.  Create or edit the file `/etc/dhcpcd.conf` and add the following at the end:
 
 
-```
+```text
 interface eth0
 static ip_address=192.168.0.4/24
 static routers=192.168.0.254
@@ -126,13 +126,13 @@ ifconfig usb0  # This should now show the above IP Address as the inet address.
 
 ---
 
-## Testing Connection
+# Testing Connection
 
 Use `ping -c 5 raspberrypi.local` to test if the pi is reachable.
 
 ---
 
-## Installing a desktop environment in Raspberry Pi OS Lite
+# Installing a Desktop Environment in Raspberry Pi OS Lite
 
 To do this, simply run the following:
 
@@ -142,6 +142,6 @@ sudo apt install xserver-xorg raspberrypi-ui-mods
 
 Then, run `sudo raspi-config` and change the boot option to desktop, rather than the command line.
 
-## CONNECTING WITH A GUI
+# Connecting with a GUI
 
 If a GUI is needed, after sshing in, run `vncserver :1` (You might need to install VNC first.) It should now be possible to connect to the Pi from a PC running VNC Server.

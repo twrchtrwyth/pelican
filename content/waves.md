@@ -5,7 +5,7 @@ Author: Wil Ifan
 Category: maths
 Tags: physics, waves
 Slug: waves
-Status: hidden
+Status: published
 Summary: The wave equation
 ---
 

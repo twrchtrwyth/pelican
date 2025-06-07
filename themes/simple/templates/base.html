@@ -7,6 +7,9 @@
         <meta name="generator" content="Pelican" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="white">
+        <meta name="apple-mobile-web-app-title" content="Y Llyfrgell">
+        <link rel="apple-touch-icon" href="{{ SITEURL }}/theme/images/hole.png">
         <link rel="stylesheet" href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/css/{{ CSS_FILE }}" />
         
         {% if SITESUBTITLE %}
@@ -44,7 +47,6 @@
               <hgroup><h1><a href="{{ SITEURL }}/">{{ SITENAME }}</a></h1>{% if SITESUBTITLE %}<p>{{ SITESUBTITLE }}</p>{% endif %}</hgroup>
         </header>
         <main>
-        <p style="font-size: 24px; text-align: center">❦</p>
         {% block content %}
         {% endblock %}
         </main>

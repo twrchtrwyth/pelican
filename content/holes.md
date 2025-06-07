@@ -5,7 +5,7 @@ Author: Wil Ifan
 Category: maths
 Tags: topology
 Slug: holes
-Status: hidden
+Status: published
 Summary: Holey goodness.
 Image: hole.png
 Caption: A Hole through a Hole in a Hole

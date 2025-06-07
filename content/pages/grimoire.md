@@ -54,15 +54,13 @@ cat /proc/cpuinfo
 
 # chmod
 
-`chmod` is used to change permissions assigned to a file.
+Change permissions assigned to a file or directory.
 
-To give full read, write and execute permissions to a file:
+To give full read, write and execute permissions to a file (root privileges required):
 
 ```shell
 chmod 777 path/to/file
 ```
-
-Obviously, care should be taken when doing this, and you will need to be root.
 
 ---
 

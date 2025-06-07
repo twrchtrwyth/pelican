@@ -21,6 +21,10 @@ The website is hosted on `oki`, my trusty little Raspberry Pi 3B+ server (named 
 [iow]: https://www.fellowtraveller.games/in-other-waters/
 [yunohost]: https://yunohost.org/
 
+The primary purpose of the site is help me record little tidbits of information that I've learned about Linux, in a somewhat *ad hoc* fashion.  However, I am supportive of the idea of a [small web][wiby], and believe that most modern website design is unwieldy, overcomplicated, dull and impersonal.  SEO had likely already sounded the death knell for a creative internet, but AI slop is only making things worse at an accelerated rate.  With this in mind, this site represents my pitifully small and undoubtedly entirely ineffectual way of fighting back, armed with nothing but my extremely rudimentary knowledge of HTML and CSS (the site intentionally does not use JavaScript).  In line with this--and with my morals in general--the site does not, nor will it ever, include any adverts, analytics, or any other such bullshit that has killed the modern web.
+
+[wiby]: https://wiby.me/
+
 The theme is a modification of Pelican's "simple" theme, and represents a continuous (and somewhat Sisyphean) work in progress as I stumble my way through the morass that is CSS syntax.
 
 I used to use [GIMP][] to resize and dither (Image> Mode> Indexed, 1-bit Floyd-Steinberg) my images, but now I use [didder][].
@@ -34,5 +38,3 @@ didder --palette "black white" -i input.jpg -o output.png bayer 16x16
 didder -i input.png -o output.png --palette "black white" --recolor "black F273FF" \
 --upscale 2 bayer 4x4
 ```
-
-The primary purpose of the site is help me record little tidbits of information that I've learned about Linux, in a somewhat *ad hoc* fashion.  However, I am supportive of the idea of a "small web", and believe that most modern website design is unwieldy, overcomplicated, dull and impersonal.  SEO had likely already sounded the death knell for a creative internet, but AI slop is only making things worse at an accelerated rate.  With this in mind, this site represents my pitifully small and undoubtedly entirely ineffectual way of fighting back, armed with nothing but my extremely rudimentary knowledge of HTML and CSS (the site intentionally does not use JavaScript).  In line with this--and with my morals in general--the site does not, nor will it ever, include any adverts, analytics, or any other such bullshit that has killed the modern web. 

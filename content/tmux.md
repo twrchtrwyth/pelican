@@ -15,7 +15,7 @@ This post covers just a few basic tmux operations.
 
 First, tmux's defaults are awful.  Create the file `.tmux.conf` in the home directory and add the following:
 
-```
+```text
 # Allow mouse control
 set -g mouse on
 
