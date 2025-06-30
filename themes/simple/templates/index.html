@@ -6,22 +6,38 @@
 
 
 {% for article in articles_page.object_list %}
-        <article class="mainpage">
-                <header> <h2><a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark" title="Permalink to {{ article.title|striptags }}">{{ article.title }}</a></h2> </header>
-                <section>{{ article.summary }}</section>
-                <footer>
-                    <p>Published: <time datetime="{{ article.date.isoformat() }}"> {{ article.locale_date }} </time></p>
-                    <!-- This displays the date from bywyd.py which is in pelican's root folder -->
-                    {% set dyddiad = article.date|strftime('%Y-%m-%d')|bywyd %}
-                    <p class="bywyd">{{ dyddiad }}</p>
-                    <!-- <address>By -->
-                    <!-- {% for author in article.authors %} -->
-                        <!-- <a href="{{ SITEURL }}/{{ author.url }}">{{ author }}</a> -->
-                    <!-- {% endfor %} -->
-                    <!-- </address> -->
-                <p style="font-size: 24px;">❦</p>
-                </footer>
-        </article>
+    <article class="mainpage">
+        <header>
+            <h2>
+                <a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark" title="Permalink to {{ article.title|striptags }}">
+                {{ article.title }}
+                </a>
+            </h2>
+        </header>
+
+        <section>
+            {{ article.summary }}
+        </section>
+
+        <footer>
+            <p>
+                Published: <time datetime="{{ article.date.isoformat() }}"> {{ article.locale_date }} </time>
+            </p>
+            <!-- This displays the date from bywyd.py which is in pelican's root folder -->
+            {% set dyddiad = article.date|strftime('%Y-%m-%d')|bywyd %}
+            <p class="bywyd">
+                {{ dyddiad }}
+            </p>
+            <!-- <address>By -->
+            <!-- {% for author in article.authors %} -->
+            <!-- <a href="{{ SITEURL }}/{{ author.url }}">{{ author }}</a> -->
+            <!-- {% endfor %} -->
+            <!-- </address> -->
+            <p style="font-size: 24px;">
+                ❦
+            </p>
+        </footer>
+    </article>
 {% endfor %}
 
 {% if articles_page.has_other_pages() %}

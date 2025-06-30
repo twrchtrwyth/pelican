@@ -95,8 +95,8 @@ nav { a:link { font-style: normal; } }
 /* Lists */
 footer ul { list-style-type:none; margin:0; padding:0; }
 footer li:first-child { font-weight: bold; margin-top: 1em; }
-/* Slightly shrink font for nNested lists */
-ul li ul { font-size: 90%; }
+/* Slightly shrink font for nested lists */
+ul li ul, ul li ol { font-size: 90%; }
 
 
 /* Inline code */

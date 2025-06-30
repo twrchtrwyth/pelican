@@ -160,10 +160,15 @@ Ursula Le Guin
 Gene Wolfe
 : The Fifth Head of Cerberus
 
+## June 2025
+
+Kōbō Abe
+: The Ark Sakura
+
 
 ## Unfinished
 
-*The fact that I did not finish the below is not necessarily a reflection on their quality. I aim to get through them all one day...*
+*The fact that I did not finish the below is not necessarily a reflection on their quality.  I aim to get through them all one day...*
 
 Olaf Stapledon
 : Star Maker
