@@ -37,3 +37,10 @@ This page serves as a useful reference to interesting web content that I have st
 [Maxwell's Equations](https://www.maxwells-equations.com/), for those such as myself who are interested but lack a sufficient mathematical grounding
 
 [Critical Switch](https://critical-switch.org/en/), offers lots of interesting information on the fediverse, amongst other things
+
+[YewTube](https://yewtu.be/), an instance of Invidious, an open source alternative frontend to YouTube.  My preferred way to watch videos is with [mpv][]
+
+[Analog Nowhere](https://analognowhere.com/), really just the most glorious kind of nerdy madness
+
+
+[mpv]: {filename}../mpv.md
