@@ -29,6 +29,12 @@ edk2-ovmf dnsmasq iptables-nft
 sudo systemctl enable libvirtd.service
 ```
 
+## Enabling the Network
+
+```
+sudo virsh net-start default
+```
+
 ## Setting the right permissions for running emulators
 
 The user needs to be added to the following groups in order to use system-level virtual machines (change only becomes active after restarting userspace):
