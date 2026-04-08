@@ -152,7 +152,7 @@ Let's discuss <acronym title="Leukocyte Adhesion Deficiency">LAD</acronym> syndr
 
 Here is an example of a <dfn title="Sausages">definition</dfn>. (Again, mouse over for the tooltip.)
 
-### Highlighting (doesn't work)
+### Highlighting
 
 To do this we <mark>use the mark element</mark>.
 
@@ -160,7 +160,7 @@ To do this we <mark>use the mark element</mark>.
 
 Natural is <s>best</s> just as dangerous as any group of chemicals.
 
-### Small text (doesn't work)
+### Small text
 
 I want to say the last part of this sentence <small>really quietly</small>.
 

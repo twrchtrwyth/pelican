@@ -198,7 +198,7 @@ hr { color: #888}
 /* Table of contents */
 /* https://cloudbytes.dev/snippets/add-a-table-of-contents-using-markdown-in-pelican */
 /* The leading dot is needed because toc is a class, rather than an HTML element */
-.toc {
+/* .toc {
     border-radius: 0.5em;
     margin-bottom: 1em;
     background: #111111;  /* #222831 for nice blue */
@@ -239,6 +239,7 @@ hr { color: #888}
 .toc ul li ul a {
     color: #ddddcc;
 }
+*/
 /* Heading of contents table */
 span.toctitle { color: #ffffee; font-weight: bold; font-variant: small-caps; }
 

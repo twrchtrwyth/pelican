@@ -14,7 +14,7 @@ Caption: And the mome raths outgrabe.
 >
 > <footer>--Arthur C. Clarke</footer>
 
-This page serves as my tome of useful Linux incantations.  Most of these relate to Manjaro, which is my main distro.
+This page serves as my tome of useful Unix incantations.  Originally, most of these related to Manjaro, which was my main distro when I started this site.  I now use Arch, but most should still be applicable.  I also dabble with OpenBSD and so there might be some overlap with this too. 
 
 <!-- This generates a table of contents with the CSS `toc` class -->
 [TOC]

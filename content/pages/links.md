@@ -40,7 +40,6 @@ This page serves as a useful reference to interesting web content that I have st
 
 [YewTube](https://yewtu.be/), an instance of Invidious, an open source alternative frontend to YouTube.  My preferred way to watch videos is with [mpv][]
 
-[Analog Nowhere](https://analognowhere.com/), really just the most glorious kind of nerdy madness
-
+[Analog Nowhere](https://analognowhere.com/), really just the most glorious kind of madness
 
 [mpv]: {filename}../mpv.md
