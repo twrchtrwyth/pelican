@@ -5,7 +5,7 @@ from bywyd import prif
 
 AUTHOR = u'Wil Ifan'
 SITENAME = u'The Library of Babel'
-SITESUBTITLE = 'LEAGUES OF SENSELESS CACOPHONIES'
+SITESUBTITLE = 'Leagues of senseless cacophonies'
 SITEURL = 'https://oki.nohost.me/babel'
 
 STATIC_PATHS = ['images', 'extra']

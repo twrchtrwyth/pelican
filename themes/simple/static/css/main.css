@@ -43,7 +43,8 @@
 
 
 /* Whole page */
-body { color: #111111; background:#ffffee; font-family: et-book, Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif; font-size:16px; overflow-x:hidden }
+/*body { color: #111111; background:#ffffff; font-family: et-book, Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif; font-size:16px; overflow-x:hidden } */
+body { color: #000; background:#ffffff; font-family: "Linux Libertine Display", serif; font-size:16px; overflow-x:hidden }
 
 
 /* Main section of page */
@@ -82,7 +83,7 @@ h1, h2 {
 }
 /* Only the main heading of the site */
 hgroup h1 { a:link, a:active, a:visited, a:hover {
-    color: #111111; 
+    color: #000; 
     }
     margin-bottom: 0;
 }
@@ -107,7 +108,7 @@ p code, li code {
 
 
 /* Code blocks */
-pre { tab-size: 2; }
+pre { tab-size: 2; white-space: pre-wrap; }
 main pre { margin-bottom: 30px; overflow: auto; background-color: #efefef; padding: 10px; font-size: 85%; max-width: 100%; }
 main pre code, main pre i { color: #888 }
 main code { white-space: pre }
@@ -124,11 +125,11 @@ figure:first-child figcaption { padding-left: 30px; }
 
 /* Paragraph element */
 main p { line-height:160%; }
-footer p time { font-style: normal; color: #111111 }
+footer p time { font-style: normal; color: #000 }
 /* The article summary */
 section p { margin-top: 0; margin-bottom: 0.25em }
 /* Site subtitle */
-header hgroup p { margin-top: 0.5em; color: #888 }
+header hgroup p { margin-top: 0.5em; color: #444 }
 p.bywyd { font-style: italic; color: #555 }
 /* Drop cap --- needs work so doesn't apply to blockquote */
 /* Also covers up text */
@@ -146,10 +147,10 @@ sub, sup { font-size: 70%; }
 
 
 /* Footer */
-footer { border-top: 2px solid black; margin: 0; padding: 30px}
+footer { border-top: 2px solid black; border-radius: 0.5em; margin: 0; padding: 30px; max-width: 624px;}
 article footer { border-top: none; margin-top: 0; margin-bottom: 1em; font-style: italic; color: #555; padding: 0; }
 article footer p { margin: 0; }
-blockquote footer p { padding: 0; color: #111111; }
+blockquote footer p { padding: 0; color: #000; }
 footer.mainfooter ul { display: inline-block; margin: 0 2em 0 0; vertical-align: top; }
 footer.mainfooter nav { display: grid; }
 
@@ -157,11 +158,11 @@ footer.mainfooter nav { display: grid; }
 /* Main site header */
 header hgroup {
     /* float: left; */
-    position: center;
+    position: left;
     text-align: center;
-    /* max-width: 350px; */
+    max-width: 624px;
     /* font-variant: small-caps; */
-    color: #111111;
+    color: #000;
     border-radius: 0.5em;
     border-bottom: 2px solid black;
     margin: 30px 30px 30px 30px;
@@ -172,7 +173,8 @@ header hgroup {
     /* box-shadow: rgba(0, 0, 0, 0.7) 0px 10px 20px 0px; */
 }
 /* The title of the article --- why is this an h2 element, Pelican?? */
-article header h2 { font-size: 175%; font-variant: small-caps; margin-bottom: 0.25em; }
+article header h2 { font-size: 140%; margin-bottom: 0.25em; }
+/* font-variant: small-caps; */
 
 
 /* Definition lists */
@@ -198,14 +200,14 @@ hr { color: #888}
 /* Table of contents */
 /* https://cloudbytes.dev/snippets/add-a-table-of-contents-using-markdown-in-pelican */
 /* The leading dot is needed because toc is a class, rather than an HTML element */
-/* .toc {
-    border-radius: 0.5em;
-    margin-bottom: 1em;
-    background: #111111;  /* #222831 for nice blue */
-    padding: .5em;
-    margin-top: 1em;
-    top: 30px;
-    box-shadow: rgba(0, 0, 0, 0.7) 0px 10px 20px 0px;
+.toc {
+    /* border-radius: 0.5em; */
+    /* margin-bottom: 1em; */
+    /* background: #111111;  /* #222831 for nice blue */ */
+    /* padding: .5em; */
+    /* margin-top: 1em; */
+    /* top: 30px; */
+    /* box-shadow: rgba(0, 0, 0, 0.7) 0px 10px 20px 0px; */
 }
 
 .toc ul {
@@ -219,7 +221,7 @@ hr { color: #888}
 }
 
 .toc ul li a {
-    color: #ffffee;
+    color: #000000;
     font-weight: 500;
     transition: color .4s;
 }
@@ -239,9 +241,9 @@ hr { color: #888}
 .toc ul li ul a {
     color: #ddddcc;
 }
-*/
+
 /* Heading of contents table */
-span.toctitle { color: #ffffee; font-weight: bold; font-variant: small-caps; }
+span.toctitle { color: #000000; font-weight: bold; font-variant: small-caps; }
 
 /* Quotations */
 blockquote { font-size: 1.4rem; }
@@ -250,5 +252,5 @@ blockquote footer { width: 60%; font-size: 1.1rem; font-weight: bold; text-align
 
 
 /* Phrase at the bottom of the site */
-footer address { width: 100%; text-align: center; }
+footer address { width: 624px; text-align: center; }
 footer address p { margin-bottom: 0.1em}

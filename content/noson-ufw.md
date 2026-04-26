@@ -26,7 +26,8 @@ By default, the `ufw` firewall will block access to Sonos speakers via
 [noson]
 title=noson Sonos controller app
 description=controls Sonos devices on the same network
-ports=80,443,445,1400:1410,3400,3401,3405,3445,3500,4070,4444/tcp|136,137,138,139,1900,1901,2869,10243,10280,10281,10282,10283,10284,5353,6969/udp|35382```
+ports=80,443,445,1400:1410,3400,3401,3405,3445,3500,4070,4444/tcp|136,137,138,139,1900,1901,2869,10243,10280,10281,10282,10283,10284,5353,6969/udp|35382
+```
 
 Then, to load the config into `ufw` run the following as root:
 
