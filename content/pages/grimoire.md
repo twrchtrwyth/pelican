@@ -14,7 +14,7 @@ Caption: And the mome raths outgrabe.
 >
 > <footer>--Arthur C. Clarke</footer>
 
-This page serves as my tome of useful Linux incantations.  Most of these relate to Manjaro, which is my main distro.
+This page serves as my tome of useful Unix incantations.  Originally, most of these related to Manjaro, which was my main distro when I started this site.  I now use Arch, but most should still be applicable.  I also dabble with OpenBSD and so there might be some overlap with this too. 
 
 <!-- This generates a table of contents with the CSS `toc` class -->
 [TOC]
@@ -236,9 +236,12 @@ ls bar | grep -i "foo"
 
 # ps
 
-The `ps -A` command will list all running processes.
+```
+ps -A  # Lists all running processes
+```
 
 Output can be piped to [grep][] to search for a specific process.
+Alternatively, just use `pgrep name`.
 
 [grep]: {filename}/grep.md "A link to my page on grep"
 
@@ -327,7 +330,7 @@ sed -i -e 's/abc/xyz/g' file
 Change keyboard layout.
 
 ```shell
-setxkbmap [gb|us|etc.]
+setxkbmap [gb|us|jp|etc.]
 ```
 
 ---
@@ -403,6 +406,12 @@ The level argument 0 specifies an infinite recursion depth, so the below will do
 
 ```shell
 wget -r -l 0 url
+```
+
+Or even better (thanks [Rek](https://kokorobot.ca/site/spellbook.html)):
+
+```shell
+wget --page-requisites --convert-links --span-hosts --no-directories url
 ```
 
 ---

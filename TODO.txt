@@ -4,4 +4,4 @@
 
 * Sort out footer
 * Add nice nav element to the top
-* Add page of interesting links
+* Sort out the Grimoire --- just commands, separate tutorialish things into their own separate page
