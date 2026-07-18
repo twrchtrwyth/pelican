@@ -18,7 +18,7 @@ bindsym XF86TouchpadToggle exec --no-startup-id /path/to/script
 [chmod]: {filename}/pages/grimoire.md#chmod "My section on file permissions"
 
 ```shell
-!/bin/bash
+#!/bin/bash
 
 read TPdevice <<< $( xinput | sed -nre '/TouchPad|Touchpad/s/.*id=([0-9]*).*/\1/p' )
 state=$( xinput list-props "$TPdevice" | grep "Device Enabled" | grep -o "[01]$" )

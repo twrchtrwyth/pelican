@@ -8,10 +8,15 @@ SITENAME = u'The Library of Babel'
 SITESUBTITLE = 'Leagues of senseless cacophonies'
 SITEURL = 'https://oki.nohost.me/babel'
 
-STATIC_PATHS = ['images', 'extra']
-#EXTRA_PATH_METADATA = {
-#    'extra/favicon.ico': {'path': 'favicon.ico'},  # Haven't set this yet.
-#}
+STATIC_PATHS = ['images', 'extra', 'ocular']
+
+# Exclude ocular directory from content processing
+ARTICLE_EXCLUDES = ['ocular']
+PAGE_EXCLUDES = ['ocular']
+# EXTRA_PATH_METADATA = {
+    # 'extra/favicon.ico': {'path': 'favicon.ico'},  # Haven't set this yet
+    # 'ocular/index.html': {'path': 'gallery/index.html'}
+# }
 
 # To publish an article, add Status: published to the metadata.
 DEFAULT_METADATA = {

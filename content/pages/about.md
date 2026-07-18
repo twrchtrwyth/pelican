@@ -55,4 +55,4 @@ didder -i input.png -o output.png --palette "black white" --recolor "black F273F
 --upscale 2 bayer 4x4
 ```
 
-[^dither]: `Image > Mode > Indexed, 1-bit Floyd-Steinberg`
+[^dither]: Image > Mode > Indexed, 1-bit Floyd-Steinberg

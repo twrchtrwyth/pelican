@@ -1,0 +1,71 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<atom:link href="https://oki.nohost.me/babel/ocular/rss.xml" rel="self" type="application/rss+xml"/>
+		<title>lluniau</title>
+		<link>https://oki.nohost.me/babel/ocular/</link>
+		<description>A tiny image gallery.</description>
+		<language>en-GB</language>
+		<lastBuildDate>Sat, 18 Jul 2026 13:01:43 +0000</lastBuildDate>
+		<generator>ocular</generator>
+		<item>
+			<title>Blodyn</title>
+			<link>https://oki.nohost.me/babel/ocular/feed.html#blodyn.JPG</link>
+			<description><![CDATA[
+				<img class="webring" src="https://oki.nohost.me/babel/ocular/img/hi/blodyn.JPG" data-timestamp="1784379697" data-thumb="https://oki.nohost.me/babel/ocular/img/lo/blodyn.JPG" alt="A black and white image of a flower and some leaves.  Small droplets of water are visible on the flower&apos;s petals." width="960" height="640" />
+				A pale flower at Sain Ffagan near Cardiff.
+			]]></description>
+			<pubDate>Sat, 18 Jul 2026 13:01:37 +0000</pubDate>
+			<guid isPermaLink="false">https://oki.nohost.me/babel/ocular/:::blodyn.JPG</guid>
+		</item>
+		<item>
+			<title>Stirling Castle</title>
+			<link>https://oki.nohost.me/babel/ocular/feed.html#stirling.JPG</link>
+			<description><![CDATA[
+				<img class="webring" src="https://oki.nohost.me/babel/ocular/img/hi/stirling.JPG" data-timestamp="1784234394" data-thumb="https://oki.nohost.me/babel/ocular/img/lo/stirling.JPG" alt="A somewhat human head and torso carvene wall.  The photograph is black and white." width="960" height="640" />
+				One of many gargoyles on the exterior of the Royal Palace at Stirling Castle.
+			]]></description>
+			<pubDate>Thu, 16 Jul 2026 20:39:54 +0000</pubDate>
+			<guid isPermaLink="false">https://oki.nohost.me/babel/ocular/:::stirling.JPG</guid>
+		</item>
+		<item>
+			<title>Frozen Nettle</title>
+			<link>https://oki.nohost.me/babel/ocular/feed.html#nettle.JPG</link>
+			<description><![CDATA[
+				<img class="webring" src="https://oki.nohost.me/babel/ocular/img/hi/nettle.JPG" data-timestamp="1784146521" data-thumb="https://oki.nohost.me/babel/ocular/img/lo/nettle.JPG" alt="A close up black-and-white photograph of a nettle covered in ice." width="960" height="640" />
+				A nettle near the Pentland Hills, covered in tiny, beautiful spindles of ice.
+			]]></description>
+			<pubDate>Wed, 15 Jul 2026 20:15:21 +0000</pubDate>
+			<guid isPermaLink="false">https://oki.nohost.me/babel/ocular/:::nettle.JPG</guid>
+		</item>
+		<item>
+			<title>Concorde</title>
+			<link>https://oki.nohost.me/babel/ocular/feed.html#concorde.JPG</link>
+			<description><![CDATA[
+				<img class="webring" src="https://oki.nohost.me/babel/ocular/img/hi/concorde.JPG" data-timestamp="1784130372" data-thumb="https://oki.nohost.me/babel/ocular/img/lo/concorde.JPG" alt="Red text on a white riveted background.  The text gives instructions on refueling the aircraft." width="960" height="640" />
+				The underside of the fuselage of a Concorde at the Museum of Flight in East Lothian.
+			]]></description>
+			<pubDate>Wed, 15 Jul 2026 15:46:12 +0000</pubDate>
+			<guid isPermaLink="false">https://oki.nohost.me/babel/ocular/:::concorde.JPG</guid>
+		</item>
+		<item>
+			<title>Silt</title>
+			<link>https://oki.nohost.me/babel/ocular/feed.html#shale.JPG</link>
+			<description><![CDATA[
+				<img class="webring" src="https://oki.nohost.me/babel/ocular/img/hi/shale.JPG" data-timestamp="1784125331" data-thumb="https://oki.nohost.me/babel/ocular/img/lo/shale.JPG" alt="A black-and-white image of swirling patterns left in the sand." width="960" height="640" />
+				Patterns left by the receding tide on Calgary Beach, Mull.
+			]]></description>
+			<pubDate>Wed, 15 Jul 2026 14:22:11 +0000</pubDate>
+			<guid isPermaLink="false">https://oki.nohost.me/babel/ocular/:::shale.JPG</guid>
+		</item>
+		<item>
+			<title>The Botanics</title>
+			<link>https://oki.nohost.me/babel/ocular/feed.html#DSCF2579.JPG</link>
+			<description><![CDATA[
+				<img class="webring" src="https://oki.nohost.me/babel/ocular/img/hi/DSCF2579.JPG" data-timestamp="1784064995" data-thumb="https://oki.nohost.me/babel/ocular/img/lo/DSCF2579.JPG" alt="A black-and-white image of many flowers in the process of being pollinated by flying insects." width="960" height="640" />
+				Some flowers and pollinators at the Botanical Gardens in Edinburgh.
+			]]></description>
+			<pubDate>Tue, 14 Jul 2026 21:36:35 +0000</pubDate>
+			<guid isPermaLink="false">https://oki.nohost.me/babel/ocular/:::DSCF2579.JPG</guid>
+		</item>
+	</channel>
+</rss>

@@ -166,7 +166,7 @@ For all that involve a description of the mouth, imagine looking side-on at a pe
 | **N**ow | 𐑯 | The letter points to the palate where the tongue is pressed  |
 | ❦ | ❦ | ❦ |
 | **O**n | 𐑪 | The tail points to the back of the mouth where the letter is sounded |
-| **A**go | 𐑩 | Beathier than 𐑪: the tail points to the open lips where air is expelled whilst sounding |
+| **A**go | 𐑩 | Breathier than 𐑪: the tail points to the open lips where air is expelled whilst sounding |
 | ❦ | ❦ | ❦ |
 | **W**ay | 𐑢 | Think of the abbreviation "w/" for "with" |
 | **Y**en | 𐑘 | Back of the tongue is at the top of the mouth then you slide *down* into the next letter |

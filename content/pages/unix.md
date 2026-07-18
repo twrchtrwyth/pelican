@@ -1,20 +1,26 @@
 ---
-Title: Grimoire
-Date: 2022-09-10
+Title: Unix
+Date: 2026-05-06
 Category: linux
-Tags: linux, command line
-Status: published
-Slug: grimoire
-Summary: Some useful Linux commands.
-Image: grimoire.png
-Caption: And the mome raths outgrabe.
+Tags: linux, unix, command line
+Status: hidden
+Slug: unix
+Summary: Some useful Unix-related tips.
 ---
 
-> Any sufficiently advanced use of the command line is indistinguishable from magic.
+> Tak tent o time ere time be tint.
 >
-> <footer>--Arthur C. Clarke</footer>
+> <footer>--Inscription on sundial, Saughton Park, Edinburgh</footer>
 
-This page serves as my tome of useful Unix incantations.  Originally, most of these related to Manjaro, which was my main distro when I started this site.  I now use Arch, but most should still be applicable.  I also dabble with OpenBSD and so there might be some overlap with this too. 
+This page contains various useful bits of information picked up over the
+years whilst using Unix-like operating systems.
+Most of this experience is with Linux, but there might be some overlap
+with the BSDs.
+
+For more detail on individual commands, consult the relevant section of
+the [Grimoire][].
+
+[Grimoire]: {filename}./grimoire.md 
 
 <!-- This generates a table of contents with the CSS `toc` class -->
 [TOC]

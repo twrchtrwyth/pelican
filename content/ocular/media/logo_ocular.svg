@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="256mm"
+   height="256mm"
+   viewBox="0 0 256 256"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4 (e7c3feb, 2024-10-09)"
+   sodipodi:docname="logo_ocular.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="0.1686568"
+     inkscape:cx="-803.40668"
+     inkscape:cy="1402.2559"
+     inkscape:window-width="1421"
+     inkscape:window-height="856"
+     inkscape:window-x="9"
+     inkscape:window-y="35"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg1"
+     showgrid="false" />
+  <defs
+     id="defs1" />
+  <ellipse
+     style="fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:16.9333;stroke-linecap:round;stroke-miterlimit:4.7;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+     id="path1-7"
+     cx="128"
+     cy="128"
+     rx="21.996735"
+     ry="22.555582"
+     inkscape:label="center" />
+  <path
+     id="path1-5"
+     style="fill:none;stroke:#ffffff;stroke-width:16.9333;stroke-linecap:round;stroke-miterlimit:4.7;paint-order:markers stroke fill"
+     d="M 227.84547,128 C 208.97304,147.71388 183.14313,177.93328 128,177.93328 72.856871,177.93328 47.026953,145.35483 28.154526,128 46.240597,108.28612 72.856867,78.066715 128,78.066715 183.14313,78.066716 206.614,108.28612 227.84547,128 Z"
+     sodipodi:nodetypes="cscsc"
+     inkscape:label="leaves_horizontal" />
+  <path
+     id="path1-5-2"
+     style="fill:none;stroke:#ffffff;stroke-width:16.9333;stroke-linecap:round;stroke-miterlimit:4.7;paint-order:markers stroke fill"
+     d="M 128.05243,227.79303 C 108.33855,208.9206 78.119152,183.09069 78.119152,127.94756 c 0,-55.143126 32.578448,-80.973044 49.933278,-99.845471 19.71388,18.086071 49.93329,44.702341 49.93329,99.845471 0,55.14313 -30.21941,78.614 -49.93329,99.84547 z"
+     sodipodi:nodetypes="cscsc"
+     inkscape:label="leaves_vertical" />
+</svg>
