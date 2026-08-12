@@ -7,7 +7,7 @@ Status: published
 Slug: groff
 Image: gnu.png
 Caption: A friendly gnu
-Summary: An overview of GNU roff, a typesetting system.
+Summary: Some notes on GNU roff, a typesetting system.
 ---
 
 Groff (GNU roff) is a typesetting system which converts plain text input into output such as PostScript, PDF, and HTML.  This is achieved through the use of formatting commands peppered through each plain text file.  There are several different sets of macros that can be used with groff to format documents--I am most familiar with the _mom_ set of macros.

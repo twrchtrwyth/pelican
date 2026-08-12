@@ -27,7 +27,7 @@ return {
 	LANGUAGE = "en-GB",
 	WEBSITE = "https://oki.nohost.me/babel/",
 	WEBSITE_NAME = "The Library of Babel",
-	REMOTE_DST = "oki:/ar/www/pelican/content/ocular/",
+	REMOTE_DST = "oki:/var/www/pelican/content/ocular/",
 	...
 	PROFILE_BIO = "A haphazard collection of photographs.",
 	...
