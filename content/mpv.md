@@ -10,8 +10,11 @@ Summary: Some useful ways to use mpv
 Image:
 ---
 
-To stream a video from YouTube with `mpv` (I use an Invidious instance called YewTube to find the videos):
+To stream a video from YouTube with [`mpv`][mpv] (I use an Invidious instance called [YewTube][] to find the videos):
 
 ```sh
 mpv https://yewtu.be/watch?v=uniqueid
 ```
+
+[mpv]: https://mpv.io/
+[YewTube]: https://yewtu.be/
