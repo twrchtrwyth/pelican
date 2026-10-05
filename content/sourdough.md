@@ -16,6 +16,7 @@ Baking sourdough bread is remarkably simple: it just takes a bit of planning.  T
 2. Mix the production sourdough with the "soaker" and allow to prove
 3. Bake
 
+
 # Production Sourdough
 
 ## Original
@@ -61,7 +62,7 @@ Leave to ferment for 4--8 hours.
 | Water (30°C) | 375 |
 | Salt | 8 |
 
-Mix flours and salt and leave for 30 minutes.  Mix in starter then leave to prove for 3---5 hours.
+Mix all of the above and leave for 30 minutes.  Mix in production sourdough, knead, then leave to prove for 3---5 hours.
 
 
 # Bake
@@ -71,4 +72,4 @@ Mix flours and salt and leave for 30 minutes.  Mix in starter then leave to prov
 | 230 | 10 |
 | 210 | 20---25 |
 
-Temperatures are for fan oven.  Could try 240°C then 220°C instead, same times.
+Temperatures are for a fan oven.
